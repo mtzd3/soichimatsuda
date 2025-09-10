@@ -1,7 +1,8 @@
 title: "松田 総一 Official Site"
 email: "s.matsuda0913@gmail.com"
 description: "AI・ディープラーニング分野の起業家・ビジョナリーリーダー"
-url: "https://yourname.github.io"
+url: "https://mtzd3.github.io"
+baseurl: "/soichimatsuda"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 plugins:
