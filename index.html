@@ -7,7 +7,7 @@
 
     <!-- SEO Meta Tags -->
     <meta name="description" content="松田総一 - AI Technology Architect。深層学習、AIアクセラレータ設計の専門家。LeapMind元CEO。200社以上との共同プロジェクト実績、$45M資金調達経験。技術・経営アドバイザーとして企業支援を提供。">
-    <meta name="keywords" content="松田総一, Soichi Matsuda, AI, 人工知能, 深層学習, Deep Learning, AIアクセラレータ, ASIC, FPGA, LeapMind, 技術アドバイザー, 経営コンサルタント, スタートアップ, 資金調達, M&A">
+    <meta name="keywords" content="松田総一, Soichi Matsuda, AI, 人工知能, 深層学習, Deep Learning, AIアクセラレータ, ASIC, FPGA, LeapMind, 技術アドバイザー, 経営コンサルタント, スタートアップ, 資金調達, M＆A">
     <meta name="author" content="松田総一 (Soichi Matsuda)">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://mtzd3.github.io/soichimatsuda/">
@@ -40,7 +40,7 @@
         "image": "https://mtzd3.github.io/soichimatsuda/ogp.svg",
         "jobTitle": "AI Technology Architect",
         "description": "深層学習分野における起業家かつ技術リーダー。LeapMind株式会社元CEO。技術・経営アドバイザー。",
-        "knowsAbout": ["Deep Learning", "AI Accelerator", "ASIC Design", "FPGA", "Startup Management", "Fundraising", "M&A"],
+        "knowsAbout": ["Deep Learning", "AI Accelerator", "ASIC Design", "FPGA", "Startup Management", "Fundraising", "M＆A"],
         "alumniOf": {
             "@type": "Organization",
             "name": "LeapMind株式会社"
@@ -583,6 +583,89 @@
             font-size: 1.8rem;
         }
 
+        /* Track Records - timeline style */
+        .track-section {
+            padding: 7rem 5vw;
+            background: var(--black);
+            color: var(--white);
+            position: relative;
+        }
+
+        .track-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--circuit-pattern);
+            opacity: 0.5;
+        }
+
+        .track-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .track-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .track-item {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 1.8rem;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .track-item:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: var(--red);
+            transform: translateY(-0.3rem);
+        }
+
+        .track-year {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--red);
+            opacity: 0.6;
+            position: absolute;
+            top: 1rem;
+            right: 1.5rem;
+        }
+
+        .track-category {
+            display: inline-block;
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            padding: 0.3rem 0.8rem;
+            background: var(--red);
+            color: var(--white);
+            margin-bottom: 0.8rem;
+        }
+
+        .track-title {
+            font-family: 'Noto Sans JP', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 0.6rem;
+            padding-right: 4rem;
+        }
+
+        .track-desc {
+            font-size: 0.9rem;
+            line-height: 1.7;
+            opacity: 0.8;
+        }
+
         /* FAQ - stripped back */
         .faq-section {
             padding: 7rem 5vw;
@@ -674,6 +757,10 @@
             }
 
             .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .track-grid {
                 grid-template-columns: 1fr;
             }
 
@@ -838,7 +925,7 @@
                         <li>Product Development
                             <small>PdM / PO / Financial</small>
                         </li>
-                        <li>Sales & Marketing
+                        <li>Sales ＆ Marketing
                             <small>Secure sales channels / alliances / plan and execute marketing initiatives</small>
                         </li>
                     </ul>
@@ -846,7 +933,7 @@
             </tr>
             <tr>
                 <td>
-                    <div class="expertise-category">Finance &<br>Management</div>
+                    <div class="expertise-category">Finance ＆<br>Management</div>
                 </td>
                 <td>
                     <ul class="expertise-list">
@@ -865,10 +952,68 @@
         </table>
     </section>
 
+    <!-- Track Records -->
+    <section class="track-section">
+        <div class="track-container">
+            <div class="section-marker" style="color: var(--red);">04 — TRACK RECORDS</div>
+            <h2 class="section-title"><span>Projects ＆ Achievements</span></h2>
+            <div class="track-grid">
+                <div class="track-item reveal">
+                    <span class="track-year">2025</span>
+                    <span class="track-category">SPEAKING</span>
+                    <h3 class="track-title">BofA証券 Japan Conference 2025 登壇</h3>
+                    <p class="track-desc">「日本におけるエッジAI開発の課題と機会」というタイトルで講演しました</p>
+                </div>
+                <div class="track-item reveal">
+                    <span class="track-year">2019</span>
+                    <span class="track-category">BUSINESS</span>
+                    <h3 class="track-title">トヨタ自動車との協業</h3>
+                    <p class="track-desc">最先端AI技術を自動車産業へ応用するプロジェクトで協業。シリーズC資金調達ラウンドで出資パートナーとなった。</p>
+                </div>
+                <div class="track-item reveal">
+                    <span class="track-year">2019</span>
+                    <span class="track-category">BUSINESS</span>
+                    <h3 class="track-title">三井物産との協業</h3>
+                    <p class="track-desc">大手商社や製造業との協業により、AIソリューションの実用化とグローバル展開を推進</p>
+                </div>
+                <div class="track-item reveal">
+                    <span class="track-year">2018</span>
+                    <span class="track-category">RECOGNITION</span>
+                    <h3 class="track-title">CBINSIGHTS「AI 100」選出</h3>
+                    <p class="track-desc">世界1,000社以上の中から選ばれた、最も有望なAI企業100社に選出</p>
+                </div>
+                <div class="track-item reveal">
+                    <span class="track-year">2018</span>
+                    <span class="track-category">RECOGNITION</span>
+                    <h3 class="track-title">Forbes JAPAN「注目の50社」</h3>
+                    <p class="track-desc">2017年・2018年 日本の期待のスタートアップ企業として2年連続で選出</p>
+                </div>
+                <div class="track-item reveal">
+                    <span class="track-year">2017</span>
+                    <span class="track-category">AWARD</span>
+                    <h3 class="track-title">ET/IoTテクノロジーアワード 優秀賞</h3>
+                    <p class="track-desc">AIを活用した先端技術「DeLTA-Family」が優秀賞を受賞</p>
+                </div>
+                <div class="track-item reveal">
+                    <span class="track-year">2017</span>
+                    <span class="track-category">RECOGNITION</span>
+                    <h3 class="track-title">経済産業省「J-Startup」認定</h3>
+                    <p class="track-desc">日本の未来をけん引する有望スタートアップとして政府に認定</p>
+                </div>
+                <div class="track-item reveal">
+                    <span class="track-year">2017</span>
+                    <span class="track-category">BUSINESS</span>
+                    <h3 class="track-title">Intel パートナーシップ・出資獲得</h3>
+                    <p class="track-desc">エッジAI技術が評価され、Intel本社とパートナーシップを構築。Intel Capital（インテルの投資部門）からの出資を獲得。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Services -->
     <section class="services-section">
         <div class="services-container">
-            <div class="section-marker">04 — SERVICES</div>
+            <div class="section-marker">05 — SERVICES</div>
             <h2 class="section-title">Value Proposition</h2>
             <div class="services-intro">
                 <p>技術・経営アドバイザーとして、民間企業や官公庁に対して、以下のような価値を提供します。</p>
@@ -916,8 +1061,8 @@
                 </div>
                 <div class="service-card reveal">
                     <div class="service-number">09</div>
-                    <h3 class="service-title">事業売却・M&Aサポート</h3>
-                    <p class="service-desc">2024年の事業売却経験を活かし、Exit戦略の立案からM&A実行までを伴走支援。</p>
+                    <h3 class="service-title">事業売却・M＆Aサポート</h3>
+                    <p class="service-desc">2024年の事業売却経験を活かし、Exit戦略の立案からM＆A実行までを伴走支援。</p>
                 </div>
             </div>
         </div>
@@ -925,7 +1070,7 @@
 
     <!-- FAQ -->
     <section class="faq-section">
-        <div class="section-marker">05 — FAQ</div>
+        <div class="section-marker">06 — FAQ</div>
         <h2 class="section-title">よくあるご質問</h2>
         <div class="faq-item reveal">
             <h3 class="faq-q">どうやって依頼すればよいか？</h3>
@@ -939,7 +1084,7 @@
 
     <!-- Contact -->
     <section class="contact-section">
-        <div class="section-marker" style="color: white;">06 — CONTACT</div>
+        <div class="section-marker" style="color: white;">07 — CONTACT</div>
         <h2 class="contact-title">Let's Work<br>Together</h2>
         <p class="contact-subtitle">and Create Something Great!</p>
         
