@@ -23,14 +23,15 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v4
 
       - name: Build static site
         run: |
           mkdir -p _site
-          cp index.html _site/
-          cp favicon.svg _site/
-          cp ogp.svg _site/
+          cp -f index.html _site/
+          cp -f favicon.svg _site/
+          cp -f ogp.svg _site/
+          ls -la _site/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
