@@ -31,12 +31,14 @@ jobs:
           cp -f index.html _site/
           cp -f favicon.svg _site/
           cp -f ogp.svg _site/
+          cp -f robots.txt _site/
+          cp -f sitemap.xml _site/
           ls -la _site/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '_site'
+          path: "_site"
 
   deploy:
     environment:

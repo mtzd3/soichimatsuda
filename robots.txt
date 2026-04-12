@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mtzd3.github.io/soichimatsuda/sitemap.xml
