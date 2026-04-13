@@ -540,7 +540,8 @@
         .milestone-card,
         .journey-card,
         .story-card,
-        .mode-card {
+        .mode-card,
+        .pricing-card {
             position: relative;
             border: 1px solid var(--line);
             border-radius: var(--radius-md);
@@ -689,7 +690,8 @@
         .service-card,
         .fit-card,
         .milestone-card,
-        .mode-card {
+        .mode-card,
+        .pricing-card {
             padding: 1.45rem;
         }
 
@@ -824,6 +826,97 @@
             background: rgba(7, 16, 26, 0.52);
             color: var(--muted);
             font-size: 0.92rem;
+        }
+
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 1rem;
+        }
+
+        .pricing-card {
+            min-height: 100%;
+            background:
+                linear-gradient(180deg, rgba(16, 33, 52, 0.78), rgba(8, 20, 33, 0.84));
+        }
+
+        .pricing-card.featured {
+            border-color: rgba(244, 184, 96, 0.34);
+            background:
+                radial-gradient(circle at top right, rgba(244, 184, 96, 0.16), transparent 28%),
+                linear-gradient(180deg, rgba(17, 34, 52, 0.92), rgba(8, 20, 33, 0.92));
+        }
+
+        .pricing-name {
+            margin-top: 0.55rem;
+            font-size: 1.18rem;
+        }
+
+        .pricing-price {
+            margin-top: 0.9rem;
+            font-family: "Noto Sans JP", sans-serif;
+            font-size: clamp(1.9rem, 4vw, 2.8rem);
+            line-height: 1;
+            letter-spacing: -0.04em;
+            color: var(--accent);
+        }
+
+        .pricing-unit {
+            margin-top: 0.35rem;
+            color: var(--secondary);
+            font-size: 0.82rem;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            font-family: "Noto Sans JP", sans-serif;
+        }
+
+        .pricing-summary {
+            margin-top: 1rem;
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+
+        .pricing-list {
+            list-style: none;
+            margin-top: 1rem;
+            display: grid;
+            gap: 0.7rem;
+        }
+
+        .pricing-list li {
+            padding: 0.8rem 0.95rem;
+            border-radius: 16px;
+            border: 1px solid var(--line);
+            background: rgba(7, 16, 26, 0.48);
+            color: var(--muted);
+            font-size: 0.92rem;
+        }
+
+        .pricing-note {
+            margin-top: 1rem;
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+
+        .pricing-cta {
+            margin-top: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            padding: 1.3rem 1.35rem;
+            border-radius: var(--radius-md);
+            border: 1px solid rgba(244, 184, 96, 0.24);
+            background:
+                radial-gradient(circle at left center, rgba(131, 212, 255, 0.1), transparent 24%),
+                rgba(8, 20, 33, 0.72);
+            box-shadow: var(--shadow);
+        }
+
+        .pricing-cta p {
+            max-width: 48ch;
+            color: var(--muted);
         }
 
         .faq-stack {
@@ -1053,7 +1146,8 @@
             .metrics,
             .focus-grid,
             .results-grid,
-            .fit-grid {
+            .fit-grid,
+            .pricing-grid {
                 grid-template-columns: repeat(2, minmax(0, 1fr));
             }
         }
@@ -1078,8 +1172,13 @@
             .focus-grid,
             .results-grid,
             .fit-grid,
-            .feature-stats {
+            .feature-stats,
+            .pricing-grid {
                 grid-template-columns: 1fr;
+            }
+
+            .pricing-cta {
+                align-items: stretch;
             }
 
             .topbar {
@@ -1118,6 +1217,7 @@
                         <li><a href="#focus" data-analytics-event="nav_click" data-analytics-label="focus">Focus</a></li>
                         <li><a href="#results" data-analytics-event="nav_click" data-analytics-label="results">Results</a></li>
                         <li><a href="#engagement" data-analytics-event="nav_click" data-analytics-label="engagement">Engagement</a></li>
+                        <li><a href="#pricing" data-analytics-event="nav_click" data-analytics-label="pricing">Pricing</a></li>
                         <li><a href="#contact" data-analytics-event="nav_click" data-analytics-label="contact">Contact</a></li>
                     </ul>
                 </nav>
@@ -1303,69 +1403,69 @@
             <div class="container">
                 <div class="section-header">
                     <p class="section-label">Results</p>
-                    <h2 class="section-title">Public milestones and <span class="serif">selected outcomes</span></h2>
+                    <h2 class="section-title">公開実績と<span class="serif">主な転機</span></h2>
                     <p class="section-copy">公開情報をもとに、主な実績と転機を整理しました。技術的な成果だけでなく、市場との接点や重要な経営判断も含めて俯瞰できる構成にしています。</p>
                 </div>
 
                 <div class="results-grid">
                     <article class="milestone-card feature" data-reveal>
                         <div class="feature-copy">
-                            <p class="card-topline">Signature Arc</p>
+                            <p class="card-topline">主な歩み</p>
                             <h3>技術を作るだけで終わらせず、届く形まで責任を持つ。</h3>
                             <p>LeapMindでは、エッジAIの商用化、超低消費電力AIアクセラレータIPの開発、量産を見据えた半導体戦略、そして事業の継続可否までを一貫して担いました。技術と市場の両方に立ちながら、前に進めるための判断を積み重ねてきたことが、現在の支援価値につながっています。</p>
                         </div>
                         <div class="feature-stats">
                             <div class="feature-stat">
                                 <strong>200+</strong>
-                                <span>projects and partnerships</span>
+                                <span>共創・提携実績</span>
                             </div>
                             <div class="feature-stat">
                                 <strong>$45M</strong>
-                                <span>funding raised</span>
+                                <span>累計調達額</span>
                             </div>
                             <div class="feature-stat">
                                 <strong>100+</strong>
-                                <span>team leadership scale</span>
+                                <span>最大組織規模</span>
                             </div>
                             <div class="feature-stat">
                                 <strong>12nm / 28nm</strong>
-                                <span>TSMC SoC development</span>
+                                <span>TSMCでのSoC開発</span>
                             </div>
                         </div>
                     </article>
 
                     <article class="milestone-card" data-reveal>
-                        <div class="milestone-meta"><span class="milestone-year">2025</span><span>Speaking</span></div>
+                        <div class="milestone-meta"><span class="milestone-year">2025</span><span>登壇</span></div>
                         <h3>BofA証券 Japan Conference 2025 登壇</h3>
                         <p>「日本におけるエッジAI開発の課題と機会」をテーマに講演。技術だけでなく、事業化の壁や市場の見立ても含めて発信しました。</p>
                     </article>
 
                     <article class="milestone-card" data-reveal>
-                        <div class="milestone-meta"><span class="milestone-year">2024</span><span>Decision</span></div>
+                        <div class="milestone-meta"><span class="milestone-year">2024</span><span>経営判断</span></div>
                         <h3>LeapMindの解散・清算判断を公表</h3>
                         <p>資本集約型のディープテック企業として、継続可能性を見極めたうえで自主解散を決定。難局におけるステークホルダー対応と経営判断も経験しました。</p>
                     </article>
 
                     <article class="milestone-card" data-reveal>
-                        <div class="milestone-meta"><span class="milestone-year">2019</span><span>Business</span></div>
+                        <div class="milestone-meta"><span class="milestone-year">2019</span><span>事業提携</span></div>
                         <h3>トヨタ自動車・三井物産との協業と資本連携</h3>
                         <p>AI技術の実装先を産業領域へ広げながら、シリーズCラウンドで事業会社との関係を強化。技術の出口を事業提携で拡張しました。</p>
                     </article>
 
                     <article class="milestone-card" data-reveal>
-                        <div class="milestone-meta"><span class="milestone-year">2018</span><span>Recognition</span></div>
+                        <div class="milestone-meta"><span class="milestone-year">2018</span><span>評価</span></div>
                         <h3>CB Insights「AI 100」選出 / Forbes JAPAN「注目の50社」</h3>
                         <p>世界有望AI企業100社への選出、日本の注目スタートアップ選出など、エッジAI分野での先進性が国内外で評価されました。</p>
                     </article>
 
                     <article class="milestone-card" data-reveal>
-                        <div class="milestone-meta"><span class="milestone-year">2017</span><span>Business</span></div>
+                        <div class="milestone-meta"><span class="milestone-year">2017</span><span>事業提携</span></div>
                         <h3>Intelとのパートナーシップと出資獲得</h3>
                         <p>エッジAI技術が評価され、Intel本社とのパートナーシップを構築。Intel Capitalからの出資も受け、開発と市場開拓を加速させました。</p>
                     </article>
 
                     <article class="milestone-card" data-reveal>
-                        <div class="milestone-meta"><span class="milestone-year">2017</span><span>Recognition</span></div>
+                        <div class="milestone-meta"><span class="milestone-year">2017</span><span>評価</span></div>
                         <h3>J-Startup認定と先端技術アワード受賞</h3>
                         <p>経済産業省のJ-Startup認定、ET/IoTテクノロジーアワード優秀賞などを通じて、実装視点のAI技術が高く評価されました。</p>
                     </article>
@@ -1424,6 +1524,63 @@
                             <p>可能です。単発の壁打ち、戦略整理の短期支援、継続的なアドバイザリーなど、テーマと必要な深さに合わせて柔軟に設計できます。</p>
                         </details>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="pricing">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-label">Pricing</p>
+                    <h2 class="section-title">ご相談の進め方と<span class="serif">料金</span></h2>
+                    <p class="section-copy">継続的な助言から個別テーマのご相談、実務を伴う支援まで、状況に応じてご一緒しています。初回のお問い合わせでは背景と論点を伺い、適した進め方をご提案します。</p>
+                </div>
+
+                <div class="pricing-grid">
+                    <article class="pricing-card featured" data-reveal>
+                        <p class="card-topline">継続支援</p>
+                        <h3 class="pricing-name">アドバイザー契約</h3>
+                        <p class="pricing-price">20万円</p>
+                        <p class="pricing-unit">月額</p>
+                        <p class="pricing-summary">月2回の定例ミーティングを軸に、論点整理、優先順位づけ、重要な意思決定の壁打ちを継続的に行います。</p>
+                        <ul class="pricing-list">
+                            <li>重要論点の整理と優先順位づけ</li>
+                            <li>施策・方針・対外説明のレビュー</li>
+                            <li>継続的な伴走が必要な経営陣・事業責任者向け</li>
+                        </ul>
+                    </article>
+
+                    <article class="pricing-card" data-reveal>
+                        <p class="card-topline">スポット相談</p>
+                        <h3 class="pricing-name">単発相談</h3>
+                        <p class="pricing-price">10万円</p>
+                        <p class="pricing-unit">1回ごと</p>
+                        <p class="pricing-summary">重要なテーマについて、必要なタイミングで集中的にご相談いただけます。</p>
+                        <ul class="pricing-list">
+                            <li>経営判断前の壁打ちやレビュー</li>
+                            <li>戦略・事業・技術テーマの論点整理</li>
+                            <li>まずは一度相談したい場合にも対応</li>
+                        </ul>
+                    </article>
+
+                    <article class="pricing-card" data-reveal>
+                        <p class="card-topline">個別支援</p>
+                        <h3 class="pricing-name">実行支援</h3>
+                        <p class="pricing-price">個別見積</p>
+                        <p class="pricing-unit">内容に応じて</p>
+                        <p class="pricing-summary">要件整理から実装、ドキュメント整備まで、実務を伴う支援も内容に応じて個別に設計します。</p>
+                        <ul class="pricing-list">
+                            <li>実装支援、要件整理、進行支援</li>
+                            <li>ドキュメント作成、提案整理、具体化</li>
+                            <li>内容・期間・関与範囲に応じてお見積り</li>
+                        </ul>
+                        <p class="pricing-note">ご相談内容がまだ明確でない段階でも差し支えありません。</p>
+                    </article>
+                </div>
+
+                <div class="pricing-cta" data-reveal>
+                    <p>テーマが定まりきっていない段階でも構いません。背景や現在の論点を伺い、状況に適した進め方をご提案します。</p>
+                    <a class="button button-primary" href="mailto:s.matsuda0913@gmail.com" data-analytics-event="contact_click" data-analytics-label="pricing_email">ご相談はこちら</a>
                 </div>
             </div>
         </section>
