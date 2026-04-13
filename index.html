@@ -541,7 +541,10 @@
         .journey-card,
         .story-card,
         .mode-card,
-        .pricing-card {
+        .pricing-card,
+        .criteria-card,
+        .insight-card,
+        .contact-form {
             position: relative;
             border: 1px solid var(--line);
             border-radius: var(--radius-md);
@@ -691,7 +694,10 @@
         .fit-card,
         .milestone-card,
         .mode-card,
-        .pricing-card {
+        .pricing-card,
+        .criteria-card,
+        .insight-card,
+        .contact-form {
             padding: 1.45rem;
         }
 
@@ -919,6 +925,78 @@
             color: var(--muted);
         }
 
+        .pricing-faq {
+            margin-top: 1rem;
+        }
+
+        .criteria-grid,
+        .insight-grid {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .criteria-grid {
+            margin-top: 1rem;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .criteria-card {
+            background:
+                linear-gradient(180deg, rgba(16, 33, 52, 0.74), rgba(9, 20, 32, 0.8));
+        }
+
+        .criteria-card ul {
+            list-style: none;
+            margin-top: 1rem;
+            display: grid;
+            gap: 0.7rem;
+        }
+
+        .criteria-card li {
+            padding: 0.8rem 0.95rem;
+            border-radius: 16px;
+            border: 1px solid var(--line);
+            background: rgba(7, 16, 26, 0.48);
+            color: var(--muted);
+            font-size: 0.92rem;
+        }
+
+        .insight-grid {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+
+        .insight-card {
+            background:
+                radial-gradient(circle at top right, rgba(131, 212, 255, 0.08), transparent 28%),
+                linear-gradient(180deg, rgba(15, 31, 49, 0.84), rgba(8, 20, 33, 0.82));
+        }
+
+        .insight-card h3 {
+            margin-top: 0.55rem;
+            font-size: 1.12rem;
+        }
+
+        .insight-card p {
+            margin-top: 0.8rem;
+            color: var(--muted);
+            font-size: 0.94rem;
+        }
+
+        .insight-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.45rem;
+            margin-top: 1rem;
+            color: var(--accent);
+            font-size: 0.92rem;
+            font-weight: 500;
+        }
+
+        .insight-link:hover,
+        .insight-link:focus-visible {
+            color: var(--ink);
+        }
+
         .faq-stack {
             display: grid;
             gap: 0.9rem;
@@ -1015,7 +1093,7 @@
             display: grid;
             grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
             gap: 1.2rem;
-            align-items: end;
+            align-items: start;
         }
 
         .contact-title {
@@ -1044,6 +1122,96 @@
             flex-wrap: wrap;
             gap: 0.9rem;
             margin-top: 1.7rem;
+        }
+
+        .contact-side {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .contact-form {
+            display: grid;
+            gap: 1rem;
+            background:
+                linear-gradient(180deg, rgba(12, 26, 43, 0.9), rgba(7, 16, 26, 0.88));
+        }
+
+        .success-banner {
+            padding: 1rem 1.05rem;
+            border-radius: 18px;
+            border: 1px solid rgba(131, 212, 255, 0.28);
+            background: rgba(131, 212, 255, 0.08);
+            color: var(--ink);
+            font-size: 0.94rem;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 0.9rem;
+        }
+
+        .field {
+            display: grid;
+            gap: 0.45rem;
+        }
+
+        .field-full {
+            grid-column: 1 / -1;
+        }
+
+        .field label {
+            color: var(--ink);
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .field input,
+        .field select,
+        .field textarea {
+            width: 100%;
+            padding: 0.9rem 0.95rem;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            background: rgba(5, 14, 23, 0.72);
+            color: var(--ink);
+            font: inherit;
+        }
+
+        .field input::placeholder,
+        .field textarea::placeholder {
+            color: rgba(165, 183, 200, 0.72);
+        }
+
+        .field input:focus,
+        .field select:focus,
+        .field textarea:focus {
+            outline: none;
+            border-color: rgba(244, 184, 96, 0.45);
+            box-shadow: 0 0 0 3px rgba(244, 184, 96, 0.12);
+        }
+
+        .field textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+
+        .field-note,
+        .form-disclaimer {
+            color: var(--muted);
+            font-size: 0.88rem;
+        }
+
+        .form-submit-row {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.9rem;
+        }
+
+        .hidden-honey {
+            display: none;
         }
 
         .social-links {
@@ -1129,6 +1297,10 @@
             .fit-grid {
                 grid-template-columns: repeat(2, minmax(0, 1fr));
             }
+
+            .insight-grid {
+                grid-template-columns: 1fr;
+            }
         }
 
         @media (max-width: 840px) {
@@ -1147,7 +1319,8 @@
             .focus-grid,
             .results-grid,
             .fit-grid,
-            .pricing-grid {
+            .pricing-grid,
+            .criteria-grid {
                 grid-template-columns: repeat(2, minmax(0, 1fr));
             }
         }
@@ -1173,11 +1346,17 @@
             .results-grid,
             .fit-grid,
             .feature-stats,
-            .pricing-grid {
+            .pricing-grid,
+            .criteria-grid,
+            .form-grid {
                 grid-template-columns: 1fr;
             }
 
             .pricing-cta {
+                align-items: stretch;
+            }
+
+            .form-submit-row {
                 align-items: stretch;
             }
 
@@ -1478,7 +1657,7 @@
                 <div class="section-header">
                     <p class="section-label">Engagement</p>
                     <h2 class="section-title">こんな相談に<span class="serif">向いています</span></h2>
-                    <p class="section-copy">単なるレビュー役より、意思決定を整理して前に進める伴走役として力を発揮しやすい領域です。</p>
+                    <p class="section-copy">単なるレビュー役より、意思決定を整理して前に進める伴走役として力を発揮しやすい領域です。あわせて、別の進め方が向いているケースも先にお伝えしています。</p>
                 </div>
 
                 <div class="fit-grid">
@@ -1524,6 +1703,61 @@
                             <p>可能です。単発の壁打ち、戦略整理の短期支援、継続的なアドバイザリーなど、テーマと必要な深さに合わせて柔軟に設計できます。</p>
                         </details>
                     </div>
+                </div>
+
+                <div class="criteria-grid">
+                    <article class="criteria-card" data-reveal>
+                        <p class="card-topline">向いているご相談</p>
+                        <h3>技術と経営の間に論点があるケース</h3>
+                        <ul>
+                            <li>技術の強みはあるが、事業としての勝ち筋や優先順位が定まりきっていない</li>
+                            <li>AI導入や新規事業をPoCで終わらせず、実装や展開まで見据えて進めたい</li>
+                            <li>続ける・変える・止めるを含めて、重要な意思決定を整理したい</li>
+                        </ul>
+                    </article>
+
+                    <article class="criteria-card" data-reveal>
+                        <p class="card-topline">別の進め方が合うこともあります</p>
+                        <h3>実装だけを短納期で切り出したいケース</h3>
+                        <ul>
+                            <li>仕様が固まっていて、助言や論点整理なしで受託開発だけを依頼したい</li>
+                            <li>極小予算で、まずは手を動かす人材だけを探している</li>
+                            <li>経営や事業の前提整理より、単純な制作リソース補充を優先したい</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="insights">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-label">Insights</p>
+                    <h2 class="section-title">ご相談前に多い<span class="serif">テーマ</span></h2>
+                    <p class="section-copy">検索やご紹介を通じてたどり着く方が、特に関心を持たれるテーマを短く整理しました。まだご相談内容が固まりきっていない場合の入口としてご覧ください。</p>
+                </div>
+
+                <div class="insight-grid">
+                    <article class="insight-card" data-reveal>
+                        <p class="card-topline">Theme 01</p>
+                        <h3>AI顧問とは何をするのか</h3>
+                        <p>技術レビューだけでなく、課題整理、優先順位づけ、経営判断の壁打ち、対外説明の整理まで含めて伴走するのが中心です。単なる情報提供ではなく、次に進めるための論点を整えます。</p>
+                        <a class="insight-link" href="#contact" data-analytics-event="cta_click" data-analytics-label="insight_ai_advisor">このテーマで相談する</a>
+                    </article>
+
+                    <article class="insight-card" data-reveal>
+                        <p class="card-topline">Theme 02</p>
+                        <h3>ディープテック企業が事業戦略で迷いやすいポイント</h3>
+                        <p>技術優位があっても、顧客課題の切り方、量産までの順序、資本政策、提携戦略が曖昧だと前に進みにくくなります。どの論点から先に解くかで、事業の進み方は大きく変わります。</p>
+                        <a class="insight-link" href="#contact" data-analytics-event="cta_click" data-analytics-label="insight_deeptech_strategy">このテーマで相談する</a>
+                    </article>
+
+                    <article class="insight-card" data-reveal>
+                        <p class="card-topline">Theme 03</p>
+                        <h3>AI導入をPoCで終わらせないために必要なこと</h3>
+                        <p>技術選定だけでなく、導入順序、運用体制、KPI、現場の受け皿まで含めて設計しないとPoC止まりになりやすくなります。実装に進むための条件整理が重要です。</p>
+                        <a class="insight-link" href="#contact" data-analytics-event="cta_click" data-analytics-label="insight_poc_to_production">このテーマで相談する</a>
+                    </article>
                 </div>
             </div>
         </section>
@@ -1578,6 +1812,21 @@
                     </article>
                 </div>
 
+                <div class="faq-stack pricing-faq">
+                    <details class="faq-item" data-reveal>
+                        <summary>どの段階でも相談できますか？</summary>
+                        <p>構想段階でも、すでにプロジェクトが進んでいる段階でも問題ありません。背景や現状が整理しきれていなくても、論点整理から一緒に進められます。</p>
+                    </details>
+                    <details class="faq-item" data-reveal>
+                        <summary>単発相談のあとに継続契約は必要ですか？</summary>
+                        <p>必須ではありません。まずは一度相談し、そのうえで継続的な伴走が必要かどうかを判断いただく形でも大丈夫です。</p>
+                    </details>
+                    <details class="faq-item" data-reveal>
+                        <summary>実行支援はどこまで依頼できますか？</summary>
+                        <p>要件整理、実装支援、ドキュメント作成、提案の具体化、進行支援などに対応しています。内容や期間に応じて関わり方を設計します。</p>
+                    </details>
+                </div>
+
                 <div class="pricing-cta" data-reveal>
                     <p>テーマが定まりきっていない段階でも構いません。背景や現在の論点を伺い、状況に適した進め方をご提案します。</p>
                     <a class="button button-primary" href="mailto:s.matsuda0913@gmail.com" data-analytics-event="contact_click" data-analytics-label="pricing_email">ご相談はこちら</a>
@@ -1592,41 +1841,90 @@
                         <div>
                             <p class="section-label">Contact</p>
                             <h2 class="contact-title">Let's build <span class="serif">what matters</span>.</h2>
-                            <p class="contact-copy">AI技術の社会実装、ディープテックの事業戦略、難しい意思決定の整理など、テーマが定まっていなくても構いません。まずは状況を共有してください。</p>
+                            <p class="contact-copy">AI技術の社会実装、ディープテックの事業戦略、難しい意思決定の整理など、テーマが定まっていなくても構いません。背景と現在の論点を共有いただければ、どの進め方が合うかをご提案します。</p>
                             <div class="contact-actions">
-                                <a class="button button-primary" href="mailto:s.matsuda0913@gmail.com" data-analytics-event="contact_click" data-analytics-label="contact_email">s.matsuda0913@gmail.com</a>
-                                <a class="button button-secondary" href="#top" data-analytics-event="cta_click" data-analytics-label="back_to_top">Topへ戻る</a>
+                                <a class="button button-primary" href="#contact-form" data-analytics-event="cta_click" data-analytics-label="contact_form_anchor">フォームから相談する</a>
+                                <a class="button button-secondary" href="mailto:s.matsuda0913@gmail.com" data-analytics-event="contact_click" data-analytics-label="contact_email">メールで連絡する</a>
                             </div>
                         </div>
-                        <div class="social-links" aria-label="ソーシャルリンク">
-                            <a class="social-link" href="https://www.linkedin.com/in/soichi-matsuda-65b94041/" target="_blank" rel="noreferrer" data-analytics-event="social_click" data-analytics-label="linkedin">
-                                <div>
-                                    <strong>LinkedIn</strong>
-                                    <div>プロフィールと経歴</div>
+                        <div class="contact-side">
+                            <div class="success-banner" id="contact-success" hidden>お問い合わせありがとうございます。内容を確認のうえ、2営業日以内を目安にご連絡します。</div>
+
+                            <form class="contact-form" id="contact-form" action="https://formsubmit.co/s.matsuda0913@gmail.com" method="POST" data-analytics-form="contact_form">
+                                <input type="hidden" name="_subject" value="[matsuda_prof] 新規お問い合わせ">
+                                <input type="hidden" name="_next" value="https://mtzd3.github.io/soichimatsuda/?submitted=1#contact">
+                                <input type="hidden" name="_template" value="table">
+                                <input type="hidden" name="_autoresponse" value="お問い合わせありがとうございます。内容を確認のうえ、2営業日以内を目安にご連絡します。">
+                                <input type="hidden" name="source" value="matsuda_prof">
+                                <input class="hidden-honey" type="text" name="_honey" tabindex="-1" autocomplete="off">
+
+                                <div class="form-grid">
+                                    <div class="field">
+                                        <label for="contact-name">お名前</label>
+                                        <input id="contact-name" type="text" name="name" placeholder="山田 太郎" required>
+                                    </div>
+                                    <div class="field">
+                                        <label for="contact-company">会社名・組織名</label>
+                                        <input id="contact-company" type="text" name="company" placeholder="株式会社サンプル">
+                                    </div>
+                                    <div class="field">
+                                        <label for="contact-email">返信先メールアドレス</label>
+                                        <input id="contact-email" type="email" name="email" placeholder="name@example.com" required>
+                                    </div>
+                                    <div class="field">
+                                        <label for="contact-topic">ご相談内容</label>
+                                        <select id="contact-topic" name="topic" required>
+                                            <option value="">選択してください</option>
+                                            <option>アドバイザー契約について</option>
+                                            <option>単発相談について</option>
+                                            <option>実行支援について</option>
+                                            <option>登壇・対談のご依頼</option>
+                                            <option>その他</option>
+                                        </select>
+                                    </div>
+                                    <div class="field field-full">
+                                        <label for="contact-message">背景やご相談したい論点</label>
+                                        <textarea id="contact-message" name="message" placeholder="現状の課題、相談したいテーマ、関係者、期限感など、分かる範囲でご記入ください。" required></textarea>
+                                        <p class="field-note">まだ整理できていない段階でも問題ありません。分かる範囲で大丈夫です。</p>
+                                    </div>
                                 </div>
-                                <span>Open</span>
-                            </a>
-                            <a class="social-link" href="https://x.com/mtzd3" target="_blank" rel="noreferrer" data-analytics-event="social_click" data-analytics-label="x">
-                                <div>
-                                    <strong>X</strong>
-                                    <div>発信と近況</div>
+
+                                <div class="form-submit-row">
+                                    <button class="button button-primary" type="submit">送信する</button>
+                                    <p class="form-disclaimer">2営業日以内を目安にご返信します。送信には FormSubmit を利用しています。</p>
                                 </div>
-                                <span>Open</span>
-                            </a>
-                            <a class="social-link" href="https://note.com/mtzd3" target="_blank" rel="noreferrer" data-analytics-event="social_click" data-analytics-label="note">
-                                <div>
-                                    <strong>note</strong>
-                                    <div>経験と思考のストック</div>
-                                </div>
-                                <span>Read</span>
-                            </a>
-                            <a class="social-link" href="https://www.facebook.com/soichi.matsuda/" target="_blank" rel="noreferrer" data-analytics-event="social_click" data-analytics-label="facebook">
-                                <div>
-                                    <strong>Facebook</strong>
-                                    <div>連絡用の窓口としても利用可</div>
-                                </div>
-                                <span>Open</span>
-                            </a>
+                            </form>
+
+                            <div class="social-links" aria-label="ソーシャルリンク">
+                                <a class="social-link" href="https://www.linkedin.com/in/soichi-matsuda-65b94041/" target="_blank" rel="noreferrer" data-analytics-event="social_click" data-analytics-label="linkedin">
+                                    <div>
+                                        <strong>LinkedIn</strong>
+                                        <div>プロフィールと経歴</div>
+                                    </div>
+                                    <span>Open</span>
+                                </a>
+                                <a class="social-link" href="https://x.com/mtzd3" target="_blank" rel="noreferrer" data-analytics-event="social_click" data-analytics-label="x">
+                                    <div>
+                                        <strong>X</strong>
+                                        <div>発信と近況</div>
+                                    </div>
+                                    <span>Open</span>
+                                </a>
+                                <a class="social-link" href="https://note.com/mtzd3" target="_blank" rel="noreferrer" data-analytics-event="social_click" data-analytics-label="note">
+                                    <div>
+                                        <strong>note</strong>
+                                        <div>経験と思考のストック</div>
+                                    </div>
+                                    <span>Read</span>
+                                </a>
+                                <a class="social-link" href="https://www.facebook.com/soichi.matsuda/" target="_blank" rel="noreferrer" data-analytics-event="social_click" data-analytics-label="facebook">
+                                    <div>
+                                        <strong>Facebook</strong>
+                                        <div>連絡用の窓口としても利用可</div>
+                                    </div>
+                                    <span>Open</span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1644,6 +1942,13 @@
         document.getElementById("year").textContent = String(new Date().getFullYear());
 
         document.documentElement.classList.add("motion-ready");
+
+        const contactSuccessBanner = document.getElementById("contact-success");
+        const searchParams = new URLSearchParams(window.location.search);
+
+        if (contactSuccessBanner && searchParams.get("submitted") === "1") {
+            contactSuccessBanner.hidden = false;
+        }
 
         (() => {
             const config = window.SITE_ANALYTICS || {};
@@ -1759,6 +2064,14 @@
 
                     const question = item.querySelector("summary")?.textContent?.trim();
                     window.trackSiteEvent("faq_open", { question });
+                });
+            });
+
+            document.querySelectorAll("[data-analytics-form]").forEach((form) => {
+                form.addEventListener("submit", () => {
+                    window.trackSiteEvent("form_submit", {
+                        label: form.dataset.analyticsForm
+                    });
                 });
             });
         })();
