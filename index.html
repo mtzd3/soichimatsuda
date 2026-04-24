@@ -153,6 +153,10 @@
             scroll-margin-top: 7rem;
         }
 
+        #contact-form {
+            scroll-margin-top: 7rem;
+        }
+
         .skip-link {
             position: absolute;
             left: -999px;
@@ -929,6 +933,40 @@
             margin-top: 1rem;
         }
 
+        .lead-band {
+            margin-top: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1.1rem;
+            padding: 1.35rem;
+            border: 1px solid rgba(131, 212, 255, 0.22);
+            border-radius: var(--radius-md);
+            background:
+                linear-gradient(135deg, rgba(131, 212, 255, 0.1), rgba(244, 184, 96, 0.08)),
+                rgba(8, 20, 33, 0.72);
+            box-shadow: var(--shadow);
+        }
+
+        .lead-band h3 {
+            margin-top: 0.35rem;
+            font-size: clamp(1.25rem, 2.2vw, 1.8rem);
+        }
+
+        .lead-band p:not(.card-topline) {
+            margin-top: 0.55rem;
+            max-width: 58ch;
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+
+        .lead-band-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+            flex: none;
+        }
+
         .criteria-grid,
         .insight-grid {
             display: grid;
@@ -1331,7 +1369,9 @@
             }
 
             .hero-actions,
-            .contact-actions {
+            .contact-actions,
+            .lead-band,
+            .lead-band-actions {
                 flex-direction: column;
                 align-items: stretch;
             }
@@ -1396,11 +1436,11 @@
                         <li><a href="#focus" data-analytics-event="nav_click" data-analytics-label="focus">Focus</a></li>
                         <li><a href="#results" data-analytics-event="nav_click" data-analytics-label="results">Results</a></li>
                         <li><a href="#engagement" data-analytics-event="nav_click" data-analytics-label="engagement">Engagement</a></li>
-                        <li><a href="#pricing" data-analytics-event="nav_click" data-analytics-label="pricing">Pricing</a></li>
+                        <li><a href="#partnering" data-analytics-event="nav_click" data-analytics-label="partnering">Partnering</a></li>
                         <li><a href="#contact" data-analytics-event="nav_click" data-analytics-label="contact">Contact</a></li>
                     </ul>
                 </nav>
-                <a class="topbar-cta" href="mailto:s.matsuda0913@gmail.com" data-analytics-event="contact_click" data-analytics-label="topbar_cta">相談する</a>
+                <a class="topbar-cta" href="#contact-form" data-analytics-event="cta_click" data-analytics-label="topbar_form">相談する</a>
             </div>
         </div>
     </header>
@@ -1427,8 +1467,8 @@
                             <span>Organization Design</span>
                         </div>
                         <div class="hero-actions">
-                            <a class="button button-primary" href="mailto:s.matsuda0913@gmail.com" data-analytics-event="contact_click" data-analytics-label="hero_email">Emailで相談する</a>
-                            <a class="button button-secondary" href="#results" data-analytics-event="cta_click" data-analytics-label="hero_results">実績を見る</a>
+                            <a class="button button-primary" href="#contact-form" data-analytics-event="cta_click" data-analytics-label="hero_form">フォームで相談する</a>
+                            <a class="button button-secondary" href="#focus" data-analytics-event="cta_click" data-analytics-label="hero_focus">支援テーマを見る</a>
                         </div>
                     </div>
 
@@ -1726,6 +1766,18 @@
                         </ul>
                     </article>
                 </div>
+
+                <div class="lead-band" data-reveal>
+                    <div>
+                        <p class="card-topline">Next step</p>
+                        <h3>論点が近い場合は、まず背景を共有してください。</h3>
+                        <p>検討中の技術テーマ、意思決定の期限、関係者、期待する成果が少し見えているだけでも十分です。単発の相談ではなく、事業上の判断を前に進める関わり方から設計します。</p>
+                    </div>
+                    <div class="lead-band-actions">
+                        <a class="button button-primary" href="#contact-form" data-analytics-event="cta_click" data-analytics-label="engagement_form">背景を共有する</a>
+                        <a class="button button-secondary" href="#partnering" data-analytics-event="cta_click" data-analytics-label="engagement_partnering">関わり方を見る</a>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -1742,94 +1794,94 @@
                         <p class="card-topline">Theme 01</p>
                         <h3>AI顧問とは何をするのか</h3>
                         <p>技術レビューだけでなく、課題整理、優先順位づけ、経営判断の壁打ち、対外説明の整理まで含めて伴走するのが中心です。単なる情報提供ではなく、次に進めるための論点を整えます。</p>
-                        <a class="insight-link" href="#contact" data-analytics-event="cta_click" data-analytics-label="insight_ai_advisor">このテーマで相談する</a>
+                        <a class="insight-link" href="ai-advisor.html" data-analytics-event="cta_click" data-analytics-label="insight_ai_advisor_page">このテーマを詳しく見る</a>
                     </article>
 
                     <article class="insight-card" data-reveal>
                         <p class="card-topline">Theme 02</p>
                         <h3>ディープテック企業が事業戦略で迷いやすいポイント</h3>
                         <p>技術優位があっても、顧客課題の切り方、量産までの順序、資本政策、提携戦略が曖昧だと前に進みにくくなります。どの論点から先に解くかで、事業の進み方は大きく変わります。</p>
-                        <a class="insight-link" href="#contact" data-analytics-event="cta_click" data-analytics-label="insight_deeptech_strategy">このテーマで相談する</a>
+                        <a class="insight-link" href="deeptech-strategy.html" data-analytics-event="cta_click" data-analytics-label="insight_deeptech_strategy_page">このテーマを詳しく見る</a>
                     </article>
 
                     <article class="insight-card" data-reveal>
                         <p class="card-topline">Theme 03</p>
                         <h3>AI導入をPoCで終わらせないために必要なこと</h3>
                         <p>技術選定だけでなく、導入順序、運用体制、KPI、現場の受け皿まで含めて設計しないとPoC止まりになりやすくなります。実装に進むための条件整理が重要です。</p>
-                        <a class="insight-link" href="#contact" data-analytics-event="cta_click" data-analytics-label="insight_poc_to_production">このテーマで相談する</a>
+                        <a class="insight-link" href="poc-to-production.html" data-analytics-event="cta_click" data-analytics-label="insight_poc_to_production_page">このテーマを詳しく見る</a>
                     </article>
                 </div>
             </div>
         </section>
 
-        <section class="section" id="pricing">
+        <section class="section" id="partnering">
             <div class="container">
                 <div class="section-header">
-                    <p class="section-label">Pricing</p>
-                    <h2 class="section-title">ご相談の進め方と<span class="serif">料金</span></h2>
-                    <p class="section-copy">継続的な助言から個別テーマのご相談、実務を伴う支援まで、状況に応じてご一緒しています。初回のお問い合わせでは背景と論点を伺い、適した進め方をご提案します。</p>
+                    <p class="section-label">Engagement Design</p>
+                    <h2 class="section-title">料金表ではなく、<span class="serif">関与範囲</span>から設計します</h2>
+                    <p class="section-copy">低単価の相談メニューを並べるより、意思決定の重さ、関係者、成果物、期間に合わせて関わり方を設計します。初回は背景と論点を伺い、事業上の価値が出る形に絞ってご提案します。</p>
                 </div>
 
                 <div class="pricing-grid">
                     <article class="pricing-card featured" data-reveal>
-                        <p class="card-topline">継続支援</p>
-                        <h3 class="pricing-name">アドバイザー契約</h3>
-                        <p class="pricing-price">20万円</p>
-                        <p class="pricing-unit">月額</p>
-                        <p class="pricing-summary">月2回の定例ミーティングを軸に、論点整理、優先順位づけ、重要な意思決定の壁打ちを継続的に行います。</p>
+                        <p class="card-topline">Executive advisory</p>
+                        <h3 class="pricing-name">経営伴走型のアドバイザリー</h3>
+                        <p class="pricing-price">個別設計</p>
+                        <p class="pricing-unit">月次・隔週の意思決定支援</p>
+                        <p class="pricing-summary">経営陣や事業責任者の重要論点を継続的に整理し、技術・市場・資本・組織を横断して判断材料を作ります。</p>
                         <ul class="pricing-list">
-                            <li>重要論点の整理と優先順位づけ</li>
-                            <li>施策・方針・対外説明のレビュー</li>
-                            <li>継続的な伴走が必要な経営陣・事業責任者向け</li>
+                            <li>AI / 半導体ロードマップと事業計画の接続</li>
+                            <li>経営会議・投資家説明・提携方針のレビュー</li>
+                            <li>継続的な意思決定支援が必要な経営層向け</li>
                         </ul>
                     </article>
 
                     <article class="pricing-card" data-reveal>
-                        <p class="card-topline">スポット相談</p>
-                        <h3 class="pricing-name">単発相談</h3>
-                        <p class="pricing-price">10万円</p>
-                        <p class="pricing-unit">1回ごと</p>
-                        <p class="pricing-summary">重要なテーマについて、必要なタイミングで集中的にご相談いただけます。</p>
+                        <p class="card-topline">Strategic project</p>
+                        <h3 class="pricing-name">短期集中の戦略プロジェクト</h3>
+                        <p class="pricing-price">成果物設計</p>
+                        <p class="pricing-unit">期間・深さに応じて設計</p>
+                        <p class="pricing-summary">事業戦略、PoC後の実装計画、技術選定、提携候補の整理など、特定テーマを短期間で意思決定できる形へまとめます。</p>
                         <ul class="pricing-list">
-                            <li>経営判断前の壁打ちやレビュー</li>
-                            <li>戦略・事業・技術テーマの論点整理</li>
-                            <li>まずは一度相談したい場合にも対応</li>
+                            <li>市場・顧客課題・技術要件の再整理</li>
+                            <li>ロードマップ、提案資料、意思決定メモの作成</li>
+                            <li>新規事業やディープテック案件の再設計向け</li>
                         </ul>
                     </article>
 
                     <article class="pricing-card" data-reveal>
-                        <p class="card-topline">個別支援</p>
-                        <h3 class="pricing-name">実行支援</h3>
-                        <p class="pricing-price">個別見積</p>
-                        <p class="pricing-unit">内容に応じて</p>
-                        <p class="pricing-summary">要件整理から実装、ドキュメント整備まで、実務を伴う支援も内容に応じて個別に設計します。</p>
+                        <p class="card-topline">Decision support</p>
+                        <h3 class="pricing-name">資本・提携・撤退判断の整理</h3>
+                        <p class="pricing-price">論点設計</p>
+                        <p class="pricing-unit">判断の重さに合わせて設計</p>
+                        <p class="pricing-summary">続ける、変える、提携する、止める。難しい局面で、技術的な現実と経営上の選択肢を同じテーブルに載せます。</p>
                         <ul class="pricing-list">
-                            <li>実装支援、要件整理、進行支援</li>
-                            <li>ドキュメント作成、提案整理、具体化</li>
-                            <li>内容・期間・関与範囲に応じてお見積り</li>
+                            <li>資本政策、提携、M&A、清算を含む選択肢整理</li>
+                            <li>ステークホルダー説明の材料づくり</li>
+                            <li>高難度な経営判断を抱える創業者・責任者向け</li>
                         </ul>
-                        <p class="pricing-note">ご相談内容がまだ明確でない段階でも差し支えありません。</p>
+                        <p class="pricing-note">実務を伴う支援は、必要な成果物と関与範囲を確認したうえで組み込みます。</p>
                     </article>
                 </div>
 
                 <div class="faq-stack pricing-faq">
                     <details class="faq-item" data-reveal>
-                        <summary>どの段階でも相談できますか？</summary>
-                        <p>構想段階でも、すでにプロジェクトが進んでいる段階でも問題ありません。背景や現状が整理しきれていなくても、論点整理から一緒に進められます。</p>
+                        <summary>料金の目安は公開していないのですか？</summary>
+                        <p>公開価格は置かず、意思決定の重さ、関与頻度、成果物、期間から設計します。価格だけで比較される相談より、事業上の価値と責任範囲が明確な案件を優先しています。</p>
                     </details>
                     <details class="faq-item" data-reveal>
-                        <summary>単発相談のあとに継続契約は必要ですか？</summary>
-                        <p>必須ではありません。まずは一度相談し、そのうえで継続的な伴走が必要かどうかを判断いただく形でも大丈夫です。</p>
+                        <summary>単発の壁打ちは依頼できますか？</summary>
+                        <p>可能ですが、論点が明確で意思決定につながる場合に限ってお受けしやすいです。継続支援や短期プロジェクトの前段として、課題の見立てを合わせる使い方が向いています。</p>
                     </details>
                     <details class="faq-item" data-reveal>
-                        <summary>実行支援はどこまで依頼できますか？</summary>
-                        <p>要件整理、実装支援、ドキュメント作成、提案の具体化、進行支援などに対応しています。内容や期間に応じて関わり方を設計します。</p>
+                        <summary>問い合わせ前に何を共有すればよいですか？</summary>
+                        <p>プロジェクトの背景、意思決定したいこと、関係者、期限、期待する成果が分かると早いです。守秘が必要な情報は、初回のやり取りで扱い方を確認してから進めます。</p>
                     </details>
                 </div>
 
                 <div class="pricing-cta" data-reveal>
-                    <p>テーマが定まりきっていない段階でも構いません。背景や現在の論点を伺い、状況に適した進め方をご提案します。</p>
-                    <a class="button button-primary" href="mailto:s.matsuda0913@gmail.com" data-analytics-event="contact_click" data-analytics-label="pricing_email">ご相談はこちら</a>
+                    <p>テーマが定まりきっていない段階でも構いません。背景や現在の論点を伺い、単価ではなく成果に見合う関わり方をご提案します。</p>
+                    <a class="button button-primary" href="#contact-form" data-analytics-event="cta_click" data-analytics-label="partnering_form">経営課題として相談する</a>
                 </div>
             </div>
         </section>
@@ -1841,7 +1893,7 @@
                         <div>
                             <p class="section-label">Contact</p>
                             <h2 class="contact-title">Let's build <span class="serif">what matters</span>.</h2>
-                            <p class="contact-copy">AI技術の社会実装、ディープテックの事業戦略、難しい意思決定の整理など、テーマが定まっていなくても構いません。背景と現在の論点を共有いただければ、どの進め方が合うかをご提案します。</p>
+                            <p class="contact-copy">AI技術の社会実装、ディープテックの事業戦略、難しい意思決定の整理など、テーマが定まっていなくても構いません。事業上の判断に近い背景と現在の論点を共有いただければ、どの関わり方が合うかをご提案します。</p>
                             <div class="contact-actions">
                                 <a class="button button-primary" href="#contact-form" data-analytics-event="cta_click" data-analytics-label="contact_form_anchor">フォームから相談する</a>
                                 <a class="button button-secondary" href="mailto:s.matsuda0913@gmail.com" data-analytics-event="contact_click" data-analytics-label="contact_email">メールで連絡する</a>
@@ -1856,6 +1908,16 @@
                                 <input type="hidden" name="_template" value="table">
                                 <input type="hidden" name="_autoresponse" value="お問い合わせありがとうございます。内容を確認のうえ、2営業日以内を目安にご連絡します。">
                                 <input type="hidden" name="source" value="matsuda_prof">
+                                <input type="hidden" name="interest" value="">
+                                <input type="hidden" name="page_url" value="">
+                                <input type="hidden" name="page_title" value="">
+                                <input type="hidden" name="referrer" value="">
+                                <input type="hidden" name="landing_page" value="">
+                                <input type="hidden" name="utm_source" value="">
+                                <input type="hidden" name="utm_medium" value="">
+                                <input type="hidden" name="utm_campaign" value="">
+                                <input type="hidden" name="utm_content" value="">
+                                <input type="hidden" name="utm_term" value="">
                                 <input class="hidden-honey" type="text" name="_honey" tabindex="-1" autocomplete="off">
 
                                 <div class="form-grid">
@@ -1875,17 +1937,18 @@
                                         <label for="contact-topic">ご相談内容</label>
                                         <select id="contact-topic" name="topic" required>
                                             <option value="">選択してください</option>
-                                            <option>アドバイザー契約について</option>
-                                            <option>単発相談について</option>
-                                            <option>実行支援について</option>
+                                            <option>継続アドバイザリーについて</option>
+                                            <option>AI / 半導体ロードマップについて</option>
+                                            <option>短期戦略プロジェクトについて</option>
+                                            <option>資本・提携・撤退判断について</option>
                                             <option>登壇・対談のご依頼</option>
                                             <option>その他</option>
                                         </select>
                                     </div>
                                     <div class="field field-full">
                                         <label for="contact-message">背景やご相談したい論点</label>
-                                        <textarea id="contact-message" name="message" placeholder="現状の課題、相談したいテーマ、関係者、期限感など、分かる範囲でご記入ください。" required></textarea>
-                                        <p class="field-note">まだ整理できていない段階でも問題ありません。分かる範囲で大丈夫です。</p>
+                                        <textarea id="contact-message" name="message" placeholder="現状の課題、意思決定したいこと、関係者、期限、期待する成果など、分かる範囲でご記入ください。" required></textarea>
+                                        <p class="field-note">守秘が必要な情報は、初回のやり取りで扱い方を確認してからで問題ありません。</p>
                                     </div>
                                 </div>
 
@@ -1945,14 +2008,29 @@
 
         const contactSuccessBanner = document.getElementById("contact-success");
         const searchParams = new URLSearchParams(window.location.search);
+        const hasSubmittedLead = searchParams.get("submitted") === "1";
 
-        if (contactSuccessBanner && searchParams.get("submitted") === "1") {
+        if (contactSuccessBanner && hasSubmittedLead) {
             contactSuccessBanner.hidden = false;
         }
 
         (() => {
             const config = window.SITE_ANALYTICS || {};
             const queue = [];
+
+            const rememberOnce = (key) => {
+                try {
+                    if (window.sessionStorage.getItem(key)) {
+                        return false;
+                    }
+
+                    window.sessionStorage.setItem(key, "1");
+                } catch (error) {
+                    debugLog("sessionStorage_unavailable", { message: error.message });
+                }
+
+                return true;
+            };
 
             const cleanPayload = (payload = {}) =>
                 Object.fromEntries(
@@ -1964,6 +2042,92 @@
                     return;
                 }
                 console.info("[site-analytics]", eventName, payload);
+            };
+
+            const campaignKeys = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"];
+            const attributionStorageKey = "site_attribution";
+
+            const readAttribution = () => {
+                try {
+                    return JSON.parse(window.sessionStorage.getItem(attributionStorageKey) || "{}");
+                } catch (error) {
+                    debugLog("attribution_read_failed", { message: error.message });
+                    return {};
+                }
+            };
+
+            const writeAttribution = (payload) => {
+                try {
+                    window.sessionStorage.setItem(attributionStorageKey, JSON.stringify(cleanPayload(payload)));
+                } catch (error) {
+                    debugLog("attribution_write_failed", { message: error.message });
+                }
+            };
+
+            const currentCampaign = Object.fromEntries(
+                campaignKeys.map((key) => [key, searchParams.get(key)])
+            );
+            const requestedInterest = searchParams.get("interest") || "";
+            const storedAttribution = readAttribution();
+            const attribution = {
+                ...storedAttribution,
+                landing_page: storedAttribution.landing_page || `${window.location.pathname}${window.location.search}`,
+                landing_url: storedAttribution.landing_url || window.location.href,
+                referrer: storedAttribution.referrer || document.referrer,
+                ...cleanPayload(currentCampaign)
+            };
+
+            if (requestedInterest) {
+                attribution.interest = requestedInterest;
+            }
+
+            writeAttribution(attribution);
+
+            const interestTopicMap = {
+                "ai-advisor": "継続アドバイザリーについて",
+                "deeptech-strategy": "短期戦略プロジェクトについて",
+                "poc-to-production": "AI / 半導体ロードマップについて"
+            };
+
+            const setFieldValue = (form, name, value) => {
+                const field = form.querySelector(`[name="${name}"]`);
+                if (field) {
+                    field.value = value || "";
+                }
+            };
+
+            const populateFormAttribution = (form) => {
+                const interest = requestedInterest || attribution.interest || "";
+                const topicSelect = form.querySelector("#contact-topic");
+
+                if (topicSelect && interestTopicMap[interest]) {
+                    topicSelect.value = interestTopicMap[interest];
+                }
+
+                setFieldValue(form, "interest", interest);
+                setFieldValue(form, "page_url", window.location.href);
+                setFieldValue(form, "page_title", document.title);
+                setFieldValue(form, "referrer", attribution.referrer);
+                setFieldValue(form, "landing_page", attribution.landing_page);
+                campaignKeys.forEach((key) => {
+                    setFieldValue(form, key, attribution[key]);
+                });
+            };
+
+            const buildLeadPayload = (form, base = {}) => {
+                const contactTopic = form?.querySelector("#contact-topic")?.value || attribution.contact_topic;
+                const interest = form?.querySelector('[name="interest"]')?.value || attribution.interest || contactTopic;
+                return cleanPayload({
+                    ...base,
+                    lead_interest: interest,
+                    contact_topic: contactTopic,
+                    landing_page: attribution.landing_page,
+                    utm_source: attribution.utm_source,
+                    utm_medium: attribution.utm_medium,
+                    utm_campaign: attribution.utm_campaign,
+                    utm_content: attribution.utm_content,
+                    utm_term: attribution.utm_term
+                });
             };
 
             let sendEvent = (eventName, payload = {}) => {
@@ -2046,6 +2210,15 @@
                 sendEvent(eventName, payload);
             };
 
+            if (hasSubmittedLead && rememberOnce(`generate_lead:${window.location.pathname}:${window.location.search}`)) {
+                window.trackSiteEvent("generate_lead", buildLeadPayload(null, {
+                    label: "contact_form",
+                    form_id: "contact_form",
+                    lead_source: "contact_form",
+                    method: "formsubmit"
+                }));
+            }
+
             document.querySelectorAll("[data-analytics-event]").forEach((element) => {
                 element.addEventListener("click", () => {
                     const href = element.getAttribute("href") || "";
@@ -2068,10 +2241,40 @@
             });
 
             document.querySelectorAll("[data-analytics-form]").forEach((form) => {
+                let formStarted = false;
+                const formLabel = form.dataset.analyticsForm || form.id || "form";
+
+                populateFormAttribution(form);
+
+                const trackFormStart = () => {
+                    if (formStarted) {
+                        return;
+                    }
+
+                    formStarted = true;
+                    window.trackSiteEvent("form_start", buildLeadPayload(form, {
+                        label: formLabel,
+                        form_id: form.id
+                    }));
+                };
+
+                form.addEventListener("focusin", trackFormStart);
+                form.addEventListener("input", trackFormStart);
+                form.addEventListener("change", trackFormStart);
                 form.addEventListener("submit", () => {
-                    window.trackSiteEvent("form_submit", {
-                        label: form.dataset.analyticsForm
+                    const currentAttribution = readAttribution();
+                    const currentInterest = form.querySelector('[name="interest"]')?.value || currentAttribution.interest;
+                    const currentContactTopic = form.querySelector("#contact-topic")?.value || currentAttribution.contact_topic;
+                    writeAttribution({
+                        ...currentAttribution,
+                        interest: currentInterest,
+                        contact_topic: currentContactTopic
                     });
+
+                    window.trackSiteEvent("form_submit", buildLeadPayload(form, {
+                        label: formLabel,
+                        form_id: form.id
+                    }));
                 });
             });
         })();

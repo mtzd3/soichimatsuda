@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI導入をPoCで終わらせない | 松田総一</title>
+    <meta name="description" content="AI導入をPoCで終わらせないために、技術選定、運用設計、KPI、現場の受け皿、事業判断を整理。エッジAI・組込みAI・ディープテック領域の本番導入を支援します。">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://mtzd3.github.io/soichimatsuda/poc-to-production.html">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://mtzd3.github.io/soichimatsuda/poc-to-production.html">
+    <meta property="og:title" content="AI導入をPoCで終わらせない | 松田総一">
+    <meta property="og:description" content="AI導入をPoCから本番実装へ進めるための条件、体制、KPI、意思決定を整理します。">
+    <meta property="og:image" content="https://mtzd3.github.io/soichimatsuda/ogp.svg">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="topic.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D11DRB2ZPF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag("js", new Date());
+        gtag("config", "G-D11DRB2ZPF", { anonymize_ip: true });
+        gtag("event", "topic_page_view", { label: "poc_to_production", topic: "poc_to_production" });
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Person",
+                "@id": "https://mtzd3.github.io/soichimatsuda/#person",
+                "name": "松田総一",
+                "alternateName": "Soichi Matsuda",
+                "url": "https://mtzd3.github.io/soichimatsuda/"
+            },
+            {
+                "@type": "Article",
+                "@id": "https://mtzd3.github.io/soichimatsuda/poc-to-production.html#article",
+                "headline": "AI導入をPoCで終わらせない",
+                "description": "AI導入をPoCで終わらせないために、技術選定、運用設計、KPI、現場の受け皿、事業判断を整理。エッジAI・組込みAI・ディープテック領域の本番導入を支援します。",
+                "inLanguage": "ja",
+                "datePublished": "2026-04-24",
+                "dateModified": "2026-04-24",
+                "author": {
+                    "@id": "https://mtzd3.github.io/soichimatsuda/#person"
+                },
+                "mainEntityOfPage": {
+                    "@type": "WebPage",
+                    "@id": "https://mtzd3.github.io/soichimatsuda/poc-to-production.html"
+                }
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": "https://mtzd3.github.io/soichimatsuda/poc-to-production.html#breadcrumb",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://mtzd3.github.io/soichimatsuda/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "AI導入をPoCで終わらせない",
+                        "item": "https://mtzd3.github.io/soichimatsuda/poc-to-production.html"
+                    }
+                ]
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <header class="topbar">
+        <div class="container">
+            <div class="topbar-inner">
+                <a class="brand" href="index.html">Soichi Matsuda</a>
+                <div class="nav-actions">
+                    <a class="nav-link" href="index.html#insights">テーマ一覧</a>
+                    <a class="button button-primary" href="index.html?interest=poc-to-production#contact-form" onclick="gtag('event','cta_click',{label:'poc_contact'});">相談する</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div>
+                    <p class="eyebrow">PoC to Production</p>
+                    <h1><span>AI導入を、</span><span>PoCの先へ。</span></h1>
+                    <p class="lead">PoCが成功しても、本番導入に進まないことは珍しくありません。技術だけでなく、運用責任、データ更新、現場体制、KPI、投資判断まで設計して初めて、AIは事業に届きます。</p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="index.html?interest=poc-to-production#contact-form" onclick="gtag('event','cta_click',{label:'poc_hero_form'});">背景を共有する</a>
+                        <a class="button button-secondary" href="index.html?interest=poc-to-production#focus">支援テーマを見る</a>
+                    </div>
+                </div>
+                <div class="visual" aria-hidden="true">
+                    <img src="ogp.svg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <p class="section-label">Production readiness</p>
+                <h2>本番導入には、技術以外の条件が必要です。</h2>
+                <p class="section-copy">AI導入が止まる理由は、精度不足だけではありません。誰が運用するか、現場がどう使うか、効果をどう測るか、どこまで自動化するかを事前に揃える必要があります。</p>
+                <div class="grid">
+                    <article class="card">
+                        <h3>導入順序の設計</h3>
+                        <p>PoC、限定導入、運用改善、全体展開の順序と判断基準を整理します。</p>
+                    </article>
+                    <article class="card">
+                        <h3>技術・運用リスクの整理</h3>
+                        <p>モデル、データ、エッジ環境、保守体制、責任分界のリスクを可視化します。</p>
+                    </article>
+                    <article class="card">
+                        <h3>経営判断への接続</h3>
+                        <p>投資対効果、必要な体制、次の予算判断に必要な材料をまとめます。</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <p class="section-label">Related themes</p>
+                <h2>近い論点もあわせて整理できます。</h2>
+                <div class="grid">
+                    <a class="card card-link" href="ai-advisor.html">
+                        <h3>AI顧問・AIアドバイザリー</h3>
+                        <p>技術レビューを、経営判断、導入順序、対外説明へ接続します。</p>
+                    </a>
+                    <a class="card card-link" href="deeptech-strategy.html">
+                        <h3>ディープテック企業の事業戦略</h3>
+                        <p>技術優位を、顧客課題、提携、資本政策、実行計画へ接続します。</p>
+                    </a>
+                    <a class="card card-link" href="index.html?interest=poc-to-production#partnering">
+                        <h3>関与範囲から設計する</h3>
+                        <p>公開価格ではなく、成果物、期間、責任範囲に合わせて提案します。</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container cta-band">
+                <div>
+                    <p class="section-label">Next step</p>
+                    <p>PoC後の進め方に迷っている、または本番導入前に論点を整理したい場合は、現在の検証状況と判断したいことを共有してください。</p>
+                </div>
+                <a class="button button-primary" href="index.html?interest=poc-to-production#contact-form" onclick="gtag('event','cta_click',{label:'poc_bottom_form'});">相談内容を送る</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">© 2026 Soichi Matsuda.</div>
+    </footer>
+</body>
+</html>

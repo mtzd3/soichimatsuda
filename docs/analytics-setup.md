@@ -70,20 +70,35 @@
 - `contact_click`
 - `social_click`
 - `faq_open`
+- `form_start`
+- `form_submit`
+- `generate_lead`
 
 ## 主な計測ポイント
 
 - ヘッダーナビゲーション
 - 相談導線のメールCTA
+- フォーム入力開始
+- フォーム送信試行
+- 送信完了後のリード獲得
+- フォーム送信時の `interest`、`landing_page`、UTM 情報
 - 実績への導線
 - ソーシャルリンク
 - FAQの開封
 
+## GA4 でキーイベントにするもの
+
+- `generate_lead`
+
+問い合わせフォームは FormSubmit への外部送信を使っているため、送信ボタン押下時点では `form_submit`、`?submitted=1` で戻ってきた送信完了画面では `generate_lead` を送信します。GA4 の見込み顧客レポートでは `generate_lead` を主要な成果として見ます。
+
+公開後の確認は [ga4-post-release-checklist.md](/Users/so01/codex/Github-pages/docs/ga4-post-release-checklist.md:1) を使います。外部投稿やプロフィールリンクには [campaign-utm-playbook.md](/Users/so01/codex/Github-pages/docs/campaign-utm-playbook.md:1) のURLを使うと、Direct 流入に埋もれにくくなります。
+
 ## 確認方法
 
 1. サイトを開く
-2. ナビやメールCTAをクリックする
-3. FAQを開く
+2. ナビやフォームCTAをクリックする
+3. フォーム入力、FAQ開封、メールCTAを試す
 4. GA4 の `Realtime` と `Events` で反映を確認する
 
 ## 運用メモ

@@ -9,6 +9,9 @@
 現在の公開URLは以下です。
 
 - `https://mtzd3.github.io/soichimatsuda/`
+- `https://mtzd3.github.io/soichimatsuda/ai-advisor.html`
+- `https://mtzd3.github.io/soichimatsuda/deeptech-strategy.html`
+- `https://mtzd3.github.io/soichimatsuda/poc-to-production.html`
 
 この構成では、まず `URL-prefix property` として登録するのが実務上いちばん扱いやすいです。
 
@@ -39,6 +42,10 @@
 - `エッジAI`
 - `組込みAI`
 - `Soichi Matsuda`
+- `AI顧問`
+- `AI アドバイザリー`
+- `ディープテック 事業戦略`
+- `AI PoC 本番導入`
 
 ## 補足
 
