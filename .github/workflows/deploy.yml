@@ -29,10 +29,19 @@ jobs:
         run: |
           mkdir -p _site
           cp -f index.html _site/
+          cp -f ai-advisor.html _site/
+          cp -f deeptech-strategy.html _site/
+          cp -f poc-to-production.html _site/
+          cp -f topic.css _site/
           cp -f favicon.svg _site/
           cp -f ogp.svg _site/
           cp -f robots.txt _site/
           cp -f sitemap.xml _site/
+          mkdir -p _site/docs
+          cp -f docs/analytics-setup.md _site/docs/
+          cp -f docs/search-console-setup.md _site/docs/
+          cp -f docs/ga4-post-release-checklist.md _site/docs/
+          cp -f docs/campaign-utm-playbook.md _site/docs/
           ls -la _site/
 
       - name: Upload artifact
