@@ -208,16 +208,40 @@
         }
 
         .brand {
-            display: grid;
-            place-items: center;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.72rem;
+            color: var(--ink);
+            font-family: "Noto Sans JP", sans-serif;
+            font-weight: 800;
+            letter-spacing: 0;
+            min-width: max-content;
+        }
+
+        .brand-mark {
             width: 2.85rem;
             height: 2.85rem;
-            border-radius: 50%;
-            background: linear-gradient(135deg, var(--accent) 0%, var(--accent-strong) 100%);
-            color: var(--bg);
-            font-family: "Noto Sans JP", sans-serif;
+            flex: 0 0 auto;
+            filter: drop-shadow(0 12px 28px rgba(0, 0, 0, 0.28));
+        }
+
+        .brand-text {
+            display: flex;
+            flex-direction: column;
+            gap: 0.05rem;
+            line-height: 1.08;
+        }
+
+        .brand-name {
+            font-size: 0.98rem;
+        }
+
+        .brand-role {
+            color: var(--muted);
+            font-size: 0.68rem;
             font-weight: 700;
             letter-spacing: 0.08em;
+            text-transform: uppercase;
         }
 
         .topbar nav ul {
@@ -1411,6 +1435,14 @@
             .topbar-inner {
                 align-items: stretch;
             }
+
+            .brand {
+                justify-content: center;
+            }
+
+            .brand-role {
+                display: none;
+            }
         }
 
         @media (prefers-reduced-motion: reduce) {
@@ -1433,7 +1465,13 @@
     <header class="topbar">
         <div class="container">
             <div class="topbar-inner">
-                <a class="brand" href="#top" aria-label="トップへ戻る">SM</a>
+                <a class="brand" href="#top" aria-label="トップへ戻る">
+                    <img class="brand-mark" src="logo-mark.svg" alt="" width="46" height="46" decoding="async">
+                    <span class="brand-text">
+                        <span class="brand-name">Soichi Matsuda</span>
+                        <span class="brand-role">Frontier Technology Advisor</span>
+                    </span>
+                </a>
                 <nav aria-label="ページ内ナビゲーション">
                     <ul>
                         <li><a href="#profile" data-analytics-event="nav_click" data-analytics-label="profile">Profile</a></li>

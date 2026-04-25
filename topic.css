@@ -56,15 +56,42 @@ a {
     background: rgba(7, 16, 26, 0.78);
 }
 
-.brand,
 .nav-link {
     color: var(--muted);
     font-size: 0.92rem;
 }
 
 .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.62rem;
     color: var(--ink);
     font-weight: 800;
+    line-height: 1.08;
+}
+
+.brand-mark {
+    width: 2.55rem;
+    height: 2.55rem;
+    flex: 0 0 auto;
+    filter: drop-shadow(0 12px 28px rgba(0, 0, 0, 0.28));
+}
+
+.brand-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-name {
+    font-size: 0.96rem;
+}
+
+.brand-role {
+    color: var(--muted);
+    font-size: 0.66rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
 }
 
 .nav-actions {
@@ -265,5 +292,17 @@ footer {
 
     .button {
         width: 100%;
+    }
+
+    .brand {
+        justify-content: center;
+    }
+
+    .nav-link {
+        text-align: center;
+    }
+
+    .brand-role {
+        display: none;
     }
 }

@@ -1,16 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Soichi Matsuda OGP">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Soichi Matsuda social preview">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0f1d2e"/>
       <stop offset="55%" stop-color="#07101a"/>
       <stop offset="100%" stop-color="#091523"/>
     </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd58a"/>
+      <stop offset="100%" stop-color="#ff8c42"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b7ecff"/>
+      <stop offset="100%" stop-color="#3fb8ff"/>
+    </linearGradient>
     <radialGradient id="glowA" cx="0%" cy="0%" r="100%">
       <stop offset="0%" stop-color="#83d4ff" stop-opacity="0.5"/>
       <stop offset="100%" stop-color="#83d4ff" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="glowB" cx="100%" cy="0%" r="100%">
-      <stop offset="0%" stop-color="#f4b860" stop-opacity="0.4"/>
+      <stop offset="0%" stop-color="#f4b860" stop-opacity="0.42"/>
       <stop offset="100%" stop-color="#f4b860" stop-opacity="0"/>
     </radialGradient>
     <pattern id="grid" width="72" height="72" patternUnits="userSpaceOnUse">
@@ -22,34 +30,43 @@
   <rect width="1200" height="630" fill="url(#grid)" opacity="0.8"/>
   <circle cx="140" cy="90" r="240" fill="url(#glowA)"/>
   <circle cx="1040" cy="80" r="260" fill="url(#glowB)"/>
-
   <rect x="74" y="74" width="1052" height="482" rx="28" fill="#0b1724" fill-opacity="0.72" stroke="#83d4ff" stroke-opacity="0.18"/>
 
-  <text x="104" y="130" font-family="'Space Grotesk', Arial, sans-serif" font-size="28" letter-spacing="6" fill="#83d4ff">AI TECHNOLOGY ARCHITECT / STRATEGIC ADVISOR</text>
-  <text x="104" y="236" font-family="'Space Grotesk', Arial, sans-serif" font-size="92" font-weight="700" fill="#ebf4ff">Soichi</text>
-  <text x="104" y="326" font-family="'Cormorant Garamond', Georgia, serif" font-size="110" font-weight="600" fill="#f4b860">Matsuda</text>
-  <text x="108" y="382" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="32" letter-spacing="8" fill="#a5b7c8">松田 総一</text>
-  <text x="104" y="452" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="34" font-weight="700" fill="#ebf4ff">技術が、事業として届くまで設計する。</text>
-  <text x="104" y="504" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="24" fill="#a5b7c8">Deep Learning / Edge AI / AI Accelerator / Fundraising / Organization Design</text>
-
-  <g transform="translate(814 126)">
-    <rect width="252" height="94" rx="22" fill="#091523" stroke="#f4b860" stroke-opacity="0.32"/>
-    <text x="22" y="33" font-family="'Space Grotesk', Arial, sans-serif" font-size="18" letter-spacing="3" fill="#83d4ff">PROJECTS</text>
-    <text x="22" y="72" font-family="'Space Grotesk', Arial, sans-serif" font-size="42" font-weight="700" fill="#f4b860">200+</text>
-    <text x="124" y="72" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#a5b7c8">共創実績</text>
+  <g transform="translate(104 110) scale(0.92)">
+    <rect x="0" y="0" width="128" height="128" rx="30" fill="#091523"/>
+    <rect x="0.5" y="0.5" width="127" height="127" rx="29.5" fill="none" stroke="#83d4ff" stroke-opacity="0.28"/>
+    <path d="M17 54 C25 27 64 18 88 36 C114 56 91 88 54 84 C31 82 16 72 17 54 Z" transform="translate(8 0)" fill="none" stroke="url(#cyan)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M28 91 L44 39 L64 70 L84 39 L100 91" fill="none" stroke="url(#gold)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M35 99 H94" fill="none" stroke="#83d4ff" stroke-width="4" stroke-linecap="round" opacity="0.46"/>
+    <circle cx="44" cy="39" r="5.5" fill="#ebf4ff"/>
+    <circle cx="84" cy="39" r="5.5" fill="#ebf4ff"/>
+    <circle cx="64" cy="70" r="4.5" fill="#07101a" stroke="#ffd58a" stroke-width="3"/>
+    <circle cx="101" cy="39" r="4.5" fill="#83d4ff"/>
   </g>
 
-  <g transform="translate(814 242)">
-    <rect width="252" height="94" rx="22" fill="#091523" stroke="#83d4ff" stroke-opacity="0.24"/>
-    <text x="22" y="33" font-family="'Space Grotesk', Arial, sans-serif" font-size="18" letter-spacing="3" fill="#83d4ff">FUNDING</text>
-    <text x="22" y="72" font-family="'Space Grotesk', Arial, sans-serif" font-size="42" font-weight="700" fill="#f4b860">$45M</text>
-    <text x="136" y="72" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#a5b7c8">累計調達</text>
-  </g>
+  <text x="250" y="132" font-family="Arial, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="25" letter-spacing="5" fill="#83d4ff">FRONTIER TECHNOLOGY ARCHITECT / STRATEGIC ADVISOR</text>
+  <text x="250" y="234" font-family="Arial, sans-serif" font-size="88" font-weight="700" fill="#ebf4ff">Soichi</text>
+  <text x="250" y="322" font-family="Georgia, serif" font-size="106" font-weight="600" fill="#f4b860">Matsuda</text>
+  <text x="254" y="379" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="31" letter-spacing="8" fill="#a5b7c8">松田 総一</text>
+  <text x="104" y="456" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="34" font-weight="700" fill="#ebf4ff">技術が、事業として届くまで設計する。</text>
+  <text x="104" y="508" font-family="Arial, 'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="24" fill="#a5b7c8">AI / Semiconductor / Robotics / Space / Autonomous Driving / Manufacturing</text>
 
-  <g transform="translate(814 358)">
-    <rect width="252" height="94" rx="22" fill="#091523" stroke="#83d4ff" stroke-opacity="0.24"/>
-    <text x="22" y="33" font-family="'Space Grotesk', Arial, sans-serif" font-size="18" letter-spacing="3" fill="#83d4ff">TECH</text>
-    <text x="22" y="72" font-family="'Space Grotesk', Arial, sans-serif" font-size="40" font-weight="700" fill="#f4b860">12nm / 28nm</text>
-    <text x="22" y="94" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#a5b7c8">TSMC SoC development</text>
+  <g transform="translate(820 130)">
+    <rect width="246" height="88" rx="20" fill="#091523" stroke="#f4b860" stroke-opacity="0.32"/>
+    <text x="22" y="32" font-family="Arial, sans-serif" font-size="17" letter-spacing="3" fill="#83d4ff">PROJECTS</text>
+    <text x="22" y="70" font-family="Arial, sans-serif" font-size="41" font-weight="700" fill="#f4b860">200+</text>
+    <text x="124" y="70" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#a5b7c8">共創実績</text>
+  </g>
+  <g transform="translate(820 238)">
+    <rect width="246" height="88" rx="20" fill="#091523" stroke="#83d4ff" stroke-opacity="0.24"/>
+    <text x="22" y="32" font-family="Arial, sans-serif" font-size="17" letter-spacing="3" fill="#83d4ff">FUNDING</text>
+    <text x="22" y="70" font-family="Arial, sans-serif" font-size="41" font-weight="700" fill="#f4b860">$45M</text>
+    <text x="136" y="70" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#a5b7c8">累計調達</text>
+  </g>
+  <g transform="translate(820 346)">
+    <rect width="246" height="88" rx="20" fill="#091523" stroke="#83d4ff" stroke-opacity="0.24"/>
+    <text x="22" y="32" font-family="Arial, sans-serif" font-size="17" letter-spacing="3" fill="#83d4ff">BUILD</text>
+    <text x="22" y="70" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#f4b860">12nm / 28nm</text>
+    <text x="22" y="96" font-family="Arial, sans-serif" font-size="16" fill="#a5b7c8">TSMC SoC development</text>
   </g>
 </svg>
