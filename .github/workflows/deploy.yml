@@ -33,6 +33,7 @@ jobs:
           cp -f deeptech-strategy.html _site/
           cp -f poc-to-production.html _site/
           cp -f topic.css _site/
+          cp -f logo-mark.svg _site/
           cp -f favicon.svg _site/
           cp -f ogp.svg _site/
           cp -f robots.txt _site/
