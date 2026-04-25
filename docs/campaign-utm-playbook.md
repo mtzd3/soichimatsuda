@@ -57,7 +57,7 @@ https://mtzd3.github.io/soichimatsuda/poc-to-production.html?utm_source=linkedin
 ## 週次レビュー
 
 - `utm_campaign` ごとの `form_start`
-- `utm_campaign` ごとの `generate_lead`
+- `utm_campaign` ごとの `qualify_lead`
 - `lead_interest` の内訳
 - `contact_topic` の内訳
 - 問い合わせ本文に意思決定者、期限、期待成果が含まれているか

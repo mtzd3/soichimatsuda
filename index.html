@@ -1818,8 +1818,8 @@
             <div class="container">
                 <div class="section-header">
                     <p class="section-label">Engagement Design</p>
-                    <h2 class="section-title">料金表ではなく、<span class="serif">関与範囲</span>から設計します</h2>
-                    <p class="section-copy">低単価の相談メニューを並べるより、意思決定の重さ、関係者、成果物、期間に合わせて関わり方を設計します。初回は背景と論点を伺い、事業上の価値が出る形に絞ってご提案します。</p>
+                    <h2 class="section-title">料金表ではなく、<span class="serif">必要な関わり方</span>から設計します</h2>
+                    <p class="section-copy">低単価の相談メニューを並べるのではなく、意思決定の重要度、関係者の数、必要な成果物、期間に合わせて関与範囲を設計します。初回に背景と論点を伺い、事業上の価値につながる形へ絞り込んでご提案します。</p>
                 </div>
 
                 <div class="pricing-grid">
@@ -2210,13 +2210,15 @@
                 sendEvent(eventName, payload);
             };
 
-            if (hasSubmittedLead && rememberOnce(`generate_lead:${window.location.pathname}:${window.location.search}`)) {
-                window.trackSiteEvent("generate_lead", buildLeadPayload(null, {
+            if (hasSubmittedLead && rememberOnce(`lead_completed:${window.location.pathname}:${window.location.search}`)) {
+                const leadCompletedPayload = buildLeadPayload(null, {
                     label: "contact_form",
                     form_id: "contact_form",
                     lead_source: "contact_form",
                     method: "formsubmit"
-                }));
+                });
+                window.trackSiteEvent("generate_lead", leadCompletedPayload);
+                window.trackSiteEvent("qualify_lead", leadCompletedPayload);
             }
 
             document.querySelectorAll("[data-analytics-event]").forEach((element) => {

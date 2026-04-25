@@ -73,6 +73,7 @@
 - `form_start`
 - `form_submit`
 - `generate_lead`
+- `qualify_lead`
 
 ## 主な計測ポイント
 
@@ -88,9 +89,9 @@
 
 ## GA4 でキーイベントにするもの
 
-- `generate_lead`
+- `qualify_lead`
 
-問い合わせフォームは FormSubmit への外部送信を使っているため、送信ボタン押下時点では `form_submit`、`?submitted=1` で戻ってきた送信完了画面では `generate_lead` を送信します。GA4 の見込み顧客レポートでは `generate_lead` を主要な成果として見ます。
+問い合わせフォームは FormSubmit への外部送信を使っているため、送信ボタン押下時点では `form_submit`、`?submitted=1` で戻ってきた送信完了画面では `generate_lead` と `qualify_lead` を送信します。GA4 側では既存のキーイベント `qualify_lead` を主要な成果として見ます。`generate_lead` は推奨イベント名として残し、通常イベントの分析に使います。
 
 公開後の確認は [ga4-post-release-checklist.md](/Users/so01/codex/Github-pages/docs/ga4-post-release-checklist.md:1) を使います。外部投稿やプロフィールリンクには [campaign-utm-playbook.md](/Users/so01/codex/Github-pages/docs/campaign-utm-playbook.md:1) のURLを使うと、Direct 流入に埋もれにくくなります。
 

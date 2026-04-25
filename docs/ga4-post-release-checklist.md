@@ -5,7 +5,7 @@
 ## 必ず設定するもの
 
 1. GA4 の `Admin` から `Key events` を開く
-2. `generate_lead` をキーイベントとして追加する
+2. `qualify_lead` がキーイベントになっていることを確認する
 3. `form_submit` は送信試行なので、キーイベントにはしない
 4. `lead_interest`、`contact_topic`、`landing_page` をイベントスコープのカスタムディメンションに追加する
 
@@ -15,13 +15,13 @@
 2. フォームに入力を始める
 3. GA4 の `Realtime` または `DebugView` で `form_start` が出ることを確認する
 4. 送信ボタンを押したら `form_submit` が出ることを確認する
-5. `?submitted=1` で戻ったら `generate_lead` が出ることを確認する
+5. `?submitted=1` で戻ったら `generate_lead` と `qualify_lead` が出ることを確認する
 
 ## 週次で見るレポート
 
 - `Landing page`: どのページが入口になっているか
 - `Traffic acquisition`: Direct 以外の流入が増えているか
-- `Events`: `cta_click`、`form_start`、`form_submit`、`generate_lead` の落差
+- `Events`: `cta_click`、`form_start`、`form_submit`、`generate_lead` / `qualify_lead` の落差
 - `lead_interest`: どの相談テーマがフォーム入力まで進んだか
 - `contact_topic`: フォームで最終的に選ばれた相談内容
 - `utm_campaign`: 投稿やプロフィールリンクごとの質
@@ -30,8 +30,8 @@
 
 - `page_view` は増えているが `form_start` が少ない場合: CTA の位置やコピーを改善する
 - `form_start` はあるが `form_submit` が少ない場合: フォームの必須項目や心理的ハードルを見直す
-- `form_submit` はあるが `generate_lead` が少ない場合: FormSubmit の戻り先や迷惑メール判定を確認する
-- `generate_lead` は少なくても `lead_interest` が高単価テーマに寄る場合: 価格表を戻さず、関与範囲の説明を強める
+- `form_submit` はあるが `qualify_lead` が少ない場合: FormSubmit の戻り先や迷惑メール判定を確認する
+- `qualify_lead` は少なくても `lead_interest` が高単価テーマに寄る場合: 価格表を戻さず、関与範囲の説明を強める
 
 ## 価格表を外した後に見ること
 
