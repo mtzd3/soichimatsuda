@@ -1,0 +1,62 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Build static site
+        run: |
+          mkdir -p _site
+          cp -f index.html _site/
+          cp -f ai-advisor.html _site/
+          cp -f deeptech-strategy.html _site/
+          cp -f poc-to-production.html _site/
+          cp -f topic.css _site/
+          cp -f logo-mark.svg _site/
+          cp -f favicon.svg _site/
+          cp -f ogp.svg _site/
+          cp -f robots.txt _site/
+          cp -f sitemap.xml _site/
+          mkdir -p _site/docs
+          cp -f docs/analytics-setup.md _site/docs/
+          cp -f docs/search-console-setup.md _site/docs/
+          cp -f docs/ga4-post-release-checklist.md _site/docs/
+          cp -f docs/campaign-utm-playbook.md _site/docs/
+          ls -la _site/
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "_site"
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

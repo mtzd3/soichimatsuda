@@ -1,0 +1,8 @@
+.DS_Store
+.env
+node_modules/
+var/discord-claude-bot/*
+!var/discord-claude-bot/.gitkeep
+!var/discord-claude-bot/jobs/
+var/discord-claude-bot/jobs/*
+!var/discord-claude-bot/jobs/.gitkeep

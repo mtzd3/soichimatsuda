@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miro Mind Map Importer</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <p class="eyebrow">Miro Private App</p>
+        <h1>Mind Map Importer</h1>
+        <p class="lede">
+          整理済みCSVを読み込んで、今のボードにそのままネイティブの
+          Mind Map を作成します。
+        </p>
+      </section>
+
+      <section class="panel">
+        <div class="actions">
+          <button id="load-sample" class="primary">Load reviewed sample</button>
+          <label class="file-picker">
+            <input id="csv-file" type="file" accept=".csv,text/csv" />
+            <span>Open CSV</span>
+          </label>
+        </div>
+
+        <label class="field" for="csv-input">
+          <span>Hierarchical CSV</span>
+          <textarea
+            id="csv-input"
+            spellcheck="false"
+            placeholder="level_1,level_2,level_3,level_4,level_5"
+          ></textarea>
+        </label>
+
+        <div class="footer">
+          <p id="summary" class="summary">Sample not loaded yet.</p>
+          <button id="create-mindmap" class="accent">Create in Miro</button>
+        </div>
+      </section>
+
+      <section class="notes">
+        <h2>How it works</h2>
+        <p>
+          1行を「root から leaf までの1本のパス」として扱います。1列目は
+          root にそろえてください。
+        </p>
+        <p id="status" class="status">Open this page inside a Miro app to create items.</p>
+      </section>
+    </main>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "miro-mindmap-importer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Small Miro Web SDK app to import a structured CSV as a mind map.",
+  "scripts": {
+    "serve": "python3 -m http.server 3000",
+    "check": "node --check miro-app/mindmap.js && node --check miro-app/app.js && node --check scripts/discord-claude-shared.mjs && node --check scripts/register-discord-commands.mjs && node --check scripts/discord-claude-bot.mjs",
+    "discord-bot": "node scripts/discord-claude-bot.mjs",
+    "discord-bot:register": "node scripts/register-discord-commands.mjs"
+  },
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.3.1"
+  },
+  "overrides": {
+    "undici": "6.24.1"
+  }
+}

@@ -1,0 +1,2333 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>松田総一 | Frontier Technology Architect / Strategic Advisor</title>
+    <meta name="description" content="松田総一の公式プロフィール。AI、半導体、ロボティクス、宇宙、自動運転、製造など、先端技術の事業戦略、社会実装、資金調達、組織設計を横断して支援。LeapMind創業者・元CEO。">
+    <meta name="keywords" content="松田総一, Soichi Matsuda, LeapMind, AI, Deep Learning, AI Accelerator, Edge AI, エッジAI, 組込みAI, Robotics, Space, Autonomous Driving, Manufacturing, ASIC, FPGA, Strategic Advisor, Fundraising, Startup, Semiconductor">
+    <meta name="author" content="松田総一">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://mtzd3.github.io/soichimatsuda/">
+    <!-- Search Console verification tag can be added here after property setup -->
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mtzd3.github.io/soichimatsuda/">
+    <meta property="og:title" content="松田総一 | Frontier Technology Architect / Strategic Advisor">
+    <meta property="og:description" content="技術が、事業として届くまで設計する。松田総一がAI、半導体、ロボティクス、宇宙、自動運転、製造などの先端技術領域を横断して支援。">
+    <meta property="og:image" content="https://mtzd3.github.io/soichimatsuda/ogp.svg">
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:site_name" content="Soichi Matsuda Official Site">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@mtzd3">
+    <meta name="twitter:creator" content="@mtzd3">
+    <meta name="twitter:title" content="松田総一 | Frontier Technology Architect / Strategic Advisor">
+    <meta name="twitter:description" content="松田総一がAI、半導体、ロボティクス、宇宙、自動運転、製造などの先端技術領域を横断して支援。LeapMind創業者・元CEO。">
+    <meta name="twitter:image" content="https://mtzd3.github.io/soichimatsuda/ogp.svg">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "松田総一",
+        "alternateName": "Soichi Matsuda",
+        "url": "https://mtzd3.github.io/soichimatsuda/",
+        "image": "https://mtzd3.github.io/soichimatsuda/ogp.svg",
+        "jobTitle": "Frontier Technology Architect / Strategic Advisor",
+        "description": "AI、半導体、ロボティクス、宇宙、自動運転、製造など、先端技術の事業戦略、社会実装、資金調達、組織設計まで、技術と経営を横断する支援を行う。",
+        "alumniOf": {
+            "@type": "Organization",
+            "name": "LeapMind株式会社"
+        },
+        "knowsAbout": [
+            "Deep Learning",
+            "AI Accelerator",
+            "Edge AI",
+            "組込みAI",
+            "Robotics",
+            "Space Business",
+            "Autonomous Driving",
+            "Manufacturing DX",
+            "ASIC Design",
+            "FPGA",
+            "Fundraising",
+            "Startup Strategy",
+            "Organization Design"
+        ],
+        "sameAs": [
+            "https://www.linkedin.com/in/soichi-matsuda-65b94041/",
+            "https://x.com/mtzd3",
+            "https://www.facebook.com/soichi.matsuda/",
+            "https://note.com/mtzd3"
+        ],
+        "email": "s.matsuda0913@gmail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Tokyo",
+            "addressCountry": "JP"
+        }
+    }
+    </script>
+
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="apple-touch-icon" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <script>
+        window.SITE_ANALYTICS = window.SITE_ANALYTICS || {
+            provider: "ga4",
+            gaMeasurementId: "G-D11DRB2ZPF",
+            plausibleDomain: "",
+            debug: false
+        };
+    </script>
+    <style>
+        :root {
+            --bg: #07101a;
+            --bg-soft: #0d1a29;
+            --surface: rgba(10, 24, 39, 0.78);
+            --surface-strong: #102134;
+            --line: rgba(131, 212, 255, 0.18);
+            --line-strong: rgba(131, 212, 255, 0.34);
+            --ink: #ebf4ff;
+            --muted: #a5b7c8;
+            --accent: #f4b860;
+            --accent-strong: #ff8c42;
+            --secondary: #83d4ff;
+            --shadow: 0 28px 70px rgba(0, 0, 0, 0.34);
+            --radius-lg: 32px;
+            --radius-md: 24px;
+            --radius-sm: 18px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            min-height: 100vh;
+            font-family: "Noto Sans JP", sans-serif;
+            color: var(--ink);
+            background:
+                radial-gradient(circle at 12% 12%, rgba(131, 212, 255, 0.16), transparent 24%),
+                radial-gradient(circle at 82% 18%, rgba(244, 184, 96, 0.18), transparent 24%),
+                radial-gradient(circle at 52% 100%, rgba(29, 78, 216, 0.22), transparent 30%),
+                linear-gradient(180deg, #09121d 0%, #07101a 38%, #0a1522 100%);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            opacity: 0.09;
+            background-image:
+                linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+            background-size: 80px 80px;
+            mask-image: radial-gradient(circle at center, rgba(0, 0, 0, 0.8), transparent 82%);
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        img,
+        svg {
+            display: block;
+            max-width: 100%;
+        }
+
+        button {
+            font: inherit;
+        }
+
+        section[id] {
+            scroll-margin-top: 7rem;
+        }
+
+        #contact-form {
+            scroll-margin-top: 7rem;
+        }
+
+        .skip-link {
+            position: absolute;
+            left: -999px;
+            top: auto;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+
+        .skip-link:focus {
+            left: 1rem;
+            top: 1rem;
+            width: auto;
+            height: auto;
+            padding: 0.75rem 1rem;
+            border-radius: 999px;
+            background: var(--ink);
+            color: var(--bg);
+            z-index: 30;
+        }
+
+        .container {
+            width: min(1120px, calc(100% - 40px));
+            margin: 0 auto;
+        }
+
+        .topbar {
+            position: sticky;
+            top: 0;
+            z-index: 20;
+            padding: 1rem 0 0;
+        }
+
+        .topbar-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1.25rem;
+            padding: 0.9rem 1.1rem;
+            border: 1px solid var(--line);
+            border-radius: 999px;
+            background: rgba(5, 14, 23, 0.72);
+            backdrop-filter: blur(22px);
+            box-shadow: var(--shadow);
+        }
+
+        .brand {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.72rem;
+            color: var(--ink);
+            font-family: "Noto Sans JP", sans-serif;
+            font-weight: 800;
+            letter-spacing: 0;
+            min-width: max-content;
+        }
+
+        .brand-mark {
+            width: 2.85rem;
+            height: 2.85rem;
+            flex: 0 0 auto;
+            filter: drop-shadow(0 12px 28px rgba(0, 0, 0, 0.28));
+        }
+
+        .brand-text {
+            display: flex;
+            flex-direction: column;
+            gap: 0.05rem;
+            line-height: 1.08;
+        }
+
+        .brand-name {
+            font-size: 0.98rem;
+        }
+
+        .brand-role {
+            color: var(--muted);
+            font-size: 0.68rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .topbar nav ul {
+            display: flex;
+            align-items: center;
+            gap: 1.1rem;
+            list-style: none;
+        }
+
+        .topbar nav a {
+            color: var(--muted);
+            font-size: 0.92rem;
+            transition: color 0.25s ease;
+        }
+
+        .topbar nav a:hover,
+        .topbar nav a:focus-visible {
+            color: var(--ink);
+        }
+
+        .topbar-cta {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.7rem 1rem;
+            border: 1px solid rgba(244, 184, 96, 0.42);
+            border-radius: 999px;
+            background: rgba(244, 184, 96, 0.08);
+            color: var(--ink);
+            font-size: 0.92rem;
+            white-space: nowrap;
+            transition: transform 0.25s ease, border-color 0.25s ease, background 0.25s ease;
+        }
+
+        .topbar-cta:hover,
+        .topbar-cta:focus-visible {
+            transform: translateY(-1px);
+            border-color: rgba(244, 184, 96, 0.8);
+            background: rgba(244, 184, 96, 0.14);
+        }
+
+        .hero {
+            position: relative;
+            padding: clamp(3rem, 7vw, 6rem) 0 3rem;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.8fr);
+            gap: 2rem;
+            align-items: start;
+        }
+
+        .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.6rem;
+            padding: 0.45rem 0.85rem;
+            border-radius: 999px;
+            background: rgba(131, 212, 255, 0.08);
+            border: 1px solid var(--line);
+            color: var(--secondary);
+            font-family: "Noto Sans JP", sans-serif;
+            font-size: 0.78rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+        }
+
+        .hero h1 {
+            margin-top: 1.35rem;
+            font-family: "Noto Sans JP", sans-serif;
+            font-size: clamp(3.3rem, 10vw, 6.7rem);
+            line-height: 0.95;
+            letter-spacing: -0.04em;
+        }
+
+        .hero h1 .serif {
+            display: block;
+            font-family: "Noto Sans JP", sans-serif;
+            font-weight: 800;
+            color: var(--accent);
+            letter-spacing: 0;
+        }
+
+        .hero-subline {
+            margin-top: 1.25rem;
+            font-size: clamp(1.2rem, 2.1vw, 1.55rem);
+            color: var(--ink);
+            max-width: 20ch;
+        }
+
+        .hero-copy p {
+            max-width: 62ch;
+            color: var(--muted);
+            font-size: 1.02rem;
+            margin-top: 1.2rem;
+        }
+
+        .hero-copy strong {
+            color: var(--ink);
+            font-weight: 700;
+        }
+
+        .hero-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.7rem;
+            margin-top: 1.7rem;
+        }
+
+        .hero-badges span,
+        .chip {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.5rem 0.85rem;
+            border-radius: 999px;
+            border: 1px solid var(--line);
+            background: rgba(9, 22, 35, 0.5);
+            color: var(--ink);
+            font-size: 0.84rem;
+        }
+
+        .hero-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.9rem;
+            margin-top: 2rem;
+        }
+
+        .button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.55rem;
+            min-height: 3.2rem;
+            padding: 0.8rem 1.2rem;
+            border-radius: 999px;
+            font-family: "Noto Sans JP", sans-serif;
+            font-weight: 500;
+            transition: transform 0.25s ease, border-color 0.25s ease, background 0.25s ease;
+        }
+
+        .button:hover,
+        .button:focus-visible {
+            transform: translateY(-2px);
+        }
+
+        .button-primary {
+            background: linear-gradient(135deg, var(--accent) 0%, var(--accent-strong) 100%);
+            color: var(--bg);
+            box-shadow: 0 18px 35px rgba(244, 184, 96, 0.22);
+        }
+
+        .button-secondary {
+            border: 1px solid var(--line-strong);
+            background: rgba(12, 26, 43, 0.7);
+            color: var(--ink);
+        }
+
+        .signal-card {
+            position: relative;
+            overflow: hidden;
+            padding: 1.4rem;
+            border: 1px solid rgba(244, 184, 96, 0.26);
+            border-radius: var(--radius-lg);
+            background:
+                radial-gradient(circle at top left, rgba(244, 184, 96, 0.12), transparent 28%),
+                linear-gradient(180deg, rgba(13, 26, 41, 0.95) 0%, rgba(8, 18, 29, 0.86) 100%);
+            box-shadow: var(--shadow);
+        }
+
+        .signal-card::after {
+            content: "";
+            position: absolute;
+            inset: auto -10% -20% auto;
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(131, 212, 255, 0.18), transparent 70%);
+            filter: blur(8px);
+        }
+
+        .signal-head {
+            position: relative;
+            z-index: 1;
+        }
+
+        .signal-label {
+            color: var(--secondary);
+            font-family: "Noto Sans JP", sans-serif;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            font-size: 0.78rem;
+        }
+
+        .signal-status {
+            margin-top: 0.4rem;
+            color: var(--muted);
+            font-size: 0.96rem;
+        }
+
+        .orbit {
+            position: relative;
+            aspect-ratio: 1;
+            max-width: 360px;
+            margin: 1rem auto 1.25rem;
+        }
+
+        .ring {
+            position: absolute;
+            border: 1px solid rgba(131, 212, 255, 0.18);
+            border-radius: 50%;
+            animation: slow-spin 18s linear infinite;
+        }
+
+        .ring-one {
+            inset: 8%;
+        }
+
+        .ring-two {
+            inset: 21%;
+            animation-duration: 24s;
+            animation-direction: reverse;
+        }
+
+        .ring-three {
+            inset: 34%;
+            animation-duration: 30s;
+        }
+
+        .signal-node {
+            position: absolute;
+            width: 0.85rem;
+            height: 0.85rem;
+            border-radius: 50%;
+            background: var(--secondary);
+            box-shadow: 0 0 0 10px rgba(131, 212, 255, 0.08), 0 0 24px rgba(131, 212, 255, 0.28);
+        }
+
+        .node-a {
+            top: 12%;
+            left: 62%;
+        }
+
+        .node-b {
+            top: 36%;
+            right: 10%;
+            background: var(--accent);
+            box-shadow: 0 0 0 10px rgba(244, 184, 96, 0.08), 0 0 24px rgba(244, 184, 96, 0.24);
+        }
+
+        .node-c {
+            bottom: 18%;
+            left: 16%;
+        }
+
+        .node-d {
+            left: 11%;
+            top: 28%;
+        }
+
+        .orbit-center {
+            position: absolute;
+            inset: 31%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 0.35rem;
+            padding: 1.1rem;
+            border-radius: 50%;
+            text-align: center;
+            border: 1px solid rgba(244, 184, 96, 0.38);
+            background:
+                radial-gradient(circle at 50% 30%, rgba(244, 184, 96, 0.26), transparent 55%),
+                rgba(9, 20, 32, 0.95);
+            box-shadow: inset 0 0 28px rgba(244, 184, 96, 0.12);
+        }
+
+        .orbit-center span {
+            font-family: "Noto Sans JP", sans-serif;
+            font-size: 0.72rem;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            color: var(--muted);
+        }
+
+        .orbit-center strong {
+            font-size: 1.05rem;
+            line-height: 1.4;
+        }
+
+        .signal-list {
+            position: relative;
+            z-index: 1;
+            list-style: none;
+            display: grid;
+            gap: 0.85rem;
+        }
+
+        .signal-list li {
+            padding: 0.85rem 0.95rem;
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--line);
+            background: rgba(6, 19, 31, 0.52);
+            color: var(--muted);
+            font-size: 0.94rem;
+        }
+
+        .signal-list strong {
+            display: block;
+            margin-bottom: 0.15rem;
+            color: var(--ink);
+            font-size: 0.96rem;
+        }
+
+        .metrics {
+            margin-top: 1.8rem;
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 1rem;
+        }
+
+        .metric-card,
+        .panel,
+        .service-card,
+        .fit-card,
+        .milestone-card,
+        .journey-card,
+        .story-card,
+        .mode-card,
+        .pricing-card,
+        .criteria-card,
+        .insight-card,
+        .contact-form {
+            position: relative;
+            border: 1px solid var(--line);
+            border-radius: var(--radius-md);
+            background: rgba(8, 20, 33, 0.7);
+            box-shadow: var(--shadow);
+        }
+
+        .metric-card {
+            padding: 1.25rem 1.2rem;
+        }
+
+        .metric-label {
+            color: var(--secondary);
+            font-size: 0.72rem;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            font-family: "Noto Sans JP", sans-serif;
+        }
+
+        .metric-value {
+            margin-top: 0.7rem;
+            font-family: "Noto Sans JP", sans-serif;
+            font-size: clamp(2rem, 4vw, 3rem);
+            line-height: 1;
+            color: var(--accent);
+        }
+
+        .metric-desc {
+            margin-top: 0.55rem;
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+
+        .section {
+            padding: clamp(4.5rem, 8vw, 6.75rem) 0;
+        }
+
+        .section-header {
+            display: grid;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .section-label {
+            color: var(--secondary);
+            font-family: "Noto Sans JP", sans-serif;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            font-size: 0.78rem;
+        }
+
+        .section-title {
+            max-width: 13ch;
+            font-family: "Noto Sans JP", sans-serif;
+            font-size: clamp(2.2rem, 5vw, 3.6rem);
+            line-height: 1.02;
+            letter-spacing: -0.04em;
+        }
+
+        .section-title .serif {
+            font-family: "Noto Sans JP", sans-serif;
+            font-weight: 800;
+            color: var(--accent);
+            letter-spacing: 0;
+        }
+
+        .section-copy {
+            max-width: 60ch;
+            color: var(--muted);
+            font-size: 1rem;
+        }
+
+        .profile-grid,
+        .results-grid,
+        .engagement-grid {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .profile-grid {
+            grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+        }
+
+        .story-card {
+            padding: 1.7rem;
+        }
+
+        .story-card p + p {
+            margin-top: 1rem;
+        }
+
+        .story-card p {
+            color: var(--muted);
+        }
+
+        .story-card strong {
+            color: var(--ink);
+        }
+
+        .story-callout {
+            margin-top: 1.35rem;
+            padding: 1.1rem 1.2rem;
+            border-left: 3px solid var(--accent);
+            border-radius: 0 18px 18px 0;
+            background: rgba(244, 184, 96, 0.08);
+            color: var(--ink);
+        }
+
+        .journey-stack {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .journey-card {
+            padding: 1.45rem;
+            background:
+                linear-gradient(180deg, rgba(16, 33, 52, 0.85), rgba(8, 20, 33, 0.76));
+        }
+
+        .journey-index {
+            color: var(--secondary);
+            font-family: "Noto Sans JP", sans-serif;
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            font-size: 0.76rem;
+        }
+
+        .journey-card h3 {
+            margin-top: 0.55rem;
+            font-size: 1.15rem;
+        }
+
+        .journey-card p {
+            margin-top: 0.7rem;
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+
+        .focus-grid,
+        .fit-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 1rem;
+        }
+
+        .service-card,
+        .fit-card,
+        .milestone-card,
+        .mode-card,
+        .pricing-card,
+        .criteria-card,
+        .insight-card,
+        .contact-form {
+            padding: 1.45rem;
+        }
+
+        .service-card h3,
+        .fit-card h3,
+        .milestone-card h3,
+        .mode-card h3 {
+            font-size: 1.14rem;
+        }
+
+        .service-card p,
+        .fit-card p,
+        .milestone-card p,
+        .mode-card p {
+            margin-top: 0.7rem;
+            color: var(--muted);
+            font-size: 0.94rem;
+        }
+
+        .card-topline {
+            color: var(--secondary);
+            font-size: 0.76rem;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            font-family: "Noto Sans JP", sans-serif;
+        }
+
+        .tag-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.55rem;
+            margin-top: 1rem;
+        }
+
+        .results-grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .milestone-card {
+            min-height: 100%;
+        }
+
+        .milestone-card.feature {
+            grid-column: 1 / -1;
+            display: grid;
+            grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
+            gap: 1rem;
+            border-color: rgba(244, 184, 96, 0.32);
+            background:
+                radial-gradient(circle at top right, rgba(244, 184, 96, 0.16), transparent 26%),
+                linear-gradient(135deg, rgba(13, 26, 41, 0.95), rgba(7, 16, 26, 0.92));
+        }
+
+        .feature-copy p {
+            max-width: 54ch;
+        }
+
+        .feature-stats {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 0.75rem;
+            align-self: end;
+        }
+
+        .feature-stat {
+            padding: 1rem;
+            border-radius: 20px;
+            background: rgba(7, 16, 26, 0.72);
+            border: 1px solid var(--line);
+        }
+
+        .feature-stat strong {
+            display: block;
+            font-family: "Noto Sans JP", sans-serif;
+            font-size: 1.4rem;
+            color: var(--accent);
+        }
+
+        .feature-stat span {
+            display: block;
+            margin-top: 0.2rem;
+            color: var(--muted);
+            font-size: 0.84rem;
+        }
+
+        .milestone-meta {
+            display: flex;
+            align-items: center;
+            gap: 0.7rem;
+            margin-bottom: 0.85rem;
+            color: var(--secondary);
+            font-size: 0.82rem;
+            font-family: "Noto Sans JP", sans-serif;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        .milestone-year {
+            color: var(--accent);
+        }
+
+        .fit-grid {
+            margin-bottom: 1rem;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+
+        .fit-card {
+            background:
+                linear-gradient(180deg, rgba(16, 33, 52, 0.72), rgba(9, 20, 32, 0.76));
+        }
+
+        .engagement-grid {
+            grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+        }
+
+        .mode-stack {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .mode-card ul {
+            list-style: none;
+            margin-top: 1rem;
+            display: grid;
+            gap: 0.7rem;
+        }
+
+        .mode-card li {
+            padding: 0.8rem 0.95rem;
+            border-radius: 16px;
+            border: 1px solid var(--line);
+            background: rgba(7, 16, 26, 0.52);
+            color: var(--muted);
+            font-size: 0.92rem;
+        }
+
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 1rem;
+        }
+
+        .pricing-card {
+            min-height: 100%;
+            background:
+                linear-gradient(180deg, rgba(16, 33, 52, 0.78), rgba(8, 20, 33, 0.84));
+        }
+
+        .pricing-card.featured {
+            border-color: rgba(244, 184, 96, 0.34);
+            background:
+                radial-gradient(circle at top right, rgba(244, 184, 96, 0.16), transparent 28%),
+                linear-gradient(180deg, rgba(17, 34, 52, 0.92), rgba(8, 20, 33, 0.92));
+        }
+
+        .pricing-name {
+            margin-top: 0.55rem;
+            font-size: 1.18rem;
+        }
+
+        .pricing-price {
+            margin-top: 0.9rem;
+            font-family: "Noto Sans JP", sans-serif;
+            font-size: clamp(1.9rem, 4vw, 2.8rem);
+            line-height: 1;
+            letter-spacing: -0.04em;
+            color: var(--accent);
+        }
+
+        .pricing-unit {
+            margin-top: 0.35rem;
+            color: var(--secondary);
+            font-size: 0.82rem;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            font-family: "Noto Sans JP", sans-serif;
+        }
+
+        .pricing-summary {
+            margin-top: 1rem;
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+
+        .pricing-list {
+            list-style: none;
+            margin-top: 1rem;
+            display: grid;
+            gap: 0.7rem;
+        }
+
+        .pricing-list li {
+            padding: 0.8rem 0.95rem;
+            border-radius: 16px;
+            border: 1px solid var(--line);
+            background: rgba(7, 16, 26, 0.48);
+            color: var(--muted);
+            font-size: 0.92rem;
+        }
+
+        .pricing-note {
+            margin-top: 1rem;
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+
+        .pricing-cta {
+            margin-top: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            padding: 1.3rem 1.35rem;
+            border-radius: var(--radius-md);
+            border: 1px solid rgba(244, 184, 96, 0.24);
+            background:
+                radial-gradient(circle at left center, rgba(131, 212, 255, 0.1), transparent 24%),
+                rgba(8, 20, 33, 0.72);
+            box-shadow: var(--shadow);
+        }
+
+        .pricing-cta p {
+            max-width: 48ch;
+            color: var(--muted);
+        }
+
+        .pricing-faq {
+            margin-top: 1rem;
+        }
+
+        .lead-band {
+            margin-top: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1.1rem;
+            padding: 1.35rem;
+            border: 1px solid rgba(131, 212, 255, 0.22);
+            border-radius: var(--radius-md);
+            background:
+                linear-gradient(135deg, rgba(131, 212, 255, 0.1), rgba(244, 184, 96, 0.08)),
+                rgba(8, 20, 33, 0.72);
+            box-shadow: var(--shadow);
+        }
+
+        .lead-band h3 {
+            margin-top: 0.35rem;
+            font-size: clamp(1.25rem, 2.2vw, 1.8rem);
+        }
+
+        .lead-band p:not(.card-topline) {
+            margin-top: 0.55rem;
+            max-width: 58ch;
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+
+        .lead-band-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+            flex: none;
+        }
+
+        .criteria-grid,
+        .insight-grid {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .criteria-grid {
+            margin-top: 1rem;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .criteria-card {
+            background:
+                linear-gradient(180deg, rgba(16, 33, 52, 0.74), rgba(9, 20, 32, 0.8));
+        }
+
+        .criteria-card ul {
+            list-style: none;
+            margin-top: 1rem;
+            display: grid;
+            gap: 0.7rem;
+        }
+
+        .criteria-card li {
+            padding: 0.8rem 0.95rem;
+            border-radius: 16px;
+            border: 1px solid var(--line);
+            background: rgba(7, 16, 26, 0.48);
+            color: var(--muted);
+            font-size: 0.92rem;
+        }
+
+        .insight-grid {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+
+        .insight-card {
+            background:
+                radial-gradient(circle at top right, rgba(131, 212, 255, 0.08), transparent 28%),
+                linear-gradient(180deg, rgba(15, 31, 49, 0.84), rgba(8, 20, 33, 0.82));
+        }
+
+        .insight-card h3 {
+            margin-top: 0.55rem;
+            font-size: 1.12rem;
+        }
+
+        .insight-card p {
+            margin-top: 0.8rem;
+            color: var(--muted);
+            font-size: 0.94rem;
+        }
+
+        .insight-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.45rem;
+            margin-top: 1rem;
+            color: var(--accent);
+            font-size: 0.92rem;
+            font-weight: 500;
+        }
+
+        .insight-link:hover,
+        .insight-link:focus-visible {
+            color: var(--ink);
+        }
+
+        .faq-stack {
+            display: grid;
+            gap: 0.9rem;
+        }
+
+        .faq-item {
+            border: 1px solid var(--line);
+            border-radius: 20px;
+            background: rgba(8, 20, 33, 0.72);
+            padding: 1rem 1.1rem;
+        }
+
+        .faq-item summary {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            list-style: none;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: clamp(1.02rem, 1.55vw, 1.2rem);
+            line-height: 1.45;
+            color: var(--ink);
+        }
+
+        .faq-item summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .faq-item summary::after {
+            content: "↓";
+            display: inline-grid;
+            place-items: center;
+            width: 2.65rem;
+            height: 2.65rem;
+            flex: none;
+            border-radius: 50%;
+            border: 1px solid rgba(244, 184, 96, 0.24);
+            background: rgba(244, 184, 96, 0.08);
+            color: var(--accent);
+            font-family: "Noto Sans JP", sans-serif;
+            font-size: 1.05rem;
+            font-weight: 800;
+            line-height: 1;
+            transition: background 0.25s ease, border-color 0.25s ease, color 0.25s ease;
+        }
+
+        .faq-item summary:hover::after,
+        .faq-item summary:focus-visible::after {
+            background: rgba(244, 184, 96, 0.14);
+            border-color: rgba(244, 184, 96, 0.42);
+        }
+
+        .faq-item[open] summary::after {
+            content: "↑";
+            background: rgba(244, 184, 96, 0.14);
+            border-color: rgba(244, 184, 96, 0.42);
+        }
+
+        .faq-item p {
+            margin-top: 0.9rem;
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+
+        .contact-shell {
+            position: relative;
+            overflow: hidden;
+            padding: clamp(2rem, 6vw, 3rem);
+            border: 1px solid rgba(244, 184, 96, 0.32);
+            border-radius: calc(var(--radius-lg) + 4px);
+            background:
+                radial-gradient(circle at top left, rgba(131, 212, 255, 0.16), transparent 26%),
+                radial-gradient(circle at bottom right, rgba(244, 184, 96, 0.14), transparent 30%),
+                linear-gradient(135deg, rgba(14, 28, 44, 0.96), rgba(7, 16, 26, 0.94));
+            box-shadow: var(--shadow);
+        }
+
+        .contact-shell::before {
+            content: "";
+            position: absolute;
+            width: 280px;
+            height: 280px;
+            border-radius: 50%;
+            top: -70px;
+            right: -60px;
+            background: radial-gradient(circle, rgba(244, 184, 96, 0.24), transparent 68%);
+            filter: blur(8px);
+        }
+
+        .contact-grid {
+            position: relative;
+            z-index: 1;
+            display: grid;
+            grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+            gap: 1.2rem;
+            align-items: start;
+        }
+
+        .contact-title {
+            font-family: "Noto Sans JP", sans-serif;
+            font-size: clamp(2.4rem, 6vw, 4.8rem);
+            line-height: 0.95;
+            letter-spacing: -0.05em;
+            max-width: 10ch;
+        }
+
+        .contact-title .serif {
+            font-family: "Noto Sans JP", sans-serif;
+            font-weight: 800;
+            color: var(--accent);
+            letter-spacing: 0;
+        }
+
+        .contact-copy {
+            margin-top: 1rem;
+            max-width: 52ch;
+            color: var(--muted);
+        }
+
+        .contact-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.9rem;
+            margin-top: 1.7rem;
+        }
+
+        .contact-side {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .contact-form {
+            display: grid;
+            gap: 1rem;
+            background:
+                linear-gradient(180deg, rgba(12, 26, 43, 0.9), rgba(7, 16, 26, 0.88));
+        }
+
+        .success-banner {
+            padding: 1rem 1.05rem;
+            border-radius: 18px;
+            border: 1px solid rgba(131, 212, 255, 0.28);
+            background: rgba(131, 212, 255, 0.08);
+            color: var(--ink);
+            font-size: 0.94rem;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 0.9rem;
+        }
+
+        .field {
+            display: grid;
+            gap: 0.45rem;
+        }
+
+        .field-full {
+            grid-column: 1 / -1;
+        }
+
+        .field label {
+            color: var(--ink);
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .field input,
+        .field select,
+        .field textarea {
+            width: 100%;
+            padding: 0.9rem 0.95rem;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 16px;
+            background: rgba(5, 14, 23, 0.72);
+            color: var(--ink);
+            font: inherit;
+        }
+
+        .field input::placeholder,
+        .field textarea::placeholder {
+            color: rgba(165, 183, 200, 0.72);
+        }
+
+        .field input:focus,
+        .field select:focus,
+        .field textarea:focus {
+            outline: none;
+            border-color: rgba(244, 184, 96, 0.45);
+            box-shadow: 0 0 0 3px rgba(244, 184, 96, 0.12);
+        }
+
+        .field textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+
+        .field-note,
+        .form-disclaimer {
+            color: var(--muted);
+            font-size: 0.88rem;
+        }
+
+        .form-submit-row {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.9rem;
+        }
+
+        .hidden-honey {
+            display: none;
+        }
+
+        .social-links {
+            display: grid;
+            gap: 0.8rem;
+        }
+
+        .social-link {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            padding: 1rem 1.05rem;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            background: rgba(7, 16, 26, 0.55);
+            color: var(--muted);
+            transition: transform 0.25s ease, border-color 0.25s ease;
+        }
+
+        .social-link strong {
+            color: var(--ink);
+            font-size: 0.95rem;
+        }
+
+        .social-link span:last-child {
+            font-family: "Noto Sans JP", sans-serif;
+            color: var(--accent);
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            font-size: 0.78rem;
+        }
+
+        .social-link:hover,
+        .social-link:focus-visible {
+            transform: translateY(-2px);
+            border-color: rgba(244, 184, 96, 0.42);
+        }
+
+        footer {
+            padding: 2rem 0 2.8rem;
+            color: var(--muted);
+            font-size: 0.88rem;
+        }
+
+        .motion-ready [data-reveal] {
+            animation: rise-in 0.65s cubic-bezier(0.22, 1, 0.36, 1) both;
+        }
+
+        @keyframes slow-spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes rise-in {
+            from {
+                opacity: 0.82;
+                transform: translateY(14px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 1040px) {
+            .hero-grid,
+            .profile-grid,
+            .engagement-grid,
+            .contact-grid,
+            .milestone-card.feature {
+                grid-template-columns: 1fr;
+            }
+
+            .hero h1 {
+                max-width: 8.5ch;
+            }
+
+            .fit-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+
+            .insight-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 840px) {
+            .topbar-inner {
+                border-radius: 28px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .topbar nav ul {
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            .metrics,
+            .focus-grid,
+            .results-grid,
+            .fit-grid,
+            .pricing-grid,
+            .criteria-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                width: min(1120px, calc(100% - 28px));
+            }
+
+            .hero-actions,
+            .contact-actions,
+            .lead-band,
+            .lead-band-actions {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .button,
+            .topbar-cta {
+                width: 100%;
+            }
+
+            .metrics,
+            .focus-grid,
+            .results-grid,
+            .fit-grid,
+            .feature-stats,
+            .pricing-grid,
+            .criteria-grid,
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .pricing-cta {
+                align-items: stretch;
+            }
+
+            .form-submit-row {
+                align-items: stretch;
+            }
+
+            .topbar {
+                padding-top: 0.8rem;
+            }
+
+            .topbar-inner {
+                align-items: stretch;
+            }
+
+            .brand {
+                justify-content: center;
+            }
+
+            .brand-role {
+                display: none;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            html {
+                scroll-behavior: auto;
+            }
+
+            *,
+            *::before,
+            *::after {
+                animation: none !important;
+                transition: none !important;
+            }
+        }
+    </style>
+</head>
+<body id="top">
+    <a class="skip-link" href="#main">本文へ移動</a>
+
+    <header class="topbar">
+        <div class="container">
+            <div class="topbar-inner">
+                <a class="brand" href="#top" aria-label="トップへ戻る">
+                    <img class="brand-mark" src="logo-mark.svg" alt="" width="46" height="46" decoding="async">
+                    <span class="brand-text">
+                        <span class="brand-name">Soichi Matsuda</span>
+                        <span class="brand-role">Frontier Technology Advisor</span>
+                    </span>
+                </a>
+                <nav aria-label="ページ内ナビゲーション">
+                    <ul>
+                        <li><a href="#profile" data-analytics-event="nav_click" data-analytics-label="profile">Profile</a></li>
+                        <li><a href="#focus" data-analytics-event="nav_click" data-analytics-label="focus">Focus</a></li>
+                        <li><a href="#results" data-analytics-event="nav_click" data-analytics-label="results">Results</a></li>
+                        <li><a href="#engagement" data-analytics-event="nav_click" data-analytics-label="engagement">Engagement</a></li>
+                        <li><a href="#partnering" data-analytics-event="nav_click" data-analytics-label="partnering">Partnering</a></li>
+                        <li><a href="#contact" data-analytics-event="nav_click" data-analytics-label="contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <a class="topbar-cta" href="#contact-form" data-analytics-event="cta_click" data-analytics-label="topbar_form">相談する</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="hero">
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-copy">
+                        <div class="eyebrow">松田総一 | Frontier Technology Architect / Strategic Advisor</div>
+                        <h1>
+                            Soichi
+                            <span class="serif">Matsuda</span>
+                        </h1>
+                        <p class="hero-subline">技術が、事業として届くまで設計する。</p>
+                        <p>松田総一は、LeapMindの創業者として、深層学習、<strong>AIアクセラレータ</strong>、エッジAI、組込みAI、事業戦略、資本政策、組織設計を横断してきました。<strong>200社以上の共創</strong>、<strong>$45Mの資金調達</strong>、<strong>TSMC 12nm/28nm</strong>でのSoC開発を牽引してきました。</p>
+                        <p>現在は、企業・官公庁・起業家に向けて、AI、半導体、ロボティクス、宇宙、自動運転、製造などの先端技術を<strong>市場・組織・実行</strong>につなぐ支援を行っています。深い技術を、意思決定できる形に翻訳することが役割です。</p>
+                        <div class="hero-badges" aria-label="専門領域">
+                            <span>Deep Learning</span>
+                            <span>Edge AI</span>
+                            <span>組込みAI</span>
+                            <span>Robotics</span>
+                            <span>Space</span>
+                            <span>Autonomous Driving</span>
+                            <span>Manufacturing</span>
+                            <span>ASIC / FPGA</span>
+                            <span>Fundraising</span>
+                            <span>Organization Design</span>
+                        </div>
+                        <div class="hero-actions">
+                            <a class="button button-primary" href="#contact-form" data-analytics-event="cta_click" data-analytics-label="hero_form">フォームで相談する</a>
+                            <a class="button button-secondary" href="#focus" data-analytics-event="cta_click" data-analytics-label="hero_focus">支援テーマを見る</a>
+                        </div>
+                    </div>
+
+                    <aside class="signal-card" data-reveal aria-label="現在の注力テーマ">
+                        <div class="signal-head">
+                            <p class="signal-label">Current Focus</p>
+                            <p class="signal-status">Advisory, speaking, strategic deep-tech projects</p>
+                        </div>
+                        <div class="orbit" aria-hidden="true">
+                            <div class="ring ring-one"></div>
+                            <div class="ring ring-two"></div>
+                            <div class="ring ring-three"></div>
+                            <div class="signal-node node-a"></div>
+                            <div class="signal-node node-b"></div>
+                            <div class="signal-node node-c"></div>
+                            <div class="signal-node node-d"></div>
+                            <div class="orbit-center">
+                                <span>Now</span>
+                                <strong>先端技術の社会実装と市場戦略</strong>
+                            </div>
+                        </div>
+                        <ul class="signal-list">
+                            <li>
+                                <strong>先端技術のロードマップ設計</strong>
+                                AI、半導体、ロボティクス、宇宙、自動運転、製造領域の技術的な可能性を、事業化の順序と投資判断に落とし込みます。
+                            </li>
+                            <li>
+                                <strong>難局での意思決定支援</strong>
+                                継続・再設計・提携・撤退まで含めて、経営判断を整理します。
+                            </li>
+                            <li>
+                                <strong>次の挑戦への知見共有</strong>
+                                起業家、経営陣、事業責任者向けの壁打ちや登壇にも対応します。
+                            </li>
+                        </ul>
+                    </aside>
+                </div>
+
+                <div class="metrics" aria-label="主要実績">
+                    <article class="metric-card" data-reveal>
+                        <p class="metric-label">Projects</p>
+                        <p class="metric-value">200+</p>
+                        <p class="metric-desc">国内外企業との共創・事業推進実績</p>
+                    </article>
+                    <article class="metric-card" data-reveal>
+                        <p class="metric-label">Funding</p>
+                        <p class="metric-value">$45M</p>
+                        <p class="metric-desc">米国・日本企業からの累計調達額</p>
+                    </article>
+                    <article class="metric-card" data-reveal>
+                        <p class="metric-label">Leadership</p>
+                        <p class="metric-value">100+</p>
+                        <p class="metric-desc">最大100名規模のチームを率いた経験</p>
+                    </article>
+                    <article class="metric-card" data-reveal>
+                        <p class="metric-label">Technology</p>
+                        <p class="metric-value">12nm / 28nm</p>
+                        <p class="metric-desc">TSMCでのSoC開発を現実の製品計画へ</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="profile">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-label">Profile</p>
+                    <h2 class="section-title">技術と経営を、<span class="serif">ひとつの線</span>でつなぐ。</h2>
+                    <p class="section-copy">AI、半導体、ロボティクス、宇宙、自動運転、製造のような先端技術領域では、技術だけでも事業だけでも前に進みません。必要なのは、開発・営業・資本政策・組織・撤退判断までを一続きで見られる視点です。</p>
+                </div>
+
+                <div class="profile-grid">
+                    <article class="story-card" data-reveal>
+                        <p>LeapMindでは、エッジAIや組込みAIを含む深層学習技術の社会実装を目指し、ソフトウェアスタックからAI推論アクセラレータIP「Efficiera」、そして次世代半導体開発までを一貫して推進しました。<strong>ハードウェアとソフトウェアの両方を理解したうえで、プロダクトとして成立させる</strong>ことにこだわってきました。</p>
+                        <p>その経験を土台に、ロボティクス、宇宙、自動運転、製造など、研究開発・現場導入・事業化が密接に絡むテーマでも、技術と経営の間にある論点整理を支援してきました。</p>
+                        <p>同時に、事業責任者として、顧客開拓、アライアンス、採用、財務、人事、資金調達まで幅広く担ってきました。技術の難しさを経営の言葉に翻訳し、意思決定に必要な材料へ変えることが強みです。</p>
+                        <p>2024年には、事業の継続だけでなく<strong>解散・清算という難しい判断</strong>も経験しました。だからこそ、勝ち筋を描くことと同じくらい、リスクを見極めて正しく舵を切ることの重要性を理解しています。</p>
+                        <div class="story-callout">深い技術領域ほど、「続ける力」と「止める判断力」の両方が求められます。その両面を現場で経験してきたことが、今の支援の土台です。</div>
+                    </article>
+
+                    <div class="journey-stack">
+                        <article class="journey-card" data-reveal>
+                            <p class="journey-index">01 / Build</p>
+                            <h3>技術の芯をつくる</h3>
+                            <p>深層学習モデル設計、エッジAI・組込みAI実装、AIアクセラレータ、TSMC 12nm/28nmでのSoC開発まで、研究と製品の間を埋める実装に強みがあります。ロボティクス、自動運転、宇宙・製造領域の事業化論点も扱います。</p>
+                        </article>
+                        <article class="journey-card" data-reveal>
+                            <p class="journey-index">02 / Scale</p>
+                            <h3>市場と組織へ広げる</h3>
+                            <p>200社超との共創、Toyota・三井物産・Intelなどとの協業、$45Mの調達、100名規模の組織運営を通じて、技術を事業へ伸ばしてきました。</p>
+                        </article>
+                        <article class="journey-card" data-reveal>
+                            <p class="journey-index">03 / Decide</p>
+                            <h3>難しい局面で決める</h3>
+                            <p>PMF再設計、資本政策、採用、M&Aや清算を含む意思決定まで。前向きな挑戦だけでなく、終わらせ方の設計にも向き合ってきました。</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="focus">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-label">Focus</p>
+                    <h2 class="section-title">いま支援できる<span class="serif">テーマ</span></h2>
+                    <p class="section-copy">技術アドバイスに閉じず、事業・資本・組織まで含めて並走する前提で整理しています。AIや半導体に限らず、ロボティクス、宇宙、自動運転、製造など、判断の難しいディープテック案件と相性が良い領域です。</p>
+                </div>
+
+                <div class="focus-grid">
+                    <article class="service-card" data-reveal>
+                        <p class="card-topline">01</p>
+                        <h3>先端技術ロードマップ設計</h3>
+                        <p>AI、半導体、ロボティクス、宇宙、自動運転、製造技術の要件から逆算し、何を作るべきか、どこまで内製化すべきか、どの順序で実装するかを設計します。</p>
+                        <div class="tag-row">
+                            <span class="chip">Edge AI</span>
+                            <span class="chip">ASIC / FPGA</span>
+                            <span class="chip">Robotics</span>
+                        </div>
+                    </article>
+                    <article class="service-card" data-reveal>
+                        <p class="card-topline">02</p>
+                        <h3>事業戦略と市場設計</h3>
+                        <p>顧客課題の定義、PoCから量産導入までの順序、売り方、提携先の選定までを含めて、技術の出口を組み立てます。</p>
+                        <div class="tag-row">
+                            <span class="chip">PMF</span>
+                            <span class="chip">Go-to-Market</span>
+                        </div>
+                    </article>
+                    <article class="service-card" data-reveal>
+                        <p class="card-topline">03</p>
+                        <h3>組織・採用・経営基盤づくり</h3>
+                        <p>採用計画、チーム構成、役割設計、評価や運営体制まで、技術組織が伸びるための前提条件を整えます。</p>
+                        <div class="tag-row">
+                            <span class="chip">Leadership</span>
+                            <span class="chip">Hiring</span>
+                        </div>
+                    </article>
+                    <article class="service-card" data-reveal>
+                        <p class="card-topline">04</p>
+                        <h3>資金調達・提携・Exit判断</h3>
+                        <p>資本政策、投資家対応、アライアンス設計、M&Aや清算を含む選択肢整理まで、経営判断を具体的な行動に変えます。</p>
+                        <div class="tag-row">
+                            <span class="chip">Fundraising</span>
+                            <span class="chip">Exit / Liquidation</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="results">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-label">Results</p>
+                    <h2 class="section-title">公開実績と<span class="serif">主な転機</span></h2>
+                    <p class="section-copy">公開情報をもとに、主な実績と転機を整理しました。技術的な成果だけでなく、市場との接点や重要な経営判断も含めて俯瞰できる構成にしています。</p>
+                </div>
+
+                <div class="results-grid">
+                    <article class="milestone-card feature" data-reveal>
+                        <div class="feature-copy">
+                            <p class="card-topline">主な歩み</p>
+                            <h3>技術を作るだけで終わらせず、届く形まで責任を持つ。</h3>
+                            <p>LeapMindでは、エッジAIの商用化、超低消費電力AIアクセラレータIPの開発、量産を見据えた半導体戦略、そして事業の継続可否までを一貫して担いました。技術と市場の両方に立ちながら、前に進めるための判断を積み重ねてきたことが、現在の支援価値につながっています。</p>
+                        </div>
+                        <div class="feature-stats">
+                            <div class="feature-stat">
+                                <strong>200+</strong>
+                                <span>共創・提携実績</span>
+                            </div>
+                            <div class="feature-stat">
+                                <strong>$45M</strong>
+                                <span>累計調達額</span>
+                            </div>
+                            <div class="feature-stat">
+                                <strong>100+</strong>
+                                <span>最大組織規模</span>
+                            </div>
+                            <div class="feature-stat">
+                                <strong>12nm / 28nm</strong>
+                                <span>TSMCでのSoC開発</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="milestone-card" data-reveal>
+                        <div class="milestone-meta"><span class="milestone-year">2025</span><span>登壇</span></div>
+                        <h3>BofA証券 Japan Conference 2025 登壇</h3>
+                        <p>「日本におけるエッジAI開発の課題と機会」をテーマに講演。技術だけでなく、事業化の壁や市場の見立ても含めて発信しました。</p>
+                    </article>
+
+                    <article class="milestone-card" data-reveal>
+                        <div class="milestone-meta"><span class="milestone-year">2024</span><span>経営判断</span></div>
+                        <h3>LeapMindの解散・清算判断を公表</h3>
+                        <p>資本集約型のディープテック企業として、継続可能性を見極めたうえで自主解散を決定。難局におけるステークホルダー対応と経営判断も経験しました。</p>
+                    </article>
+
+                    <article class="milestone-card" data-reveal>
+                        <div class="milestone-meta"><span class="milestone-year">2019</span><span>事業提携</span></div>
+                        <h3>トヨタ自動車・三井物産との協業と資本連携</h3>
+                        <p>AI技術の実装先を産業領域へ広げながら、シリーズCラウンドで事業会社との関係を強化。技術の出口を事業提携で拡張しました。</p>
+                    </article>
+
+                    <article class="milestone-card" data-reveal>
+                        <div class="milestone-meta"><span class="milestone-year">2018</span><span>評価</span></div>
+                        <h3>CB Insights「AI 100」選出 / Forbes JAPAN「注目の50社」</h3>
+                        <p>世界有望AI企業100社への選出、日本の注目スタートアップ選出など、エッジAI分野での先進性が国内外で評価されました。</p>
+                    </article>
+
+                    <article class="milestone-card" data-reveal>
+                        <div class="milestone-meta"><span class="milestone-year">2017</span><span>事業提携</span></div>
+                        <h3>Intelとのパートナーシップと出資獲得</h3>
+                        <p>エッジAI技術が評価され、Intel本社とのパートナーシップを構築。Intel Capitalからの出資も受け、開発と市場開拓を加速させました。</p>
+                    </article>
+
+                    <article class="milestone-card" data-reveal>
+                        <div class="milestone-meta"><span class="milestone-year">2017</span><span>評価</span></div>
+                        <h3>J-Startup認定と先端技術アワード受賞</h3>
+                        <p>経済産業省のJ-Startup認定、ET/IoTテクノロジーアワード優秀賞などを通じて、実装視点のAI技術が高く評価されました。</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="engagement">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-label">Engagement</p>
+                    <h2 class="section-title">こんな相談に<span class="serif">向いています</span></h2>
+                    <p class="section-copy">単なるレビュー役より、意思決定を整理して前に進める伴走役として力を発揮しやすい領域です。あわせて、別の進め方が向いているケースも先にお伝えしています。</p>
+                </div>
+
+                <div class="fit-grid">
+                    <article class="fit-card" data-reveal>
+                        <p class="card-topline">For Deep Tech</p>
+                        <h3>技術は強いが、勝ち筋の見せ方が難しい</h3>
+                        <p>研究開発の価値を、顧客・投資家・パートナーに伝わる事業ストーリーへ整理します。</p>
+                    </article>
+                    <article class="fit-card" data-reveal>
+                        <p class="card-topline">For Enterprise</p>
+                        <h3>AI導入をPoCで終わらせたくない</h3>
+                        <p>技術選定、実装可能性、導入順序、必要な組織体制まで含めて、前に進む条件を定義します。</p>
+                    </article>
+                    <article class="fit-card" data-reveal>
+                        <p class="card-topline">For Founders</p>
+                        <h3>事業を続けるか、変えるか、止めるかを考えたい</h3>
+                        <p>資本政策や組織の現実も含めて、次の一手を整理する壁打ち相手として支援します。</p>
+                    </article>
+                </div>
+
+                <div class="engagement-grid">
+                    <article class="mode-card" data-reveal>
+                        <p class="card-topline">How I work</p>
+                        <h3>関わり方のイメージ</h3>
+                        <ul>
+                            <li>顧問・アドバイザーとして、経営陣や事業責任者の意思決定を継続支援</li>
+                            <li>特定テーマの短期プロジェクトで、戦略整理から実行プランまで集中的に支援</li>
+                            <li>講演・対談・勉強会などで、先端技術とディープテック経営の知見を共有</li>
+                        </ul>
+                    </article>
+
+                    <div class="faq-stack">
+                        <details class="faq-item" data-reveal>
+                            <summary>どんな準備があると相談しやすいですか？</summary>
+                            <p>まだ情報が揃っていなくても大丈夫です。現状の課題、悩んでいる判断、関係者、期限感が分かるだけでも、論点整理から一緒に始められます。</p>
+                        </details>
+                        <details class="faq-item" data-reveal>
+                            <summary>どのフェーズの会社や組織に向いていますか？</summary>
+                        <p>AI、半導体、ロボティクス、宇宙、自動運転、製造領域を扱うディープテック系スタートアップ、新規事業を持つ大企業、官公庁や産業系プロジェクトなど、技術と経営の接続が難しい場面と相性があります。</p>
+                        </details>
+                        <details class="faq-item" data-reveal>
+                            <summary>スポット相談と継続支援のどちらも可能ですか？</summary>
+                            <p>可能です。単発の壁打ち、戦略整理の短期支援、継続的なアドバイザリーなど、テーマと必要な深さに合わせて柔軟に設計できます。</p>
+                        </details>
+                    </div>
+                </div>
+
+                <div class="criteria-grid">
+                    <article class="criteria-card" data-reveal>
+                        <p class="card-topline">向いているご相談</p>
+                        <h3>技術と経営の間に論点があるケース</h3>
+                        <ul>
+                            <li>技術の強みはあるが、事業としての勝ち筋や優先順位が定まりきっていない</li>
+                            <li>AI、ロボティクス、宇宙、自動運転、製造領域の新規事業をPoCで終わらせず、実装や展開まで見据えて進めたい</li>
+                            <li>続ける・変える・止めるを含めて、重要な意思決定を整理したい</li>
+                        </ul>
+                    </article>
+
+                    <article class="criteria-card" data-reveal>
+                        <p class="card-topline">別の進め方が合うこともあります</p>
+                        <h3>実装だけを短納期で切り出したいケース</h3>
+                        <ul>
+                            <li>仕様が固まっていて、助言や論点整理なしで受託開発だけを依頼したい</li>
+                            <li>助言や論点整理より、まずは手を動かす人材だけを探している</li>
+                            <li>経営や事業の前提整理より、単純な制作リソース補充を優先したい</li>
+                        </ul>
+                    </article>
+                </div>
+
+                <div class="lead-band" data-reveal>
+                    <div>
+                        <p class="card-topline">Next step</p>
+                        <h3>論点が近い場合は、まず背景を共有してください。</h3>
+                        <p>検討中の技術テーマ、意思決定の期限、関係者、期待する成果が少し見えているだけでも十分です。単発の相談ではなく、事業上の判断を前に進める関わり方から設計します。</p>
+                    </div>
+                    <div class="lead-band-actions">
+                        <a class="button button-primary" href="#contact-form" data-analytics-event="cta_click" data-analytics-label="engagement_form">背景を共有する</a>
+                        <a class="button button-secondary" href="#partnering" data-analytics-event="cta_click" data-analytics-label="engagement_partnering">関わり方を見る</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="insights">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-label">Insights</p>
+                    <h2 class="section-title">ご相談前に多い<span class="serif">テーマ</span></h2>
+                    <p class="section-copy">検索やご紹介を通じてたどり着く方が、特に関心を持たれるテーマを短く整理しました。まだご相談内容が固まりきっていない場合の入口としてご覧ください。</p>
+                </div>
+
+                <div class="insight-grid">
+                    <article class="insight-card" data-reveal>
+                        <p class="card-topline">Theme 01</p>
+                        <h3>AI顧問とは何をするのか</h3>
+                        <p>技術レビューだけでなく、課題整理、優先順位づけ、経営判断の壁打ち、対外説明の整理まで含めて伴走するのが中心です。単なる情報提供ではなく、次に進めるための論点を整えます。</p>
+                        <a class="insight-link" href="ai-advisor.html" data-analytics-event="cta_click" data-analytics-label="insight_ai_advisor_page">このテーマを詳しく見る</a>
+                    </article>
+
+                    <article class="insight-card" data-reveal>
+                        <p class="card-topline">Theme 02</p>
+                        <h3>ディープテック企業が事業戦略で迷いやすいポイント</h3>
+                        <p>技術優位があっても、顧客課題の切り方、量産・現場導入までの順序、資本政策、提携戦略が曖昧だと前に進みにくくなります。ロボティクス、宇宙、自動運転、製造でも、どの論点から先に解くかで進み方は大きく変わります。</p>
+                        <a class="insight-link" href="deeptech-strategy.html" data-analytics-event="cta_click" data-analytics-label="insight_deeptech_strategy_page">このテーマを詳しく見る</a>
+                    </article>
+
+                    <article class="insight-card" data-reveal>
+                        <p class="card-topline">Theme 03</p>
+                        <h3>AI導入をPoCで終わらせないために必要なこと</h3>
+                        <p>技術選定だけでなく、導入順序、運用体制、KPI、現場の受け皿まで含めて設計しないとPoC止まりになりやすくなります。実装に進むための条件整理が重要です。</p>
+                        <a class="insight-link" href="poc-to-production.html" data-analytics-event="cta_click" data-analytics-label="insight_poc_to_production_page">このテーマを詳しく見る</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="partnering">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-label">Engagement Design</p>
+                    <h2 class="section-title">テーマの重さに合わせて、<span class="serif">必要な関わり方</span>を設計します</h2>
+                    <p class="section-copy">検討テーマの背景、意思決定の重要度、関係者の数、必要な成果物、期間に合わせて関与範囲を設計します。初回に背景と論点を伺い、事業上の価値につながる形へ絞り込んでご提案します。</p>
+                </div>
+
+                <div class="pricing-grid">
+                    <article class="pricing-card featured" data-reveal>
+                        <p class="card-topline">Executive advisory</p>
+                        <h3 class="pricing-name">経営伴走型のアドバイザリー</h3>
+                        <p class="pricing-price">個別設計</p>
+                        <p class="pricing-unit">月次・隔週の意思決定支援</p>
+                        <p class="pricing-summary">経営陣や事業責任者の重要論点を継続的に整理し、技術・市場・資本・組織を横断して判断材料を作ります。</p>
+                        <ul class="pricing-list">
+                            <li>AI・半導体・ロボティクス・宇宙・自動運転・製造領域のロードマップと事業計画の接続</li>
+                            <li>経営会議・投資家説明・提携方針のレビュー</li>
+                            <li>継続的な意思決定支援が必要な経営層向け</li>
+                        </ul>
+                    </article>
+
+                    <article class="pricing-card" data-reveal>
+                        <p class="card-topline">Strategic project</p>
+                        <h3 class="pricing-name">短期集中の戦略プロジェクト</h3>
+                        <p class="pricing-price">成果物設計</p>
+                        <p class="pricing-unit">期間・深さに応じて設計</p>
+                        <p class="pricing-summary">事業戦略、PoC後の実装計画、技術選定、提携候補の整理など、特定テーマを短期間で意思決定できる形へまとめます。</p>
+                        <ul class="pricing-list">
+                            <li>市場・顧客課題・技術要件の再整理</li>
+                            <li>ロードマップ、提案資料、意思決定メモの作成</li>
+                            <li>先端技術の新規事業やディープテック案件の再設計向け</li>
+                        </ul>
+                    </article>
+
+                    <article class="pricing-card" data-reveal>
+                        <p class="card-topline">Decision support</p>
+                        <h3 class="pricing-name">資本・提携・撤退判断の整理</h3>
+                        <p class="pricing-price">論点設計</p>
+                        <p class="pricing-unit">判断の重さに合わせて設計</p>
+                        <p class="pricing-summary">続ける、変える、提携する、止める。難しい局面で、技術的な現実と経営上の選択肢を同じテーブルに載せます。</p>
+                        <ul class="pricing-list">
+                            <li>資本政策、提携、M&A、清算を含む選択肢整理</li>
+                            <li>ステークホルダー説明の材料づくり</li>
+                            <li>高難度な経営判断を抱える創業者・責任者向け</li>
+                        </ul>
+                        <p class="pricing-note">実務を伴う支援は、必要な成果物と関与範囲を確認したうえで組み込みます。</p>
+                    </article>
+                </div>
+
+                <div class="faq-stack pricing-faq">
+                    <details class="faq-item" data-reveal>
+                        <summary>進め方はどのように決めますか？</summary>
+                        <p>最初に、意思決定の重さ、関与頻度、成果物、期間を確認します。そのうえで、事業上の価値と責任範囲が明確になる形へ整理します。</p>
+                    </details>
+                    <details class="faq-item" data-reveal>
+                        <summary>単発の壁打ちは依頼できますか？</summary>
+                        <p>可能ですが、論点が明確で意思決定につながる場合に限ってお受けしやすいです。継続支援や短期プロジェクトの前段として、課題の見立てを合わせる使い方が向いています。</p>
+                    </details>
+                    <details class="faq-item" data-reveal>
+                        <summary>問い合わせ前に何を共有すればよいですか？</summary>
+                        <p>プロジェクトの背景、意思決定したいこと、関係者、期限、期待する成果が分かると早いです。守秘が必要な情報は、初回のやり取りで扱い方を確認してから進めます。</p>
+                    </details>
+                </div>
+
+                <div class="pricing-cta" data-reveal>
+                    <p>テーマが定まりきっていない段階でも構いません。背景や現在の論点を伺い、成果物と関与範囲が明確になる関わり方をご提案します。</p>
+                    <a class="button button-primary" href="#contact-form" data-analytics-event="cta_click" data-analytics-label="partnering_form">経営課題として相談する</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="contact-shell" data-reveal>
+                    <div class="contact-grid">
+                        <div>
+                            <p class="section-label">Contact</p>
+                            <h2 class="contact-title">Let's build <span class="serif">what matters</span>.</h2>
+                            <p class="contact-copy">AI、半導体、ロボティクス、宇宙、自動運転、製造領域の社会実装、ディープテックの事業戦略、難しい意思決定の整理など、テーマが定まっていなくても構いません。事業上の判断に近い背景と現在の論点を共有いただければ、どの関わり方が合うかをご提案します。</p>
+                            <div class="contact-actions">
+                                <a class="button button-primary" href="#contact-form" data-analytics-event="cta_click" data-analytics-label="contact_form_anchor">フォームから相談する</a>
+                                <a class="button button-secondary" href="mailto:s.matsuda0913@gmail.com" data-analytics-event="contact_click" data-analytics-label="contact_email">メールで連絡する</a>
+                            </div>
+                        </div>
+                        <div class="contact-side">
+                            <div class="success-banner" id="contact-success" hidden>お問い合わせありがとうございます。内容を確認のうえ、2営業日以内を目安にご連絡します。</div>
+
+                            <form class="contact-form" id="contact-form" action="https://formsubmit.co/s.matsuda0913@gmail.com" method="POST" data-analytics-form="contact_form">
+                                <input type="hidden" name="_subject" value="[matsuda_prof] 新規お問い合わせ">
+                                <input type="hidden" name="_next" value="https://mtzd3.github.io/soichimatsuda/?submitted=1#contact">
+                                <input type="hidden" name="_template" value="table">
+                                <input type="hidden" name="_autoresponse" value="お問い合わせありがとうございます。内容を確認のうえ、2営業日以内を目安にご連絡します。">
+                                <input type="hidden" name="source" value="matsuda_prof">
+                                <input type="hidden" name="interest" value="">
+                                <input type="hidden" name="page_url" value="">
+                                <input type="hidden" name="page_title" value="">
+                                <input type="hidden" name="referrer" value="">
+                                <input type="hidden" name="landing_page" value="">
+                                <input type="hidden" name="utm_source" value="">
+                                <input type="hidden" name="utm_medium" value="">
+                                <input type="hidden" name="utm_campaign" value="">
+                                <input type="hidden" name="utm_content" value="">
+                                <input type="hidden" name="utm_term" value="">
+                                <input class="hidden-honey" type="text" name="_honey" tabindex="-1" autocomplete="off">
+
+                                <div class="form-grid">
+                                    <div class="field">
+                                        <label for="contact-name">お名前</label>
+                                        <input id="contact-name" type="text" name="name" placeholder="山田 太郎" required>
+                                    </div>
+                                    <div class="field">
+                                        <label for="contact-company">会社名・組織名</label>
+                                        <input id="contact-company" type="text" name="company" placeholder="株式会社サンプル">
+                                    </div>
+                                    <div class="field">
+                                        <label for="contact-email">返信先メールアドレス</label>
+                                        <input id="contact-email" type="email" name="email" placeholder="name@example.com" required>
+                                    </div>
+                                    <div class="field">
+                                        <label for="contact-topic">ご相談内容</label>
+                                        <select id="contact-topic" name="topic" required>
+                                            <option value="">選択してください</option>
+                                            <option>継続アドバイザリーについて</option>
+                                            <option>先端技術ロードマップについて</option>
+                                            <option>短期戦略プロジェクトについて</option>
+                                            <option>資本・提携・撤退判断について</option>
+                                            <option>登壇・対談のご依頼</option>
+                                            <option>その他</option>
+                                        </select>
+                                    </div>
+                                    <div class="field field-full">
+                                        <label for="contact-message">背景やご相談したい論点</label>
+                                        <textarea id="contact-message" name="message" placeholder="現状の課題、意思決定したいこと、関係者、期限、期待する成果など、分かる範囲でご記入ください。" required></textarea>
+                                        <p class="field-note">守秘が必要な情報は、初回のやり取りで扱い方を確認してからで問題ありません。</p>
+                                    </div>
+                                </div>
+
+                                <div class="form-submit-row">
+                                    <button class="button button-primary" type="submit">送信する</button>
+                                    <p class="form-disclaimer">2営業日以内を目安にご返信します。送信には FormSubmit を利用しています。</p>
+                                </div>
+                            </form>
+
+                            <div class="social-links" aria-label="ソーシャルリンク">
+                                <a class="social-link" href="https://www.linkedin.com/in/soichi-matsuda-65b94041/" target="_blank" rel="noreferrer" data-analytics-event="social_click" data-analytics-label="linkedin">
+                                    <div>
+                                        <strong>LinkedIn</strong>
+                                        <div>プロフィールと経歴</div>
+                                    </div>
+                                    <span>Open</span>
+                                </a>
+                                <a class="social-link" href="https://x.com/mtzd3" target="_blank" rel="noreferrer" data-analytics-event="social_click" data-analytics-label="x">
+                                    <div>
+                                        <strong>X</strong>
+                                        <div>発信と近況</div>
+                                    </div>
+                                    <span>Open</span>
+                                </a>
+                                <a class="social-link" href="https://note.com/mtzd3" target="_blank" rel="noreferrer" data-analytics-event="social_click" data-analytics-label="note">
+                                    <div>
+                                        <strong>note</strong>
+                                        <div>経験と思考のストック</div>
+                                    </div>
+                                    <span>Read</span>
+                                </a>
+                                <a class="social-link" href="https://www.facebook.com/soichi.matsuda/" target="_blank" rel="noreferrer" data-analytics-event="social_click" data-analytics-label="facebook">
+                                    <div>
+                                        <strong>Facebook</strong>
+                                        <div>連絡用の窓口としても利用可</div>
+                                    </div>
+                                    <span>Open</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© <span id="year">2026</span> Soichi Matsuda. Tokyo, Japan.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = String(new Date().getFullYear());
+
+        document.documentElement.classList.add("motion-ready");
+
+        const contactSuccessBanner = document.getElementById("contact-success");
+        const searchParams = new URLSearchParams(window.location.search);
+        const hasSubmittedLead = searchParams.get("submitted") === "1";
+
+        if (contactSuccessBanner && hasSubmittedLead) {
+            contactSuccessBanner.hidden = false;
+        }
+
+        (() => {
+            const config = window.SITE_ANALYTICS || {};
+            const queue = [];
+
+            const rememberOnce = (key) => {
+                try {
+                    if (window.sessionStorage.getItem(key)) {
+                        return false;
+                    }
+
+                    window.sessionStorage.setItem(key, "1");
+                } catch (error) {
+                    debugLog("sessionStorage_unavailable", { message: error.message });
+                }
+
+                return true;
+            };
+
+            const cleanPayload = (payload = {}) =>
+                Object.fromEntries(
+                    Object.entries(payload).filter(([, value]) => value !== undefined && value !== null && value !== "")
+                );
+
+            const debugLog = (eventName, payload) => {
+                if (!config.debug) {
+                    return;
+                }
+                console.info("[site-analytics]", eventName, payload);
+            };
+
+            const campaignKeys = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"];
+            const attributionStorageKey = "site_attribution";
+
+            const readAttribution = () => {
+                try {
+                    return JSON.parse(window.sessionStorage.getItem(attributionStorageKey) || "{}");
+                } catch (error) {
+                    debugLog("attribution_read_failed", { message: error.message });
+                    return {};
+                }
+            };
+
+            const writeAttribution = (payload) => {
+                try {
+                    window.sessionStorage.setItem(attributionStorageKey, JSON.stringify(cleanPayload(payload)));
+                } catch (error) {
+                    debugLog("attribution_write_failed", { message: error.message });
+                }
+            };
+
+            const currentCampaign = Object.fromEntries(
+                campaignKeys.map((key) => [key, searchParams.get(key)])
+            );
+            const requestedInterest = searchParams.get("interest") || "";
+            const storedAttribution = readAttribution();
+            const attribution = {
+                ...storedAttribution,
+                landing_page: storedAttribution.landing_page || `${window.location.pathname}${window.location.search}`,
+                landing_url: storedAttribution.landing_url || window.location.href,
+                referrer: storedAttribution.referrer || document.referrer,
+                ...cleanPayload(currentCampaign)
+            };
+
+            if (requestedInterest) {
+                attribution.interest = requestedInterest;
+            }
+
+            writeAttribution(attribution);
+
+            const interestTopicMap = {
+                "ai-advisor": "継続アドバイザリーについて",
+                "deeptech-strategy": "短期戦略プロジェクトについて",
+                "poc-to-production": "先端技術ロードマップについて"
+            };
+
+            const setFieldValue = (form, name, value) => {
+                const field = form.querySelector(`[name="${name}"]`);
+                if (field) {
+                    field.value = value || "";
+                }
+            };
+
+            const populateFormAttribution = (form) => {
+                const interest = requestedInterest || attribution.interest || "";
+                const topicSelect = form.querySelector("#contact-topic");
+
+                if (topicSelect && interestTopicMap[interest]) {
+                    topicSelect.value = interestTopicMap[interest];
+                }
+
+                setFieldValue(form, "interest", interest);
+                setFieldValue(form, "page_url", window.location.href);
+                setFieldValue(form, "page_title", document.title);
+                setFieldValue(form, "referrer", attribution.referrer);
+                setFieldValue(form, "landing_page", attribution.landing_page);
+                campaignKeys.forEach((key) => {
+                    setFieldValue(form, key, attribution[key]);
+                });
+            };
+
+            const buildLeadPayload = (form, base = {}) => {
+                const contactTopic = form?.querySelector("#contact-topic")?.value || attribution.contact_topic;
+                const interest = form?.querySelector('[name="interest"]')?.value || attribution.interest || contactTopic;
+                return cleanPayload({
+                    ...base,
+                    lead_interest: interest,
+                    contact_topic: contactTopic,
+                    landing_page: attribution.landing_page,
+                    utm_source: attribution.utm_source,
+                    utm_medium: attribution.utm_medium,
+                    utm_campaign: attribution.utm_campaign,
+                    utm_content: attribution.utm_content,
+                    utm_term: attribution.utm_term
+                });
+            };
+
+            let sendEvent = (eventName, payload = {}) => {
+                queue.push({ eventName, payload });
+                debugLog(`queued:${eventName}`, payload);
+            };
+
+            const flushQueue = () => {
+                while (queue.length > 0) {
+                    const { eventName, payload } = queue.shift();
+                    sendEvent(eventName, payload);
+                }
+            };
+
+            const enableGa4 = () => {
+                if (config.provider !== "ga4" || !config.gaMeasurementId) {
+                    return false;
+                }
+
+                window.dataLayer = window.dataLayer || [];
+                window.gtag = window.gtag || function () {
+                    window.dataLayer.push(arguments);
+                };
+
+                window.gtag("js", new Date());
+                window.gtag("config", config.gaMeasurementId, {
+                    anonymize_ip: true
+                });
+
+                const script = document.createElement("script");
+                script.async = true;
+                script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(config.gaMeasurementId)}`;
+                document.head.appendChild(script);
+
+                sendEvent = (eventName, payload = {}) => {
+                    const params = cleanPayload(payload);
+                    window.gtag("event", eventName, params);
+                    debugLog(eventName, params);
+                };
+
+                flushQueue();
+                return true;
+            };
+
+            const enablePlausible = () => {
+                if (config.provider !== "plausible" || !config.plausibleDomain) {
+                    return false;
+                }
+
+                window.plausible = window.plausible || function () {
+                    (window.plausible.q = window.plausible.q || []).push(arguments);
+                };
+
+                const script = document.createElement("script");
+                script.defer = true;
+                script.dataset.domain = config.plausibleDomain;
+                script.src = "https://plausible.io/js/script.js";
+                document.head.appendChild(script);
+
+                sendEvent = (eventName, payload = {}) => {
+                    const props = cleanPayload(payload);
+                    const options = Object.keys(props).length > 0 ? { props } : undefined;
+                    window.plausible(eventName, options);
+                    debugLog(eventName, props);
+                };
+
+                flushQueue();
+                return true;
+            };
+
+            const analyticsEnabled = enableGa4() || enablePlausible();
+
+            if (!analyticsEnabled) {
+                sendEvent = (eventName, payload = {}) => {
+                    debugLog(`disabled:${eventName}`, payload);
+                };
+            }
+
+            window.trackSiteEvent = (eventName, payload = {}) => {
+                sendEvent(eventName, payload);
+            };
+
+            if (hasSubmittedLead && rememberOnce(`lead_completed:${window.location.pathname}:${window.location.search}`)) {
+                const leadCompletedPayload = buildLeadPayload(null, {
+                    label: "contact_form",
+                    form_id: "contact_form",
+                    lead_source: "contact_form",
+                    method: "formsubmit"
+                });
+                window.trackSiteEvent("generate_lead", leadCompletedPayload);
+                window.trackSiteEvent("qualify_lead", leadCompletedPayload);
+            }
+
+            document.querySelectorAll("[data-analytics-event]").forEach((element) => {
+                element.addEventListener("click", () => {
+                    const href = element.getAttribute("href") || "";
+                    window.trackSiteEvent(element.dataset.analyticsEvent, {
+                        label: element.dataset.analyticsLabel,
+                        href
+                    });
+                });
+            });
+
+            document.querySelectorAll(".faq-item").forEach((item) => {
+                item.addEventListener("toggle", () => {
+                    if (!item.open) {
+                        return;
+                    }
+
+                    const question = item.querySelector("summary")?.textContent?.trim();
+                    window.trackSiteEvent("faq_open", { question });
+                });
+            });
+
+            document.querySelectorAll("[data-analytics-form]").forEach((form) => {
+                let formStarted = false;
+                const formLabel = form.dataset.analyticsForm || form.id || "form";
+
+                populateFormAttribution(form);
+
+                const trackFormStart = () => {
+                    if (formStarted) {
+                        return;
+                    }
+
+                    formStarted = true;
+                    window.trackSiteEvent("form_start", buildLeadPayload(form, {
+                        label: formLabel,
+                        form_id: form.id
+                    }));
+                };
+
+                form.addEventListener("focusin", trackFormStart);
+                form.addEventListener("input", trackFormStart);
+                form.addEventListener("change", trackFormStart);
+                form.addEventListener("submit", () => {
+                    const currentAttribution = readAttribution();
+                    const currentInterest = form.querySelector('[name="interest"]')?.value || currentAttribution.interest;
+                    const currentContactTopic = form.querySelector("#contact-topic")?.value || currentAttribution.contact_topic;
+                    writeAttribution({
+                        ...currentAttribution,
+                        interest: currentInterest,
+                        contact_topic: currentContactTopic
+                    });
+
+                    window.trackSiteEvent("form_submit", buildLeadPayload(form, {
+                        label: formLabel,
+                        form_id: form.id
+                    }));
+                });
+            });
+        })();
+    </script>
+</body>
+</html>
