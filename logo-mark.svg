@@ -1,31 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Soichi Matsuda logo mark">
   <defs>
     <linearGradient id="logo-bg" x1="16" y1="8" x2="112" y2="120" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#13283d"/>
-      <stop offset="0.52" stop-color="#091523"/>
-      <stop offset="1" stop-color="#07101a"/>
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.52" stop-color="#f7faf7"/>
+      <stop offset="1" stop-color="#eef6f1"/>
     </linearGradient>
     <linearGradient id="logo-gold" x1="28" y1="36" x2="102" y2="94" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#ffd58a"/>
-      <stop offset="1" stop-color="#ff8c42"/>
+      <stop offset="1" stop-color="#bf4f2f"/>
     </linearGradient>
     <linearGradient id="logo-cyan" x1="22" y1="24" x2="108" y2="96" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#b7ecff"/>
-      <stop offset="1" stop-color="#3fb8ff"/>
+      <stop offset="0" stop-color="#66b9a9"/>
+      <stop offset="1" stop-color="#177b6b"/>
     </linearGradient>
     <radialGradient id="logo-glow" cx="68%" cy="22%" r="72%">
-      <stop offset="0" stop-color="#83d4ff" stop-opacity="0.32"/>
-      <stop offset="1" stop-color="#83d4ff" stop-opacity="0"/>
+      <stop offset="0" stop-color="#177b6b" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#177b6b" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect x="8" y="8" width="112" height="112" rx="30" fill="url(#logo-bg)"/>
-  <rect x="8.5" y="8.5" width="111" height="111" rx="29.5" fill="none" stroke="#83d4ff" stroke-opacity="0.28"/>
+  <rect x="8.5" y="8.5" width="111" height="111" rx="29.5" fill="none" stroke="#17211c" stroke-opacity="0.14"/>
   <circle cx="88" cy="34" r="54" fill="url(#logo-glow)"/>
   <path d="M25 54 C33 27 72 18 96 36 C122 56 99 88 62 84 C39 82 24 72 25 54 Z" fill="none" stroke="url(#logo-cyan)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.88"/>
   <path d="M28 91 L44 39 L64 70 L84 39 L100 91" fill="none" stroke="url(#logo-gold)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M35 99 H94" fill="none" stroke="#83d4ff" stroke-width="4" stroke-linecap="round" opacity="0.46"/>
-  <circle cx="44" cy="39" r="5.5" fill="#ebf4ff"/>
-  <circle cx="84" cy="39" r="5.5" fill="#ebf4ff"/>
-  <circle cx="64" cy="70" r="4.5" fill="#07101a" stroke="#ffd58a" stroke-width="3"/>
-  <circle cx="101" cy="39" r="4.5" fill="#83d4ff"/>
+  <path d="M35 99 H94" fill="none" stroke="#177b6b" stroke-width="4" stroke-linecap="round" opacity="0.46"/>
+  <circle cx="44" cy="39" r="5.5" fill="#17211c"/>
+  <circle cx="84" cy="39" r="5.5" fill="#17211c"/>
+  <circle cx="64" cy="70" r="4.5" fill="#ffffff" stroke="#bf4f2f" stroke-width="3"/>
+  <circle cx="101" cy="39" r="4.5" fill="#177b6b"/>
 </svg>
