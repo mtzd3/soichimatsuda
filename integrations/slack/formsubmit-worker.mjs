@@ -94,12 +94,28 @@ async function readSubmission(request) {
 }
 
 function normalizeFormData(submission = {}) {
-    const rawData = submission.form_data || submission.formData || submission;
+    let rawData = submission.form_data || submission.formData || submission;
+    if (typeof rawData === "string") {
+        rawData = parseFormDataString(rawData);
+    }
+
+    if (!rawData || typeof rawData !== "object") {
+        return {};
+    }
+
     return Object.fromEntries(
         Object.entries(rawData)
             .map(([key, value]) => [key, normalizeValue(value)])
             .filter(([key, value]) => key && value)
     );
+}
+
+function parseFormDataString(value) {
+    try {
+        return JSON.parse(value);
+    } catch {
+        return Object.fromEntries(new URLSearchParams(value));
+    }
 }
 
 function normalizeValue(value) {
