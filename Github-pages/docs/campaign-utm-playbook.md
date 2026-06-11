@@ -6,19 +6,19 @@ GA4 では Direct 流入が多く、どの投稿やプロフィールから来�
 
 - `utm_source`: 媒体名。例: `x`, `linkedin`, `note`, `facebook`
 - `utm_medium`: 種別。例: `social`, `profile`, `article`, `referral`
-- `utm_campaign`: 施策名。例: `ai_advisory_202604`, `deeptech_strategy_202604`
+- `utm_campaign`: 施策名。例: `ai_semiconductor_support_202605`, `deeptech_strategy_202604`
 - `utm_content`: 投稿や設置場所。例: `profile`, `post_01`, `footer_link`
 
 ## 使うURL
 
-### AI顧問
+### AI・半導体プロジェクト支援
 
 ```text
-https://mtzd3.github.io/soichimatsuda/ai-advisor.html?utm_source=x&utm_medium=social&utm_campaign=ai_advisory_202604&utm_content=post_01
+https://mtzd3.github.io/soichimatsuda/ai-advisor.html?utm_source=x&utm_medium=social&utm_campaign=ai_semiconductor_support_202605&utm_content=post_01
 ```
 
 ```text
-https://mtzd3.github.io/soichimatsuda/ai-advisor.html?utm_source=linkedin&utm_medium=social&utm_campaign=ai_advisory_202604&utm_content=post_01
+https://mtzd3.github.io/soichimatsuda/ai-advisor.html?utm_source=linkedin&utm_medium=social&utm_campaign=ai_semiconductor_support_202605&utm_content=post_01
 ```
 
 ### ディープテック事業戦略
@@ -43,7 +43,7 @@ https://mtzd3.github.io/soichimatsuda/poc-to-production.html?utm_source=linkedin
 
 ## 投稿テーマ
 
-- AI顧問は、ツール導入相談ではなく「経営判断を前に進める役割」として発信する
+- AI・半導体プロジェクト支援は、ツール導入相談ではなく「松田総一自身の技術・事業化経験をもとに、経営判断と実装計画を前に進める支援」として発信する
 - ディープテック事業戦略は、AI、半導体、ロボティクス、宇宙、自動運転、製造などの技術優位、顧客課題、資本政策、提携の接続を強調する
 - PoCから本番導入は、PoC成功後に止まる理由と、経営判断に必要な条件を扱う
 
