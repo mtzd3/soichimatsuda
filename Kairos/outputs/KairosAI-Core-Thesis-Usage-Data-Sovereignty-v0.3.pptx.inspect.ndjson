@@ -1,0 +1,1289 @@
+{"kind":"deck","id":"pr/ga6eo7","name":"Deck"}
+{"kind":"layout","layoutId":"c583583c-a0d0-49a3-bc6e-90289326743d","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"996da7da-7bce-4f6b-b75a-bd70b5f6e3b2","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/nvbcc4","slide":1,"title":"KAIROSAI / CORE THESIS","textShapes":8}
+{"kind":"shape","id":"sh/uxc3ylc7","slide":1,"bbox":[0,0,22,720]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":1,"text":"KAIROSAI / CORE THESIS","textPreview":"KAIROSAI / CORE THESIS","textChars":22,"textLines":1,"bbox":[72,54,360,28]}
+{"kind":"textbox","id":"sh/c3ylc7u5","slide":1,"text":"使われる国内主導AIが、\n日本の改善能力を育てる","textPreview":"使われる国内主導AIが、 | 日本の改善能力を育てる","textChars":24,"textLines":2,"bbox":[72,180,930,180]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":1,"text":"実用データと継続能力を守る戦略","textPreview":"実用データと継続能力を守る戦略","textChars":15,"textLines":1,"bbox":[72,390,760,52]}
+{"kind":"textbox","id":"sh/ulwval87","slide":1,"text":"Usage · Data · Sovereignty","textPreview":"Usage · Data · Sovereignty","textChars":26,"textLines":1,"bbox":[72,510,500,32]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":1,"text":"v0.3  /  2026-06-22","textPreview":"v0.3  /  2026-06-22","textChars":19,"textLines":1,"bbox":[72,570,420,28]}
+{"kind":"shape","id":"sh/crmhk3q5","slide":1,"bbox":[1010,112,140,140]}
+{"kind":"shape","id":"sh/j2t83itg","slide":1,"bbox":[1060,162,140,140]}
+{"kind":"shape","id":"sh/qh0fepkz","slide":1,"bbox":[1010,212,140,140]}
+{"kind":"textbox","id":"sh/s36hcrmh","slide":1,"text":"利用","textPreview":"利用","textChars":2,"textLines":1,"bbox":[1040,150,90,34]}
+{"kind":"textbox","id":"sh/hoza1gvy","slide":1,"text":"改善","textPreview":"改善","textChars":2,"textLines":1,"bbox":[1092,202,90,34]}
+{"kind":"textbox","id":"sh/a1gvy90j","slide":1,"text":"継続","textPreview":"継続","textChars":2,"textLines":1,"bbox":[1040,252,90,34]}
+{"kind":"notes","id":"nt/nvbcc4","slide":1,"text":""}
+{"kind":"slide","id":"sl/5s4qqt","slide":2,"title":"EXECUTIVE THESIS","textShapes":4}
+{"kind":"textbox","id":"sh/cj6tovah","slide":2,"text":"EXECUTIVE THESIS","textPreview":"EXECUTIVE THESIS","textChars":16,"textLines":1,"bbox":[72,50,320,24]}
+{"kind":"shape","id":"sh/nyd0z610","slide":2,"bbox":[72,116,150,5]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":2,"text":"使われない国産AIでは、\n使われる外資AIから主権を守れない。","textPreview":"使われない国産AIでは、 | 使われる外資AIから主権を守れない。","textChars":31,"textLines":2,"bbox":[72,160,1030,240]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":2,"text":"実用性で選ばれ、使うほど日本側の改善能力と継続能力が強くなる構造をつくる。","textPreview":"実用性で選ばれ、使うほど日本側の改善能力と継続能力が強くなる構造をつくる。","textChars":37,"textLines":1,"bbox":[72,470,900,100]}
+{"kind":"textbox","id":"sh/cvixczed","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"notes","id":"nt/5s4qqt","slide":2,"text":""}
+{"kind":"slide","id":"sl/4uns6l","slide":3,"title":"WHY NOW","textShapes":13}
+{"kind":"textbox","id":"sh/gr2p8nqx","slide":3,"text":"WHY NOW","textPreview":"WHY NOW","textChars":7,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/r65wjudg","slide":3,"text":"守る対象は、モデルでも保存場所でもなく「改善を続ける能力」である","textPreview":"守る対象は、モデルでも保存場所でもなく「改善を続ける能力」である","textChars":32,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/ylc7u54z","slide":3,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":3,"text":"USAGE","textPreview":"USAGE","textChars":5,"textLines":1,"bbox":[72,236,360,24]}
+{"kind":"textbox","id":"sh/nih4byhg","slide":3,"text":"現場で使う","textPreview":"現場で使う","textChars":5,"textLines":1,"bbox":[72,270,360,72]}
+{"kind":"textbox","id":"sh/yxobm58z","slide":3,"text":"判断、修正、失敗、例外、状態遷移、実行結果が生まれる。","textPreview":"判断、修正、失敗、例外、状態遷移、実行結果が生まれる。","textChars":27,"textLines":1,"bbox":[72,348,360,238]}
+{"kind":"shape","id":"sh/9s36hcrm","slide":3,"bbox":[446,236,2,350]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":3,"text":"GOVERNANCE","textPreview":"GOVERNANCE","textChars":10,"textLines":1,"bbox":[460,236,360,24]}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":3,"text":"権利を整える","textPreview":"権利を整える","textChars":6,"textLines":1,"bbox":[460,270,360,72]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":3,"text":"利用目的、許諾、来歴、品質、削除条件を明確にする。","textPreview":"利用目的、許諾、来歴、品質、削除条件を明確にする。","textChars":25,"textLines":1,"bbox":[460,348,360,238]}
+{"kind":"shape","id":"sh/g7adsji5","slide":3,"bbox":[834,236,2,350]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":3,"text":"IMPROVEMENT","textPreview":"IMPROVEMENT","textChars":11,"textLines":1,"bbox":[848,236,360,24]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":3,"text":"国内で改善する","textPreview":"国内で改善する","textChars":7,"textLines":1,"bbox":[848,270,360,72]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":3,"text":"評価、知識配置、配備、停止、rollback、移行を実行する。","textPreview":"評価、知識配置、配備、停止、rollback、移行を実行する。","textChars":31,"textLines":1,"bbox":[848,348,360,238]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":3,"text":"最上位命題：利用を起点に国内の改善能力を育て、その能力を外部都合で失わない。","textPreview":"最上位命題：利用を起点に国内の改善能力を育て、その能力を外部都合で失わない。","textChars":38,"textLines":1,"bbox":[72,686,980,20]}
+{"kind":"notes","id":"nt/4uns6l","slide":3,"text":""}
+{"kind":"slide","id":"sl/evlmzw","slide":4,"title":"STRATEGY","textShapes":9}
+{"kind":"textbox","id":"sh/z61032ls","slide":4,"text":"STRATEGY","textPreview":"STRATEGY","textChars":8,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":4,"text":"戦略は「利用」と「制御」を同時に成立させる","textPreview":"戦略は「利用」と「制御」を同時に成立させる","textChars":21,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/hcrmhk3q","slide":4,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/zupwb2hw","slide":4,"bbox":[72,230,548,5]}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":4,"text":"CONDITION 1","textPreview":"CONDITION 1","textChars":11,"textLines":1,"bbox":[72,250,548,24]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":4,"text":"継続して使われる","textPreview":"継続して使われる","textChars":8,"textLines":1,"bbox":[72,288,548,84]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":4,"text":"価値がなければ利用は続かず、実用データ、評価知識、改善要求、実ワークロードは生まれない。","textPreview":"価値がなければ利用は続かず、実用データ、評価知識、改善要求、実ワークロードは生まれない。","textChars":44,"textLines":1,"bbox":[72,384,548,210]}
+{"kind":"shape","id":"sh/zqtcj6to","slide":4,"bbox":[660,230,548,5]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":4,"text":"CONDITION 2","textPreview":"CONDITION 2","textChars":11,"textLines":1,"bbox":[660,250,548,24]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":4,"text":"国内側が制御する","textPreview":"国内側が制御する","textChars":8,"textLines":1,"bbox":[660,288,548,84]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":4,"text":"利用が増えても、更新、移行、停止、供給継続を外部事業者の判断へ不可逆に委ねない。","textPreview":"利用が増えても、更新、移行、停止、供給継続を外部事業者の判断へ不可逆に委ねない。","textChars":40,"textLines":1,"bbox":[660,384,548,210]}
+{"kind":"notes","id":"nt/evlmzw","slide":4,"text":""}
+{"kind":"slide","id":"sl/xioa87","slide":5,"title":"DEFINITION","textShapes":16}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":5,"text":"DEFINITION","textPreview":"DEFINITION","textChars":10,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":5,"text":"「国内主導」は、部品の国籍ではなく四つの実質能力で測る","textPreview":"「国内主導」は、部品の国籍ではなく四つの実質能力で測る","textChars":27,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/61032lsz","slide":5,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/oj2t83it","slide":5,"bbox":[72,240,266,5]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":5,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,262,266,42]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":5,"text":"決定","textPreview":"決定","textChars":2,"textLines":1,"bbox":[72,308,266,60]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":5,"text":"何を学習・評価・配備・停止するかを国内側が決める。","textPreview":"何を学習・評価・配備・停止するかを国内側が決める。","textChars":25,"textLines":1,"bbox":[72,384,266,160]}
+{"kind":"shape","id":"sh/onyd0z61","slide":5,"bbox":[362,240,266,5]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":5,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[362,262,266,42]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":5,"text":"実行","textPreview":"実行","textChars":2,"textLines":1,"bbox":[362,308,266,60]}
+{"kind":"textbox","id":"sh/wval87ed","slide":5,"text":"外部の個別承認を待たず、国内側で決定を実行する。","textPreview":"外部の個別承認を待たず、国内側で決定を実行する。","textChars":24,"textLines":1,"bbox":[362,384,266,160]}
+{"kind":"shape","id":"sh/pg3ex0nu","slide":5,"bbox":[652,240,266,5]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":5,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[652,262,266,42]}
+{"kind":"textbox","id":"sh/7mp0bi9s","slide":5,"text":"移行","textPreview":"移行","textChars":2,"textLines":1,"bbox":[652,308,266,60]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":5,"text":"データ、モデル、評価、業務ロジックを別実装へ移す。","textPreview":"データ、モデル、評価、業務ロジックを別実装へ移す。","textChars":25,"textLines":1,"bbox":[652,384,266,160]}
+{"kind":"shape","id":"sh/psfil0rq","slide":5,"bbox":[942,240,266,5]}
+{"kind":"textbox","id":"sh/ed8bat47","slide":5,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[942,262,266,42]}
+{"kind":"textbox","id":"sh/7u54zido","slide":5,"text":"継続","textPreview":"継続","textChars":2,"textLines":1,"bbox":[942,308,266,60]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":5,"text":"API停止、契約終了、輸出管理、供給障害時も業務を続ける。","textPreview":"API停止、契約終了、輸出管理、供給障害時も業務を続ける。","textChars":29,"textLines":1,"bbox":[942,384,266,160]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":5,"text":"OSS、海外GPU、海外ファウンドリを使っても、四条件を満たす限り国内主導と両立する。","textPreview":"OSS、海外GPU、海外ファウンドリを使っても、四条件を満たす限り国内主導と両立する。","textChars":43,"textLines":1,"bbox":[72,686,980,20]}
+{"kind":"notes","id":"nt/xioa87","slide":5,"text":""}
+{"kind":"slide","id":"sl/k8fx6b","slide":6,"title":"EVIDENCE","textShapes":13}
+{"kind":"textbox","id":"sh/hoza1gvy","slide":6,"text":"EVIDENCE","textPreview":"EVIDENCE","textChars":8,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/a1gvy90j","slide":6,"text":"事実・設計仮説・戦略的推論を、同じ強さで語らない","textPreview":"事実・設計仮説・戦略的推論を、同じ強さで語らない","textChars":24,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/zidonyd0","slide":6,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/svu9knih","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"textbox","id":"sh/hgn29gr2","slide":6,"text":"FACT","textPreview":"FACT","textChars":4,"textLines":1,"bbox":[72,230,360,24]}
+{"kind":"textbox","id":"sh/ap4r65wj","slide":6,"text":"確認済み事実","textPreview":"確認済み事実","textChars":6,"textLines":1,"bbox":[72,264,360,72]}
+{"kind":"textbox","id":"sh/za1gvy90","slide":6,"text":"一次資料、契約、製品仕様、実測値で確認できるもの。","textPreview":"一次資料、契約、製品仕様、実測値で確認できるもの。","textChars":25,"textLines":1,"bbox":[72,342,360,218]}
+{"kind":"shape","id":"sh/sji5snel","slide":6,"bbox":[446,230,2,330]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":6,"text":"HYPOTHESIS","textPreview":"HYPOTHESIS","textChars":10,"textLines":1,"bbox":[460,230,360,24]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":6,"text":"設計仮説","textPreview":"設計仮説","textChars":4,"textLines":1,"bbox":[460,264,360,72]}
+{"kind":"textbox","id":"sh/wjudg7ad","slide":6,"text":"Pilotや技術検証によって確認すべき性能、ROI、移行性。","textPreview":"Pilotや技術検証によって確認すべき性能、ROI、移行性。","textChars":30,"textLines":1,"bbox":[460,342,360,218]}
+{"kind":"shape","id":"sh/7y1kre1w","slide":6,"bbox":[834,230,2,330]}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":6,"text":"INFERENCE","textPreview":"INFERENCE","textChars":9,"textLines":1,"bbox":[848,230,360,24]}
+{"kind":"textbox","id":"sh/pwb2hwfy","slide":6,"text":"戦略的推論","textPreview":"戦略的推論","textChars":5,"textLines":1,"bbox":[848,264,360,72]}
+{"kind":"textbox","id":"sh/0bi9s36h","slide":6,"text":"確認済み事実からKairosAIが導く政策・事業上の判断。","textPreview":"確認済み事実からKairosAIが導く政策・事業上の判断。","textChars":29,"textLines":1,"bbox":[848,342,360,218]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":6,"text":"外資製品の権利構造や学習利用について、確認できていない事項を断定しない。","textPreview":"外資製品の権利構造や学習利用について、確認できていない事項を断定しない。","textChars":36,"textLines":1,"bbox":[72,686,980,20]}
+{"kind":"notes","id":"nt/k8fx6b","slide":6,"text":""}
+{"kind":"slide","id":"sl/7t88p3","slide":7,"title":"SECTION 1","textShapes":4}
+{"kind":"textbox","id":"sh/gr2p8nqx","slide":7,"text":"SECTION 1","textPreview":"SECTION 1","textChars":9,"textLines":1,"bbox":[72,76,220,28]}
+{"kind":"textbox","id":"sh/r65wjudg","slide":7,"text":"改善主権","textPreview":"改善主権","textChars":4,"textLines":1,"bbox":[72,150,900,150]}
+{"kind":"shape","id":"sh/ylc7u54z","slide":7,"bbox":[72,340,160,5]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":7,"text":"現場利用を、評価・改善・再配備の循環へ変えるには何が必要か。","textPreview":"現場利用を、評価・改善・再配備の循環へ変えるには何が必要か。","textChars":30,"textLines":1,"bbox":[72,390,860,120]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"notes","id":"nt/7t88p3","slide":7,"text":""}
+{"kind":"slide","id":"sl/lhcsvd","slide":8,"title":"IMPROVEMENT SOVEREIGNTY","textShapes":23}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":8,"text":"IMPROVEMENT SOVEREIGNTY","textPreview":"IMPROVEMENT SOVEREIGNTY","textChars":23,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/d0z61032","slide":8,"text":"利用から再利用までの循環そのものが、守るべき資産である","textPreview":"利用から再利用までの循環そのものが、守るべき資産である","textChars":27,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/kf6dcbul","slide":8,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/v6psfil0","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"textbox","id":"sh/2lszqtcj","slide":8,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[275.2,314,36,40]}
+{"kind":"textbox","id":"sh/d8bat47y","slide":8,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[506.4,314,36,40]}
+{"kind":"textbox","id":"sh/knih4byh","slide":8,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[737.6,314,36,40]}
+{"kind":"textbox","id":"sh/val87ed8","slide":8,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[968.8,314,36,40]}
+{"kind":"shape","id":"sh/6psfil0r","slide":8,"bbox":[72,260,211.2,5]}
+{"kind":"textbox","id":"sh/4r65wjud","slide":8,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,280,211.2,30]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":8,"text":"利用","textPreview":"利用","textChars":2,"textLines":1,"bbox":[72,318,211.2,48]}
+{"kind":"textbox","id":"sh/mlkjm1cf","slide":8,"text":"重点業務で価値を出す","textPreview":"重点業務で価値を出す","textChars":10,"textLines":1,"bbox":[72,378,211.2,80]}
+{"kind":"shape","id":"sh/f6dcbulw","slide":8,"bbox":[303.2,260,211.2,5]}
+{"kind":"textbox","id":"sh/4zidonyd","slide":8,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[303.2,280,211.2,30]}
+{"kind":"textbox","id":"sh/xkf6dcbu","slide":8,"text":"捕捉","textPreview":"捕捉","textChars":2,"textLines":1,"bbox":[303.2,318,211.2,48]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":8,"text":"判断・修正・実行結果","textPreview":"判断・修正・実行結果","textChars":10,"textLines":1,"bbox":[303.2,378,211.2,80]}
+{"kind":"shape","id":"sh/fepkzupw","slide":8,"bbox":[534.4,260,211.2,5]}
+{"kind":"textbox","id":"sh/83itgfml","slide":8,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[534.4,280,211.2,30]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":8,"text":"判定","textPreview":"判定","textChars":2,"textLines":1,"bbox":[534.4,318,211.2,48]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":8,"text":"権利・品質・来歴","textPreview":"権利・品質・来歴","textChars":8,"textLines":1,"bbox":[534.4,378,211.2,80]}
+{"kind":"shape","id":"sh/s72x4nap","slide":8,"bbox":[765.6,260,211.2,5]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":8,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[765.6,280,211.2,30]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":8,"text":"改善","textPreview":"改善","textChars":2,"textLines":1,"bbox":[765.6,318,211.2,48]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":8,"text":"評価・学習・知識配置","textPreview":"評価・学習・知識配置","textChars":10,"textLines":1,"bbox":[765.6,378,211.2,80]}
+{"kind":"shape","id":"sh/sji5snel","slide":8,"bbox":[996.8,260,211.2,5]}
+{"kind":"textbox","id":"sh/3ylc7u54","slide":8,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[996.8,280,211.2,30]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":8,"text":"再配備","textPreview":"再配備","textChars":3,"textLines":1,"bbox":[996.8,318,211.2,48]}
+{"kind":"textbox","id":"sh/hgn29gr2","slide":8,"text":"署名・停止・rollback","textPreview":"署名・停止・rollback","textChars":14,"textLines":1,"bbox":[996.8,378,211.2,80]}
+{"kind":"shape","id":"sh/svu9knih","slide":8,"bbox":[390,520,500,58]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":8,"text":"改善主権 = 国内側でこの循環を維持する能力","textPreview":"改善主権 = 国内側でこの循環を維持する能力","textChars":22,"textLines":1,"bbox":[410,534,460,30]}
+{"kind":"notes","id":"nt/lhcsvd","slide":8,"text":""}
+{"kind":"slide","id":"sl/r14jqd","slide":9,"title":"PRACTICAL ASSETS","textShapes":15}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":9,"text":"PRACTICAL ASSETS","textPreview":"PRACTICAL ASSETS","textChars":16,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":9,"text":"価値を持つのは、現場でしか生まれない判断と結果の対応関係である","textPreview":"価値を持つのは、現場でしか生まれない判断と結果の対応関係である","textChars":31,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/y90je9cv","slide":9,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/58z25kb6","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/gn29gr2p","slide":9,"bbox":[72,220,548,5]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":9,"text":"DECISION CONTEXT","textPreview":"DECISION CONTEXT","textChars":16,"textLines":1,"bbox":[72,240,548,24]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":9,"text":"何を判断したか","textPreview":"何を判断したか","textChars":7,"textLines":1,"bbox":[72,278,548,84]}
+{"kind":"shape","id":"sh/5kb6xkf6","slide":9,"bbox":[72,384,8,8]}
+{"kind":"textbox","id":"sh/czed8v6p","slide":9,"text":"状態と判断","textPreview":"状態と判断","textChars":5,"textLines":1,"bbox":[96,374,524,50]}
+{"kind":"shape","id":"sh/2hwfyxob","slide":9,"bbox":[72,438,8,8]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":9,"text":"専門家の修正","textPreview":"専門家の修正","textChars":6,"textLines":1,"bbox":[96,428,524,50]}
+{"kind":"shape","id":"sh/kjm1cfa9","slide":9,"bbox":[72,492,8,8]}
+{"kind":"textbox","id":"sh/94fu18jq","slide":9,"text":"承認・棄却","textPreview":"承認・棄却","textChars":5,"textLines":1,"bbox":[96,482,524,50]}
+{"kind":"shape","id":"sh/2p8nqxs7","slide":9,"bbox":[72,546,8,8]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":9,"text":"関与したモデル・権限","textPreview":"関与したモデル・権限","textChars":10,"textLines":1,"bbox":[96,536,524,50]}
+{"kind":"shape","id":"sh/gvy90je9","slide":9,"bbox":[660,220,548,5]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":9,"text":"OUTCOME CONTEXT","textPreview":"OUTCOME CONTEXT","textChars":15,"textLines":1,"bbox":[660,240,548,24]}
+{"kind":"textbox","id":"sh/2t83itgf","slide":9,"text":"何が起きたか","textPreview":"何が起きたか","textChars":6,"textLines":1,"bbox":[660,278,548,84]}
+{"kind":"shape","id":"sh/re1w7mp0","slide":9,"bbox":[660,384,8,8]}
+{"kind":"textbox","id":"sh/nap4r65w","slide":9,"text":"状態遷移と実行結果","textPreview":"状態遷移と実行結果","textChars":9,"textLines":1,"bbox":[684,374,524,50]}
+{"kind":"shape","id":"sh/upwb2hwf","slide":9,"bbox":[660,438,8,8]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":9,"text":"成功・失敗・事故・停止","textPreview":"成功・失敗・事故・停止","textChars":11,"textLines":1,"bbox":[684,428,524,50]}
+{"kind":"shape","id":"sh/cvixczed","slide":9,"bbox":[660,492,8,8]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":9,"text":"損失回避・時間短縮","textPreview":"損失回避・時間短縮","textChars":9,"textLines":1,"bbox":[684,482,524,50]}
+{"kind":"shape","id":"sh/udg7adsj","slide":9,"bbox":[660,546,8,8]}
+{"kind":"textbox","id":"sh/54zidony","slide":9,"text":"遅延・電力・メモリ・コスト","textPreview":"遅延・電力・メモリ・コスト","textChars":13,"textLines":1,"bbox":[684,536,524,50]}
+{"kind":"notes","id":"nt/r14jqd","slide":9,"text":""}
+{"kind":"slide","id":"sl/ka5ug0","slide":10,"title":"ASSET QUALIFICATION","textShapes":22}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":10,"text":"ASSET QUALIFICATION","textPreview":"ASSET QUALIFICATION","textChars":19,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":10,"text":"保存しただけのデータは、まだ学習資産ではない","textPreview":"保存しただけのデータは、まだ学習資産ではない","textChars":22,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/j2t83itg","slide":10,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":10,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,225,42,34]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":10,"text":"対応","textPreview":"対応","textChars":2,"textLines":1,"bbox":[134,225,120,42]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":10,"text":"判断と実行結果が対応づく","textPreview":"判断と実行結果が対応づく","textChars":12,"textLines":1,"bbox":[272,227,340,60]}
+{"kind":"shape","id":"sh/c3ylc7u5","slide":10,"bbox":[72,303,540,1]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":10,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[652,225,42,34]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":10,"text":"追跡","textPreview":"追跡","textChars":2,"textLines":1,"bbox":[714,225,120,42]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":10,"text":"出所とmodel versionを追える","textPreview":"出所とmodel versionを追える","textChars":20,"textLines":1,"bbox":[852,227,340,60]}
+{"kind":"shape","id":"sh/nih4byhg","slide":10,"bbox":[652,303,540,1]}
+{"kind":"textbox","id":"sh/yxobm58z","slide":10,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[72,345,42,34]}
+{"kind":"textbox","id":"sh/9cvixcze","slide":10,"text":"権利","textPreview":"権利","textChars":2,"textLines":1,"bbox":[134,345,120,42]}
+{"kind":"textbox","id":"sh/gr2p8nqx","slide":10,"text":"目的・許諾・期限・削除条件が明確","textPreview":"目的・許諾・期限・削除条件が明確","textChars":16,"textLines":1,"bbox":[272,347,340,60]}
+{"kind":"shape","id":"sh/r65wjudg","slide":10,"bbox":[72,423,540,1]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":10,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[652,345,42,34]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":10,"text":"品質","textPreview":"品質","textChars":2,"textLines":1,"bbox":[714,345,120,42]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":10,"text":"評価可能な品質を持つ","textPreview":"評価可能な品質を持つ","textChars":10,"textLines":1,"bbox":[852,347,340,60]}
+{"kind":"shape","id":"sh/gn29gr2p","slide":10,"bbox":[652,423,540,1]}
+{"kind":"textbox","id":"sh/58z25kb6","slide":10,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[72,465,42,34]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":10,"text":"配置","textPreview":"配置","textChars":2,"textLines":1,"bbox":[134,465,120,42]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":10,"text":"重み/RAG/KG/adapter/ルールを選べる","textPreview":"重み/RAG/KG/adapter/ルールを選べる","textChars":25,"textLines":1,"bbox":[272,467,340,60]}
+{"kind":"shape","id":"sh/gbq1oryt","slide":10,"bbox":[72,543,540,1]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":10,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[652,465,42,34]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":10,"text":"再配備","textPreview":"再配備","textChars":3,"textLines":1,"bbox":[714,465,120,42]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":10,"text":"安全に配備・停止・rollbackできる","textPreview":"安全に配備・停止・rollbackできる","textChars":20,"textLines":1,"bbox":[852,467,340,60]}
+{"kind":"shape","id":"sh/cbulwval","slide":10,"bbox":[652,543,540,1]}
+{"kind":"textbox","id":"sh/5sneloj2","slide":10,"text":"守るべき中心資産はデータ量ではなく、改善へ接続できる状態である。","textPreview":"守るべき中心資産はデータ量ではなく、改善へ接続できる状態である。","textChars":32,"textLines":1,"bbox":[72,686,980,20]}
+{"kind":"notes","id":"nt/ka5ug0","slide":10,"text":""}
+{"kind":"slide","id":"sl/gi0j85","slide":11,"title":"SECTION 2","textShapes":4}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":11,"text":"SECTION 2","textPreview":"SECTION 2","textChars":9,"textLines":1,"bbox":[72,76,220,28]}
+{"kind":"textbox","id":"sh/upwb2hwf","slide":11,"text":"依存と権利","textPreview":"依存と権利","textChars":5,"textLines":1,"bbox":[72,150,900,150]}
+{"kind":"shape","id":"sh/nap4r65w","slide":11,"bbox":[72,340,160,5]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":11,"text":"国籍ではなく、選択肢を失う構造を脅威として捉える。","textPreview":"国籍ではなく、選択肢を失う構造を脅威として捉える。","textChars":25,"textLines":1,"bbox":[72,390,860,120]}
+{"kind":"textbox","id":"sh/54zidony","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"notes","id":"nt/gi0j85","slide":11,"text":""}
+{"kind":"slide","id":"sl/t4lyz5","slide":12,"title":"THREAT MODEL","textShapes":20}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":12,"text":"THREAT MODEL","textPreview":"THREAT MODEL","textChars":12,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/3itgfmlk","slide":12,"text":"最大のリスクは、重要AIの改善と継続に関する選択肢を失うこと","textPreview":"最大のリスクは、重要AIの改善と継続に関する選択肢を失うこと","textChars":30,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/ex0nuxc3","slide":12,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/lwval87e","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":12,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,220,40,30]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":12,"text":"製品依存","textPreview":"製品依存","textChars":4,"textLines":1,"bbox":[132,218,150,36]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":12,"text":"API・価格・地域・機能廃止","textPreview":"API・価格・地域・機能廃止","textChars":14,"textLines":1,"bbox":[332,220,720,38]}
+{"kind":"shape","id":"sh/l87ed8ba","slide":12,"bbox":[132,266,910,1]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":12,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[72,296,40,30]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":12,"text":"知識依存","textPreview":"知識依存","textChars":4,"textLines":1,"bbox":[132,294,150,36]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":12,"text":"評価・運用・障害対応の固有化","textPreview":"評価・運用・障害対応の固有化","textChars":14,"textLines":1,"bbox":[332,296,720,38]}
+{"kind":"shape","id":"sh/8jqh0fep","slide":12,"bbox":[132,342,910,1]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":12,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[72,372,40,30]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":12,"text":"業務依存","textPreview":"業務依存","textChars":4,"textLines":1,"bbox":[132,370,150,36]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":12,"text":"業務フロー・形式の固有化","textPreview":"業務フロー・形式の固有化","textChars":12,"textLines":1,"bbox":[332,372,720,38]}
+{"kind":"shape","id":"sh/8v6psfil","slide":12,"bbox":[132,418,910,1]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":12,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[72,448,40,30]}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":12,"text":"供給依存","textPreview":"供給依存","textChars":4,"textLines":1,"bbox":[132,446,150,36]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":12,"text":"API・GPU・部品・license停止","textPreview":"API・GPU・部品・license停止","textChars":20,"textLines":1,"bbox":[332,448,720,38]}
+{"kind":"shape","id":"sh/rqd4vmtw","slide":12,"bbox":[132,494,910,1]}
+{"kind":"textbox","id":"sh/25kb6xkf","slide":12,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[72,524,40,30]}
+{"kind":"textbox","id":"sh/9w3m94fu","slide":12,"text":"更新依存","textPreview":"更新依存","textChars":4,"textLines":1,"bbox":[132,522,150,36]}
+{"kind":"textbox","id":"sh/kb6xkf6d","slide":12,"text":"モデル・基盤SW・policyの改変制約","textPreview":"モデル・基盤SW・policyの改変制約","textChars":20,"textLines":1,"bbox":[332,524,720,38]}
+{"kind":"shape","id":"sh/re1w7mp0","slide":12,"bbox":[132,570,910,1]}
+{"kind":"shape","id":"sh/2t83itgf","slide":12,"bbox":[1030,230,150,310]}
+{"kind":"textbox","id":"sh/9knih4by","slide":12,"text":"問うべきこと","textPreview":"問うべきこと","textChars":6,"textLines":1,"bbox":[1050,255,110,32]}
+{"kind":"textbox","id":"sh/kzupwb2h","slide":12,"text":"誰が\n決めるか\n\n誰が\n動かすか\n\nどこへ\n移せるか","textPreview":"誰が | 決めるか |  | 誰が | 動かすか |  | どこへ | 移せるか","textChars":26,"textLines":8,"bbox":[1050,315,110,190]}
+{"kind":"notes","id":"nt/t4lyz5","slide":12,"text":""}
+{"kind":"slide","id":"sl/q6nlqf","slide":13,"title":"STRATEGY ARCHITECTURE","textShapes":28}
+{"kind":"textbox","id":"sh/0bi9s36h","slide":13,"text":"STRATEGY ARCHITECTURE","textPreview":"STRATEGY ARCHITECTURE","textChars":21,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":13,"text":"主権上の必須能力と、競争上の差別化を別々に設計する","textPreview":"主権上の必須能力と、競争上の差別化を別々に設計する","textChars":25,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/i5sneloj","slide":13,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/wjudg7ad","slide":13,"bbox":[72,214,1090,64]}
+{"kind":"textbox","id":"sh/7y1kre1w","slide":13,"text":"層","textPreview":"層","textChars":1,"textLines":1,"bbox":[82,226,110,46]}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":13,"text":"国内側が確保する状態","textPreview":"国内側が確保する状態","textChars":10,"textLines":1,"bbox":[212,226,340,46]}
+{"kind":"textbox","id":"sh/p8nqxs72","slide":13,"text":"主権上の意味","textPreview":"主権上の意味","textChars":6,"textLines":1,"bbox":[572,226,230,46]}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":13,"text":"競争上の意味","textPreview":"競争上の意味","textChars":6,"textLines":1,"bbox":[822,226,330,46]}
+{"kind":"shape","id":"sh/ih4byhgn","slide":13,"bbox":[72,278,1090,64]}
+{"kind":"shape","id":"sh/72x4nap4","slide":13,"bbox":[72,341,1090,1]}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":13,"text":"利用","textPreview":"利用","textChars":2,"textLines":1,"bbox":[82,288,110,50]}
+{"kind":"textbox","id":"sh/p8nqxs72","slide":13,"text":"重点業務への継続導入","textPreview":"重点業務への継続導入","textChars":10,"textLines":1,"bbox":[212,288,340,50]}
+{"kind":"textbox","id":"sh/itgfmlkj","slide":13,"text":"改善資産を生む前提","textPreview":"改善資産を生む前提","textChars":9,"textLines":1,"bbox":[572,288,230,50]}
+{"kind":"textbox","id":"sh/7ed8bat4","slide":13,"text":"実用性","textPreview":"実用性","textChars":3,"textLines":1,"bbox":[822,288,330,50]}
+{"kind":"shape","id":"sh/0z61032l","slide":13,"bbox":[72,342,1090,64]}
+{"kind":"shape","id":"sh/pkzupwb2","slide":13,"bbox":[72,405,1090,1]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":13,"text":"データ","textPreview":"データ","textChars":3,"textLines":1,"bbox":[82,352,110,50]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":13,"text":"原本・権利・来歴・削除","textPreview":"原本・権利・来歴・削除","textChars":11,"textLines":1,"bbox":[212,352,340,50]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":13,"text":"必須","textPreview":"必須","textChars":2,"textLines":1,"bbox":[572,352,230,50]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":13,"text":"保存場所だけでは弱い","textPreview":"保存場所だけでは弱い","textChars":10,"textLines":1,"bbox":[822,352,330,50]}
+{"kind":"shape","id":"sh/hwfyxobm","slide":13,"bbox":[72,406,1090,64]}
+{"kind":"shape","id":"sh/obm58z25","slide":13,"bbox":[72,469,1090,1]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":13,"text":"改善","textPreview":"改善","textChars":2,"textLines":1,"bbox":[82,416,110,50]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":13,"text":"評価・配置・学習・停止","textPreview":"評価・配置・学習・停止","textChars":11,"textLines":1,"bbox":[212,416,340,50]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":13,"text":"中核","textPreview":"中核","textChars":2,"textLines":1,"bbox":[572,416,230,50]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":13,"text":"独立実行・改善速度","textPreview":"独立実行・改善速度","textChars":9,"textLines":1,"bbox":[822,416,330,50]}
+{"kind":"shape","id":"sh/z61032ls","slide":13,"bbox":[72,470,1090,64]}
+{"kind":"shape","id":"sh/al87ed8b","slide":13,"bbox":[72,533,1090,1]}
+{"kind":"textbox","id":"sh/032lszqt","slide":13,"text":"実行","textPreview":"実行","textChars":2,"textLines":1,"bbox":[82,480,110,50]}
+{"kind":"textbox","id":"sh/tovahoza","slide":13,"text":"state・policy・承認・action","textPreview":"state・policy・承認・action","textChars":22,"textLines":1,"bbox":[212,480,340,50]}
+{"kind":"textbox","id":"sh/ixczed8v","slide":13,"text":"必須","textPreview":"必須","textChars":2,"textLines":1,"bbox":[572,480,230,50]}
+{"kind":"textbox","id":"sh/bi9s36hc","slide":13,"text":"構造は模倣可能","textPreview":"構造は模倣可能","textChars":7,"textLines":1,"bbox":[822,480,330,50]}
+{"kind":"shape","id":"sh/0fepkzup","slide":13,"bbox":[72,534,1090,64]}
+{"kind":"shape","id":"sh/p0bi9s36","slide":13,"bbox":[72,597,1090,1]}
+{"kind":"textbox","id":"sh/i9s36hcr","slide":13,"text":"計算","textPreview":"計算","textChars":2,"textLines":1,"bbox":[82,544,110,50]}
+{"kind":"textbox","id":"sh/bulwval8","slide":13,"text":"高効率・境界内・継続","textPreview":"高効率・境界内・継続","textChars":10,"textLines":1,"bbox":[212,544,340,50]}
+{"kind":"textbox","id":"sh/0je9cvix","slide":13,"text":"非オプション","textPreview":"非オプション","textChars":6,"textLines":1,"bbox":[572,544,230,50]}
+{"kind":"textbox","id":"sh/t47y1kre","slide":13,"text":"outcome/TCO・電力","textPreview":"outcome/TCO・電力","textChars":14,"textLines":1,"bbox":[822,544,330,50]}
+{"kind":"textbox","id":"sh/5sneloj2","slide":13,"text":"競合にも実装できる能力であっても、国内側が持たなくてよいとは限らない。","textPreview":"競合にも実装できる能力であっても、国内側が持たなくてよいとは限らない。","textChars":35,"textLines":1,"bbox":[72,686,980,20]}
+{"kind":"notes","id":"nt/q6nlqf","slide":13,"text":""}
+{"kind":"slide","id":"sl/bjsvm2","slide":14,"title":"RIGHTS MODEL","textShapes":16}
+{"kind":"textbox","id":"sh/0z61032l","slide":14,"text":"RIGHTS MODEL","textPreview":"RIGHTS MODEL","textChars":12,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/7ed8bat4","slide":14,"text":"「所有」ではなく、資産群と行為ごとの権利束で帰属を設計する","textPreview":"「所有」ではなく、資産群と行為ごとの権利束で帰属を設計する","textChars":29,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/itgfmlkj","slide":14,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/p8nqxs72","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/0nuxc3yl","slide":14,"bbox":[72,220,266,5]}
+{"kind":"textbox","id":"sh/72x4nap4","slide":14,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,242,266,42]}
+{"kind":"textbox","id":"sh/ih4byhgn","slide":14,"text":"顧客主権","textPreview":"顧客主権","textChars":4,"textLines":1,"bbox":[72,288,266,60]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":14,"text":"生データ、固有Graph/adapter、golden set、outcome。顧客境界に残る。","textPreview":"生データ、固有Graph/adapter、golden set、outcome。顧客境界に残る。","textChars":48,"textLines":1,"bbox":[72,364,266,160]}
+{"kind":"shape","id":"sh/wjudg7ad","slide":14,"bbox":[362,220,266,5]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":14,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[362,242,266,42]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":14,"text":"許諾済み信号","textPreview":"許諾済み信号","textChars":6,"textLines":1,"bbox":[362,288,266,60]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":14,"text":"匿名化telemetry、集約統計、明示許諾された評価結果。","textPreview":"匿名化telemetry、集約統計、明示許諾された評価結果。","textChars":30,"textLines":1,"bbox":[362,364,266,160]}
+{"kind":"shape","id":"sh/dg7adsji","slide":14,"bbox":[652,220,266,5]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":14,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[652,242,266,42]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":14,"text":"KairosAI共通","textPreview":"KairosAI共通","textChars":10,"textLines":1,"bbox":[652,288,266,60]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":14,"text":"schema、評価template、harness、compiler、runtime、運用pattern。","textPreview":"schema、評価template、harness、compiler、runtime、運用pattern。","textChars":53,"textLines":1,"bbox":[652,364,266,160]}
+{"kind":"shape","id":"sh/d8v6psfi","slide":14,"bbox":[942,220,266,5]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":14,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[942,242,266,42]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":14,"text":"国内共有能力","textPreview":"国内共有能力","textChars":6,"textLines":1,"bbox":[942,288,266,60]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":14,"text":"共有core、標準、設計IP、benchmark。退出条件を定義。","textPreview":"共有core、標準、設計IP、benchmark。退出条件を定義。","textChars":33,"textLines":1,"bbox":[942,364,266,160]}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":14,"text":"保有・利用・学習投入・派生・再許諾・削除・配備・持出し・利益配分を個別に定義する。","textPreview":"保有・利用・学習投入・派生・再許諾・削除・配備・持出し・利益配分を個別に定義する。","textChars":41,"textLines":1,"bbox":[72,686,980,20]}
+{"kind":"notes","id":"nt/bjsvm2","slide":14,"text":""}
+{"kind":"slide","id":"sl/do923x","slide":15,"title":"KNOWLEDGE PLACEMENT","textShapes":16}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":15,"text":"KNOWLEDGE PLACEMENT","textPreview":"KNOWLEDGE PLACEMENT","textChars":19,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":15,"text":"削除・訂正が必要な知識は、共有モデルの重みに固定しない","textPreview":"削除・訂正が必要な知識は、共有モデルの重みに固定しない","textChars":27,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/7adsji5s","slide":15,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":15,"text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/psfil0rq","slide":15,"bbox":[72,220,548,5]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":15,"text":"KEEP REVERSIBLE","textPreview":"KEEP REVERSIBLE","textChars":15,"textLines":1,"bbox":[72,240,548,24]}
+{"kind":"textbox","id":"sh/7mp0bi9s","slide":15,"text":"監査できる場所へ置く","textPreview":"監査できる場所へ置く","textChars":10,"textLines":1,"bbox":[72,278,548,84]}
+{"kind":"shape","id":"sh/wfyxobm5","slide":15,"bbox":[72,384,8,8]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":15,"text":"RAG","textPreview":"RAG","textChars":3,"textLines":1,"bbox":[96,374,524,50]}
+{"kind":"shape","id":"sh/hk3q5o7q","slide":15,"bbox":[72,438,8,8]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":15,"text":"Knowledge Graph","textPreview":"Knowledge Graph","textChars":15,"textLines":1,"bbox":[96,428,524,50]}
+{"kind":"shape","id":"sh/zed8v6ps","slide":15,"bbox":[72,492,8,8]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":15,"text":"state registry","textPreview":"state registry","textChars":14,"textLines":1,"bbox":[96,482,524,50]}
+{"kind":"shape","id":"sh/hwfyxobm","slide":15,"bbox":[72,546,8,8]}
+{"kind":"textbox","id":"sh/obm58z25","slide":15,"text":"顧客固有adapter・ルール","textPreview":"顧客固有adapter・ルール","textChars":15,"textLines":1,"bbox":[96,536,524,50]}
+{"kind":"shape","id":"sh/zqtcj6to","slide":15,"bbox":[660,220,548,5]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":15,"text":"SHARE WITH CONDITIONS","textPreview":"SHARE WITH CONDITIONS","textChars":21,"textLines":1,"bbox":[660,240,548,24]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":15,"text":"共有コアは限定信号のみ","textPreview":"共有コアは限定信号のみ","textChars":11,"textLines":1,"bbox":[660,278,548,84]}
+{"kind":"shape","id":"sh/sfil0rqd","slide":15,"bbox":[660,384,8,8]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":15,"text":"目的と反映先を明示","textPreview":"目的と反映先を明示","textChars":9,"textLines":1,"bbox":[684,374,524,50]}
+{"kind":"shape","id":"sh/d8v6psfi","slide":15,"bbox":[660,438,8,8]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":15,"text":"正当な権利者が許諾","textPreview":"正当な権利者が許諾","textChars":9,"textLines":1,"bbox":[684,428,524,50]}
+{"kind":"shape","id":"sh/z25kb6xk","slide":15,"bbox":[660,492,8,8]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":15,"text":"再識別リスクを評価","textPreview":"再識別リスクを評価","textChars":9,"textLines":1,"bbox":[684,482,524,50]}
+{"kind":"shape","id":"sh/dg7adsji","slide":15,"bbox":[660,546,8,8]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":15,"text":"寄与と終了後の扱いを追跡","textPreview":"寄与と終了後の扱いを追跡","textChars":12,"textLines":1,"bbox":[684,536,524,50]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":15,"text":"secure aggregationや差分privacyはリスク低減手段であり、権利処理を不要にはしない。","textPreview":"secure aggregationや差分privacyはリスク低減手段であり、権利処理を不要にはしない。","textChars":53,"textLines":1,"bbox":[72,686,980,20]}
+{"kind":"notes","id":"nt/do923x","slide":15,"text":""}
+{"kind":"slide","id":"sl/4u8qrr","slide":16,"title":"COMPETITIVE VIEW","textShapes":13}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":16,"text":"COMPETITIVE VIEW","textPreview":"COMPETITIVE VIEW","textChars":16,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":16,"text":"外資の主権配慮基盤とは、確認可能な差だけで比較する","textPreview":"外資の主権配慮基盤とは、確認可能な差だけで比較する","textChars":25,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/k3q5o7qp","slide":16,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/val87ed8","slide":16,"text":"16","textPreview":"16","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/6psfil0r","slide":16,"bbox":[72,210,548,5]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":16,"text":"CONFIRMED","textPreview":"CONFIRMED","textChars":9,"textLines":1,"bbox":[72,230,548,24]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":16,"text":"公開情報で確認できる","textPreview":"公開情報で確認できる","textChars":10,"textLines":1,"bbox":[72,268,548,84]}
+{"kind":"shape","id":"sh/v6psfil0","slide":16,"bbox":[72,374,8,8]}
+{"kind":"textbox","id":"sh/2lszqtcj","slide":16,"text":"Palantir / NVIDIAがSovereign AI OS構想を発表","textPreview":"Palantir / NVIDIAがSovereign AI OS構想を発表","textChars":38,"textLines":1,"bbox":[96,364,524,62]}
+{"kind":"shape","id":"sh/szqtcj6t","slide":16,"bbox":[72,440,8,8]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":16,"text":"顧客がデータ・モデル・アプリを制御すると説明","textPreview":"顧客がデータ・モデル・アプリを制御すると説明","textChars":22,"textLines":1,"bbox":[96,430,524,62]}
+{"kind":"shape","id":"sh/at47y1kr","slide":16,"bbox":[72,506,8,8]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":16,"text":"外部モデルの持込み、開発、評価、releaseが可能","textPreview":"外部モデルの持込み、開発、評価、releaseが可能","textChars":26,"textLines":1,"bbox":[96,496,524,62]}
+{"kind":"shape","id":"sh/sneloj2t","slide":16,"bbox":[660,210,548,5]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":16,"text":"NOT CONFIRMED","textPreview":"NOT CONFIRMED","textChars":13,"textLines":1,"bbox":[660,230,548,24]}
+{"kind":"textbox","id":"sh/ahoza1gv","slide":16,"text":"公開情報だけでは確定しない","textPreview":"公開情報だけでは確定しない","textChars":13,"textLines":1,"bbox":[660,268,548,84]}
+{"kind":"shape","id":"sh/32lszqtc","slide":16,"bbox":[660,374,8,8]}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":16,"text":"基盤SWの改変・派生・保守権","textPreview":"基盤SWの改変・派生・保守権","textChars":14,"textLines":1,"bbox":[684,364,524,62]}
+{"kind":"shape","id":"sh/lwval87e","slide":16,"bbox":[660,440,8,8]}
+{"kind":"textbox","id":"sh/pkzupwb2","slide":16,"text":"Ontology・業務ロジックの完全移植性","textPreview":"Ontology・業務ロジックの完全移植性","textChars":21,"textLines":1,"bbox":[684,430,524,62]}
+{"kind":"shape","id":"sh/0z61032l","slide":16,"bbox":[660,506,8,8]}
+{"kind":"textbox","id":"sh/7ed8bat4","slide":16,"text":"契約終了時の鍵・成果物・運用知識の移転","textPreview":"契約終了時の鍵・成果物・運用知識の移転","textChars":19,"textLines":1,"bbox":[684,496,524,62]}
+{"kind":"notes","id":"nt/4u8qrr","slide":16,"text":""}
+{"kind":"slide","id":"sl/45blr1","slide":17,"title":"DIFFERENTIATION","textShapes":15}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":17,"text":"DIFFERENTIATION","textPreview":"DIFFERENTIATION","textChars":15,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":17,"text":"KairosAIの差別化は、モデルではなく「国内へ能力が残ること」で証明する","textPreview":"KairosAIの差別化は、モデルではなく「国内へ能力が残ること」で証明する","textChars":38,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/c3ylc7u5","slide":17,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":17,"text":"17","textPreview":"17","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"textbox","id":"sh/ulwval87","slide":17,"text":"監査","textPreview":"監査","textChars":2,"textLines":1,"bbox":[100,255,130,48]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":17,"text":"改変","textPreview":"改変","textChars":2,"textLines":1,"bbox":[310,255,130,48]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":17,"text":"移植","textPreview":"移植","textChars":2,"textLines":1,"bbox":[520,255,130,48]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":17,"text":"配備","textPreview":"配備","textChars":2,"textLines":1,"bbox":[730,255,130,48]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":17,"text":"代替","textPreview":"代替","textChars":2,"textLines":1,"bbox":[940,255,130,48]}
+{"kind":"shape","id":"sh/s36hcrmh","slide":17,"bbox":[100,330,970,3]}
+{"kind":"textbox","id":"sh/hoza1gvy","slide":17,"text":"契約","textPreview":"契約","textChars":2,"textLines":1,"bbox":[100,370,170,44]}
+{"kind":"textbox","id":"sh/a1gvy90j","slide":17,"text":"ソースアクセス / escrow / 標準API","textPreview":"ソースアクセス / escrow / 標準API","textChars":24,"textLines":1,"bbox":[300,372,760,42]}
+{"kind":"textbox","id":"sh/zidonyd0","slide":17,"text":"試験","textPreview":"試験","textChars":2,"textLines":1,"bbox":[100,440,170,44]}
+{"kind":"textbox","id":"sh/svu9knih","slide":17,"text":"export・restore / 移行 / API切断 / 縮退運転","textPreview":"export・restore / 移行 / API切断 / 縮退運転","textChars":34,"textLines":1,"bbox":[300,442,760,42]}
+{"kind":"textbox","id":"sh/hgn29gr2","slide":17,"text":"実績","textPreview":"実績","textChars":2,"textLines":1,"bbox":[100,510,170,44]}
+{"kind":"textbox","id":"sh/ap4r65wj","slide":17,"text":"国内人材・国内組織による本番運用と世代更新","textPreview":"国内人材・国内組織による本番運用と世代更新","textChars":21,"textLines":1,"bbox":[300,512,760,42]}
+{"kind":"textbox","id":"sh/za1gvy90","slide":17,"text":"現在実証済み / 次のゲート / 長期目標を同じ「○」で比較しない。","textPreview":"現在実証済み / 次のゲート / 長期目標を同じ「○」で比較しない。","textChars":34,"textLines":1,"bbox":[72,686,980,20]}
+{"kind":"notes","id":"nt/45blr1","slide":17,"text":""}
+{"kind":"slide","id":"sl/5e5ws8","slide":18,"title":"SECTION 3","textShapes":4}
+{"kind":"textbox","id":"sh/xs72x4na","slide":18,"text":"SECTION 3","textPreview":"SECTION 3","textChars":9,"textLines":1,"bbox":[72,76,220,28]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":18,"text":"三本柱と計算経済性","textPreview":"三本柱と計算経済性","textChars":9,"textLines":1,"bbox":[72,150,900,150]}
+{"kind":"shape","id":"sh/fmlkjm1c","slide":18,"bbox":[72,340,160,5]}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":18,"text":"利用・実行・計算を、一つの改善システムとして接続する。","textPreview":"利用・実行・計算を、一つの改善システムとして接続する。","textChars":27,"textLines":1,"bbox":[72,390,860,120]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":18,"text":"18","textPreview":"18","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"notes","id":"nt/5e5ws8","slide":18,"text":""}
+{"kind":"slide","id":"sl/0v57wq","slide":19,"title":"THREE PILLARS","textShapes":12}
+{"kind":"textbox","id":"sh/4r65wjud","slide":19,"text":"THREE PILLARS","textPreview":"THREE PILLARS","textChars":13,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":19,"text":"三本柱は別々の製品ではなく、価値と主権を共同生産する","textPreview":"三本柱は別々の製品ではなく、価値と主権を共同生産する","textChars":26,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/mlkjm1cf","slide":19,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/xkf6dcbu","slide":19,"text":"19","textPreview":"19","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"textbox","id":"sh/4zidonyd","slide":19,"text":"A","textPreview":"A","textChars":1,"textLines":1,"bbox":[72,215,360,24]}
+{"kind":"textbox","id":"sh/fepkzupw","slide":19,"text":"モデル・データ","textPreview":"モデル・データ","textChars":7,"textLines":1,"bbox":[72,249,360,72]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":19,"text":"判断し、利用から改善する。\n\n主権：評価・知識配置・学習・配備・停止\n差別化：outcome接続と改善速度","textPreview":"判断し、利用から改善する。 |  | 主権：評価・知識配置・学習・配備・停止 | 差別化：outcome接続と改善速度","textChars":53,"textLines":4,"bbox":[72,327,360,278]}
+{"kind":"shape","id":"sh/xobm58z2","slide":19,"bbox":[446,215,2,390]}
+{"kind":"textbox","id":"sh/83itgfml","slide":19,"text":"C","textPreview":"C","textChars":1,"textLines":1,"bbox":[460,215,360,24]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":19,"text":"実行基盤","textPreview":"実行基盤","textChars":4,"textLines":1,"bbox":[460,249,360,72]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":19,"text":"state、権利、承認、action、provenanceを捕捉・統治する。\n\n主権：状態更新権・実行権・監査","textPreview":"state、権利、承認、action、provenanceを捕捉・統治する。 |  | 主権：状態更新権・実行権・監査","textChars":55,"textLines":3,"bbox":[460,327,360,278]}
+{"kind":"shape","id":"sh/gbq1oryt","slide":19,"bbox":[834,215,2,390]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":19,"text":"B","textPreview":"B","textChars":1,"textLines":1,"bbox":[848,215,360,24]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":19,"text":"計算基盤","textPreview":"計算基盤","textChars":4,"textLines":1,"bbox":[848,249,360,72]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":19,"text":"必要な場所、電力、遅延で常時稼働させる。\n\n主権：計算継続・改変・代替調達\n差別化：outcome/TCO","textPreview":"必要な場所、電力、遅延で常時稼働させる。 |  | 主権：計算継続・改変・代替調達 | 差別化：outcome/TCO","textChars":53,"textLines":4,"bbox":[848,327,360,278]}
+{"kind":"notes","id":"nt/0v57wq","slide":19,"text":""}
+{"kind":"slide","id":"sl/ua2tm9","slide":20,"title":"JOINT PRODUCTION","textShapes":12}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":20,"text":"JOINT PRODUCTION","textPreview":"JOINT PRODUCTION","textChars":16,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/val87ed8","slide":20,"text":"高価値データは、判断・統治・継続の三つが揃って初めて生まれる","textPreview":"高価値データは、判断・統治・継続の三つが揃って初めて生まれる","textChars":30,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/6psfil0r","slide":20,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":20,"text":"20","textPreview":"20","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":20,"text":"＋","textPreview":"＋","textChars":1,"textLines":1,"bbox":[405,320,50,50]}
+{"kind":"textbox","id":"sh/vixczed8","slide":20,"text":"＋","textPreview":"＋","textChars":1,"textLines":1,"bbox":[780,320,50,50]}
+{"kind":"shape","id":"sh/2x4nap4r","slide":20,"bbox":[95,240,310,6]}
+{"kind":"textbox","id":"sh/d0z61032","slide":20,"text":"モデル・データ","textPreview":"モデル・データ","textChars":7,"textLines":1,"bbox":[95,280,310,54]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":20,"text":"判断・修正・失敗・outcomeという内容","textPreview":"判断・修正・失敗・outcomeという内容","textChars":21,"textLines":1,"bbox":[95,360,310,120]}
+{"kind":"shape","id":"sh/ylc7u54z","slide":20,"bbox":[470,240,310,6]}
+{"kind":"textbox","id":"sh/r65wjudg","slide":20,"text":"実行基盤","textPreview":"実行基盤","textChars":4,"textLines":1,"bbox":[470,280,310,54]}
+{"kind":"textbox","id":"sh/gr2p8nqx","slide":20,"text":"state・権利・承認・actionとして捕捉","textPreview":"state・権利・承認・actionとして捕捉","textChars":23,"textLines":1,"bbox":[470,360,310,120]}
+{"kind":"shape","id":"sh/9cvixcze","slide":20,"bbox":[845,240,310,6]}
+{"kind":"textbox","id":"sh/yxobm58z","slide":20,"text":"計算基盤","textPreview":"計算基盤","textChars":4,"textLines":1,"bbox":[845,280,310,54]}
+{"kind":"textbox","id":"sh/nih4byhg","slide":20,"text":"場所・電力・レイテンシを満たして継続","textPreview":"場所・電力・レイテンシを満たして継続","textChars":18,"textLines":1,"bbox":[845,360,310,120]}
+{"kind":"shape","id":"sh/g3ex0nux","slide":20,"bbox":[365,520,550,58]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":20,"text":"実用的な学習資産と、改善を続ける能力","textPreview":"実用的な学習資産と、改善を続ける能力","textChars":18,"textLines":1,"bbox":[390,533,500,34]}
+{"kind":"notes","id":"nt/ua2tm9","slide":20,"text":""}
+{"kind":"slide","id":"sl/xkopcr","slide":21,"title":"COMPUTE THESIS","textShapes":4}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":21,"text":"COMPUTE THESIS","textPreview":"COMPUTE THESIS","textChars":14,"textLines":1,"bbox":[72,50,320,24]}
+{"kind":"shape","id":"sh/83itgfml","slide":21,"bbox":[72,116,150,5]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":21,"text":"AI専用の高効率・低消費電力計算基盤は、\n本番推論のROIを成立させる非オプション能力である。","textPreview":"AI専用の高効率・低消費電力計算基盤は、 | 本番推論のROIを成立させる非オプション能力である。","textChars":47,"textLines":2,"bbox":[72,160,1030,240]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":21,"text":"ゲートで判断するのは計算基盤を作るかではなく、そのどの部分を専用シリコン化するかである。","textPreview":"ゲートで判断するのは計算基盤を作るかではなく、そのどの部分を専用シリコン化するかである。","textChars":44,"textLines":1,"bbox":[72,470,900,100]}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":21,"text":"21","textPreview":"21","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"notes","id":"nt/xkopcr","slide":21,"text":""}
+{"kind":"slide","id":"sl/d5hthf","slide":22,"title":"INFERENCE ECONOMICS","textShapes":20}
+{"kind":"textbox","id":"sh/90je9cvi","slide":22,"text":"INFERENCE ECONOMICS","textPreview":"INFERENCE ECONOMICS","textChars":19,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":22,"text":"推論は、AIが使われるたびに全取引へ反復して課される","textPreview":"推論は、AIが使われるたびに全取引へ反復して課される","textChars":26,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/rytsvu9k","slide":22,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":22,"text":"22","textPreview":"22","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":22,"text":"年間推論総コスト","textPreview":"年間推論総コスト","textChars":8,"textLines":1,"bbox":[72,230,340,50]}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":22,"text":"＝","textPreview":"＝","textChars":1,"textLines":1,"bbox":[420,230,60,50]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":22,"text":"利用件数","textPreview":"利用件数","textChars":4,"textLines":1,"bbox":[500,212,190,46]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":22,"text":"どれだけ使われるか","textPreview":"どれだけ使われるか","textChars":9,"textLines":1,"bbox":[500,270,190,44]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":22,"text":"×","textPreview":"×","textChars":1,"textLines":1,"bbox":[690,225,30,40]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":22,"text":"呼出し回数","textPreview":"呼出し回数","textChars":5,"textLines":1,"bbox":[720,212,190,46]}
+{"kind":"textbox","id":"sh/cvixczed","slide":22,"text":"Agentの多段処理","textPreview":"Agentの多段処理","textChars":10,"textLines":1,"bbox":[720,270,190,44]}
+{"kind":"textbox","id":"sh/nap4r65w","slide":22,"text":"×","textPreview":"×","textChars":1,"textLines":1,"bbox":[910,225,30,40]}
+{"kind":"textbox","id":"sh/upwb2hwf","slide":22,"text":"推論単価","textPreview":"推論単価","textChars":4,"textLines":1,"bbox":[940,212,190,46]}
+{"kind":"textbox","id":"sh/54zidony","slide":22,"text":"1回の計算費用","textPreview":"1回の計算費用","textChars":7,"textLines":1,"bbox":[940,270,190,44]}
+{"kind":"shape","id":"sh/cj6tovah","slide":22,"bbox":[72,350,1136,2]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":22,"text":"設備","textPreview":"設備","textChars":2,"textLines":1,"bbox":[72,405,360,72]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":22,"text":"GPU・acceleratorの償却、ピーク対応、冗長化","textPreview":"GPU・acceleratorの償却、ピーク対応、冗長化","textChars":28,"textLines":1,"bbox":[72,487,360,48]}
+{"kind":"shape","id":"sh/1032lszq","slide":22,"bbox":[446,405,2,160]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":22,"text":"エネルギー","textPreview":"エネルギー","textChars":5,"textLines":1,"bbox":[460,405,360,72]}
+{"kind":"textbox","id":"sh/obm58z25","slide":22,"text":"電力、冷却、ラック、施設制約","textPreview":"電力、冷却、ラック、施設制約","textChars":14,"textLines":1,"bbox":[460,487,360,48]}
+{"kind":"shape","id":"sh/hwfyxobm","slide":22,"bbox":[834,405,2,160]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":22,"text":"運用","textPreview":"運用","textChars":2,"textLines":1,"bbox":[848,405,360,72]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":22,"text":"保守、監視、縮退、復旧、世代更新","textPreview":"保守、監視、縮退、復旧、世代更新","textChars":16,"textLines":1,"bbox":[848,487,360,48]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":22,"text":"PoCで性能が出ることと、本番でROIが成立することは同義ではない。","textPreview":"PoCで性能が出ることと、本番でROIが成立することは同義ではない。","textChars":34,"textLines":1,"bbox":[72,686,980,20]}
+{"kind":"notes","id":"nt/d5hthf","slide":22,"text":""}
+{"kind":"slide","id":"sl/xadx6i","slide":23,"title":"ECONOMIC PRESSURE","textShapes":18}
+{"kind":"textbox","id":"sh/gr2p8nqx","slide":23,"text":"ECONOMIC PRESSURE","textPreview":"ECONOMIC PRESSURE","textChars":17,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/r65wjudg","slide":23,"text":"汎用GPUの単純増設だけでは、重点業務のROIが悪化する","textPreview":"汎用GPUの単純増設だけでは、重点業務のROIが悪化する","textChars":28,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/ylc7u54z","slide":23,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":23,"text":"23","textPreview":"23","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":23,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,210,50,34]}
+{"kind":"textbox","id":"sh/nih4byhg","slide":23,"text":"常時推論","textPreview":"常時推論","textChars":4,"textLines":1,"bbox":[142,206,200,44]}
+{"kind":"textbox","id":"sh/yxobm58z","slide":23,"text":"利用量とAgentの多段呼出しに比例","textPreview":"利用量とAgentの多段呼出しに比例","textChars":18,"textLines":1,"bbox":[382,210,700,42]}
+{"kind":"shape","id":"sh/9s36hcrm","slide":23,"bbox":[142,260,950,1]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":23,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[72,288,50,34]}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":23,"text":"余剰容量","textPreview":"余剰容量","textChars":4,"textLines":1,"bbox":[142,284,200,44]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":23,"text":"ピーク・冗長化・縮退運転へ備える","textPreview":"ピーク・冗長化・縮退運転へ備える","textChars":16,"textLines":1,"bbox":[382,288,700,42]}
+{"kind":"shape","id":"sh/g7adsji5","slide":23,"bbox":[142,338,950,1]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":23,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[72,366,50,34]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":23,"text":"Memory / I/O","textPreview":"Memory / I/O","textChars":12,"textLines":1,"bbox":[142,362,200,44]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":23,"text":"KV cache・長context・RAG/KGが支配","textPreview":"KV cache・長context・RAG/KGが支配","textChars":27,"textLines":1,"bbox":[382,366,700,42]}
+{"kind":"shape","id":"sh/gfmlkjm1","slide":23,"bbox":[142,416,950,1]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":23,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[72,444,50,34]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":23,"text":"施設制約","textPreview":"施設制約","textChars":4,"textLines":1,"bbox":[142,440,200,44]}
+{"kind":"textbox","id":"sh/r65wjudg","slide":23,"text":"給電・冷却・ラックを追加できない","textPreview":"給電・冷却・ラックを追加できない","textChars":16,"textLines":1,"bbox":[382,444,700,42]}
+{"kind":"shape","id":"sh/fa9w3m94","slide":23,"bbox":[142,494,950,1]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":23,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[72,522,50,34]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":23,"text":"汎用性コスト","textPreview":"汎用性コスト","textChars":6,"textLines":1,"bbox":[142,518,200,44]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":23,"text":"使わない機能を含むstackへ支払う","textPreview":"使わない機能を含むstackへ支払う","textChars":18,"textLines":1,"bbox":[382,522,700,42]}
+{"kind":"shape","id":"sh/fyxobm58","slide":23,"bbox":[142,572,950,1]}
+{"kind":"notes","id":"nt/xadx6i","slide":23,"text":""}
+{"kind":"slide","id":"sl/8i16dv","slide":24,"title":"COMPUTE SYSTEM","textShapes":16}
+{"kind":"textbox","id":"sh/sneloj2t","slide":24,"text":"COMPUTE SYSTEM","textPreview":"COMPUTE SYSTEM","textChars":14,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":24,"text":"専用性はチップではなく、実ワークロードに合わせた6層の協調最適化で作る","textPreview":"専用性はチップではなく、実ワークロードに合わせた6層の協調最適化で作る","textChars":35,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/ahoza1gv","slide":24,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":24,"text":"24","textPreview":"24","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/szqtcj6t","slide":24,"bbox":[72,205,12,45]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":24,"text":"モデル","textPreview":"モデル","textChars":3,"textLines":1,"bbox":[104,203,190,48]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":24,"text":"小型化・MoE・量子化・蒸留","textPreview":"小型化・MoE・量子化・蒸留","textChars":14,"textLines":1,"bbox":[322,205,780,44]}
+{"kind":"shape","id":"sh/loj2t83i","slide":24,"bbox":[72,272,12,45]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":24,"text":"配置","textPreview":"配置","textChars":2,"textLines":1,"bbox":[104,270,190,48]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":24,"text":"難度別routing・RAG/KG/ルール","textPreview":"難度別routing・RAG/KG/ルール","textChars":21,"textLines":1,"bbox":[322,272,780,44]}
+{"kind":"shape","id":"sh/nyd0z610","slide":24,"bbox":[72,339,12,45]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":24,"text":"推論SW","textPreview":"推論SW","textChars":4,"textLines":1,"bbox":[104,337,190,48]}
+{"kind":"textbox","id":"sh/54zidony","slide":24,"text":"serving・kernel・compiler・runtime","textPreview":"serving・kernel・compiler・runtime","textChars":31,"textLines":1,"bbox":[322,339,780,44]}
+{"kind":"shape","id":"sh/upwb2hwf","slide":24,"bbox":[72,406,12,45]}
+{"kind":"textbox","id":"sh/nap4r65w","slide":24,"text":"Memory/I/O","textPreview":"Memory/I/O","textChars":10,"textLines":1,"bbox":[104,404,190,48]}
+{"kind":"textbox","id":"sh/cvixczed","slide":24,"text":"KV cache・HBM/DRAM/CXL・圧縮","textPreview":"KV cache・HBM/DRAM/CXL・圧縮","textChars":24,"textLines":1,"bbox":[322,406,780,44]}
+{"kind":"shape","id":"sh/5gbq1ory","slide":24,"bbox":[72,473,12,45]}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":24,"text":"演算","textPreview":"演算","textChars":2,"textLines":1,"bbox":[104,471,190,48]}
+{"kind":"textbox","id":"sh/jm1cfa9w","slide":24,"text":"GPU・accelerator・FPGA・ASIC","textPreview":"GPU・accelerator・FPGA・ASIC","textChars":25,"textLines":1,"bbox":[322,473,780,44]}
+{"kind":"shape","id":"sh/bm58z25k","slide":24,"bbox":[72,540,12,45]}
+{"kind":"textbox","id":"sh/m1cfa9w3","slide":24,"text":"設備","textPreview":"設備","textChars":2,"textLines":1,"bbox":[104,538,190,48]}
+{"kind":"textbox","id":"sh/tsvu9kni","slide":24,"text":"電力・冷却・冗長化・保守","textPreview":"電力・冷却・冗長化・保守","textChars":12,"textLines":1,"bbox":[322,540,780,44]}
+{"kind":"textbox","id":"sh/47y1kre1","slide":24,"text":"Phase 1のGPU上でも、計測・routing・memory管理・運用契約の構築は始まっている。","textPreview":"Phase 1のGPU上でも、計測・routing・memory管理・運用契約の構築は始まっている。","textChars":50,"textLines":1,"bbox":[72,686,980,20]}
+{"kind":"notes","id":"nt/8i16dv","slide":24,"text":""}
+{"kind":"slide","id":"sl/zy4ayj","slide":25,"title":"ROI GATE","textShapes":13}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":25,"text":"ROI GATE","textPreview":"ROI GATE","textChars":8,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/ed8bat47","slide":25,"text":"計算基盤はtokens/secではなく、業務成果に対する総費用で評価する","textPreview":"計算基盤はtokens/secではなく、業務成果に対する総費用で評価する","textChars":36,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/7u54zido","slide":25,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":25,"text":"25","textPreview":"25","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/lc7u54zi","slide":25,"bbox":[72,220,1136,88]}
+{"kind":"textbox","id":"sh/eloj2t83","slide":25,"text":"年間純便益 ＝ 業務価値・損失回避 − 推論・設備・電力・冷却・保守・運用費","textPreview":"年間純便益 ＝ 業務価値・損失回避 − 推論・設備・電力・冷却・保守・運用費","textChars":38,"textLines":1,"bbox":[98,240,1084,50]}
+{"kind":"textbox","id":"sh/36hcrmhk","slide":25,"text":"OUTCOME","textPreview":"OUTCOME","textChars":7,"textLines":1,"bbox":[72,360,360,24]}
+{"kind":"textbox","id":"sh/wval87ed","slide":25,"text":"業務単位","textPreview":"業務単位","textChars":4,"textLines":1,"bbox":[72,394,360,72]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":25,"text":"1業務当たり推論回数\n採用判断/action当たり計算費\noutcome当たり電力量","textPreview":"1業務当たり推論回数 | 採用判断/action当たり計算費 | outcome当たり電力量","textChars":42,"textLines":3,"bbox":[72,472,360,118]}
+{"kind":"shape","id":"sh/loj2t83i","slide":25,"bbox":[446,360,2,230]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":25,"text":"SYSTEM","textPreview":"SYSTEM","textChars":6,"textLines":1,"bbox":[460,360,360,24]}
+{"kind":"textbox","id":"sh/3itgfmlk","slide":25,"text":"設備単位","textPreview":"設備単位","textChars":4,"textLines":1,"bbox":[460,394,360,72]}
+{"kind":"textbox","id":"sh/ex0nuxc3","slide":25,"text":"利用率とSLO余剰容量\n償却込みTCO\nSW最適化の削減率","textPreview":"利用率とSLO余剰容量 | 償却込みTCO | SW最適化の削減率","textChars":29,"textLines":3,"bbox":[460,472,360,118]}
+{"kind":"shape","id":"sh/lwval87e","slide":25,"bbox":[834,360,2,230]}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":25,"text":"CAPABILITY","textPreview":"CAPABILITY","textChars":10,"textLines":1,"bbox":[848,360,360,24]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":25,"text":"国内能力","textPreview":"国内能力","textChars":4,"textLines":1,"bbox":[848,394,360,72]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":25,"text":"要件定義・比較統合\ncompiler/runtime改変\n代替調達・保守・設計IP","textPreview":"要件定義・比較統合 | compiler/runtime改変 | 代替調達・保守・設計IP","textChars":41,"textLines":3,"bbox":[848,472,360,118]}
+{"kind":"notes","id":"nt/zy4ayj","slide":25,"text":""}
+{"kind":"slide","id":"sl/8g4p2y","slide":26,"title":"HARDWARE GATE","textShapes":16}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":26,"text":"HARDWARE GATE","textPreview":"HARDWARE GATE","textChars":13,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":26,"text":"ASICを作るかではなく、どこまで専用シリコン化するかを需要ゲートで判断する","textPreview":"ASICを作るかではなく、どこまで専用シリコン化するかを需要ゲートで判断する","textChars":38,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/8bat47y1","slide":26,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":26,"text":"26","textPreview":"26","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/qh0fepkz","slide":26,"bbox":[72,220,548,5]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":26,"text":"GO","textPreview":"GO","textChars":2,"textLines":1,"bbox":[72,240,548,24]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":26,"text":"専用HWへ進む","textPreview":"専用HWへ進む","textChars":7,"textLines":1,"bbox":[72,278,548,84]}
+{"kind":"shape","id":"sh/j6tovaho","slide":26,"bbox":[72,384,8,8]}
+{"kind":"textbox","id":"sh/ulwval87","slide":26,"text":"支配的な演算・data移動が明確","textPreview":"支配的な演算・data移動が明確","textChars":16,"textLines":1,"bbox":[96,374,524,51]}
+{"kind":"shape","id":"sh/4vmtwra5","slide":26,"bbox":[72,439,8,8]}
+{"kind":"textbox","id":"sh/tgfmlkjm","slide":26,"text":"既存構成では制約を解けない","textPreview":"既存構成では制約を解けない","textChars":13,"textLines":1,"bbox":[96,429,524,51]}
+{"kind":"shape","id":"sh/mp0bi9s3","slide":26,"bbox":[72,494,8,8]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":26,"text":"継続需要とoutcome/TCO改善","textPreview":"継続需要とoutcome/TCO改善","textChars":18,"textLines":1,"bbox":[96,484,524,51]}
+{"kind":"shape","id":"sh/47y1kre1","slide":26,"bbox":[72,549,8,8]}
+{"kind":"textbox","id":"sh/tsvu9kni","slide":26,"text":"設計・製造・保守体制がある","textPreview":"設計・製造・保守体制がある","textChars":13,"textLines":1,"bbox":[96,539,524,51]}
+{"kind":"shape","id":"sh/m1cfa9w3","slide":26,"bbox":[660,220,548,5]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":26,"text":"NO-GO","textPreview":"NO-GO","textChars":5,"textLines":1,"bbox":[660,240,548,24]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":26,"text":"既存シリコンで続ける","textPreview":"既存シリコンで続ける","textChars":10,"textLines":1,"bbox":[660,278,548,84]}
+{"kind":"shape","id":"sh/twra5gbq","slide":26,"bbox":[660,384,8,8]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":26,"text":"multi-vendor GPU / accelerator","textPreview":"multi-vendor GPU / accelerator","textChars":30,"textLines":1,"bbox":[684,374,524,51]}
+{"kind":"shape","id":"sh/8z25kb6x","slide":26,"bbox":[660,439,8,8]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":26,"text":"FPGA・custom kernel・compiler","textPreview":"FPGA・custom kernel・compiler","textChars":27,"textLines":1,"bbox":[684,429,524,51]}
+{"kind":"shape","id":"sh/qtcj6tov","slide":26,"bbox":[660,494,8,8]}
+{"kind":"textbox","id":"sh/xs72x4na","slide":26,"text":"memory・設備の一体最適化","textPreview":"memory・設備の一体最適化","textChars":15,"textLines":1,"bbox":[684,484,524,51]}
+{"kind":"shape","id":"sh/87ed8bat","slide":26,"bbox":[660,549,8,8]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":26,"text":"国内実装・保守・代替調達を蓄積","textPreview":"国内実装・保守・代替調達を蓄積","textChars":15,"textLines":1,"bbox":[684,539,524,51]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":26,"text":"ASICへ進まない判断も失敗ではない。どちらでも重要業務の継続と国内能力の蓄積を実現する。","textPreview":"ASICへ進まない判断も失敗ではない。どちらでも重要業務の継続と国内能力の蓄積を実現する。","textChars":45,"textLines":1,"bbox":[72,686,980,20]}
+{"kind":"notes","id":"nt/8g4p2y","slide":26,"text":""}
+{"kind":"slide","id":"sl/cvruj5","slide":27,"title":"SECTION 4","textShapes":4}
+{"kind":"textbox","id":"sh/tcj6tova","slide":27,"text":"SECTION 4","textPreview":"SECTION 4","textChars":9,"textLines":1,"bbox":[72,76,220,28]}
+{"kind":"textbox","id":"sh/il0rqd4v","slide":27,"text":"実装と市場","textPreview":"実装と市場","textChars":5,"textLines":1,"bbox":[72,150,900,150]}
+{"kind":"shape","id":"sh/b6xkf6dc","slide":27,"bbox":[72,340,160,5]}
+{"kind":"textbox","id":"sh/0je9cvix","slide":27,"text":"利用から始め、検証ゲートを通り、どちらの分岐でも国内能力を育てる。","textPreview":"利用から始め、検証ゲートを通り、どちらの分岐でも国内能力を育てる。","textChars":33,"textLines":1,"bbox":[72,390,860,120]}
+{"kind":"textbox","id":"sh/t47y1kre","slide":27,"text":"27","textPreview":"27","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"notes","id":"nt/cvruj5","slide":27,"text":""}
+{"kind":"slide","id":"sl/0enp0n","slide":28,"title":"EXECUTION LOOP","textShapes":23}
+{"kind":"textbox","id":"sh/jm1cfa9w","slide":28,"text":"EXECUTION LOOP","textPreview":"EXECUTION LOOP","textChars":14,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/c7u54zid","slide":28,"text":"実行順は利用から始まり、HWで一方向に終わらず利用へ戻る","textPreview":"実行順は利用から始まり、HWで一方向に終わらず利用へ戻る","textChars":28,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/1orytsvu","slide":28,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/u9knih4b","slide":28,"text":"28","textPreview":"28","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/judg7ads","slide":28,"bbox":[72,215,330,5]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":28,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,233,50,32]}
+{"kind":"textbox","id":"sh/1032lszq","slide":28,"text":"重点業務","textPreview":"重点業務","textChars":4,"textLines":1,"bbox":[72,273,330,46]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":28,"text":"守る領域とoutcome","textPreview":"守る領域とoutcome","textChars":12,"textLines":1,"bbox":[72,327,330,48]}
+{"kind":"shape","id":"sh/nyd0z610","slide":28,"bbox":[450,215,330,5]}
+{"kind":"textbox","id":"sh/v6psfil0","slide":28,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[450,233,50,32]}
+{"kind":"textbox","id":"sh/2lszqtcj","slide":28,"text":"本番導入","textPreview":"本番導入","textChars":4,"textLines":1,"bbox":[450,273,330,46]}
+{"kind":"textbox","id":"sh/d8bat47y","slide":28,"text":"A＋Cを同時実装","textPreview":"A＋Cを同時実装","textChars":8,"textLines":1,"bbox":[450,327,330,48]}
+{"kind":"shape","id":"sh/knih4byh","slide":28,"bbox":[828,215,330,5]}
+{"kind":"textbox","id":"sh/vu9knih4","slide":28,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[828,233,50,32]}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":28,"text":"改善主権","textPreview":"改善主権","textChars":4,"textLines":1,"bbox":[828,273,330,46]}
+{"kind":"textbox","id":"sh/d0z61032","slide":28,"text":"評価・配備・停止","textPreview":"評価・配備・停止","textChars":8,"textLines":1,"bbox":[828,327,330,48]}
+{"kind":"shape","id":"sh/kf6dcbul","slide":28,"bbox":[72,405,330,5]}
+{"kind":"textbox","id":"sh/vixczed8","slide":28,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[72,423,50,32]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":28,"text":"計算最適化","textPreview":"計算最適化","textChars":5,"textLines":1,"bbox":[72,463,330,46]}
+{"kind":"textbox","id":"sh/ex0nuxc3","slide":28,"text":"実workloadから要件","textPreview":"実workloadから要件","textChars":13,"textLines":1,"bbox":[72,517,330,48]}
+{"kind":"shape","id":"sh/3itgfmlk","slide":28,"bbox":[450,405,330,5]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":28,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[450,423,50,32]}
+{"kind":"textbox","id":"sh/loj2t83i","slide":28,"text":"供給能力","textPreview":"供給能力","textChars":4,"textLines":1,"bbox":[450,463,330,46]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":28,"text":"代替・設計・調達","textPreview":"代替・設計・調達","textChars":8,"textLines":1,"bbox":[450,517,330,48]}
+{"kind":"shape","id":"sh/3q5o7qpg","slide":28,"bbox":[828,405,330,5]}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":28,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[828,423,50,32]}
+{"kind":"textbox","id":"sh/lwval87e","slide":28,"text":"需要ゲート","textPreview":"需要ゲート","textChars":5,"textLines":1,"bbox":[828,463,330,46]}
+{"kind":"textbox","id":"sh/ahoza1gv","slide":28,"text":"ASIC go / no-go","textPreview":"ASIC go / no-go","textChars":15,"textLines":1,"bbox":[828,517,330,48]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":28,"text":"↺","textPreview":"↺","textChars":1,"textLines":1,"bbox":[1140,500,50,50]}
+{"kind":"textbox","id":"sh/t47y1kre","slide":28,"text":"どの分岐でも、より多くの利用へ戻し、改善資産と供給能力を育てる。","textPreview":"どの分岐でも、より多くの利用へ戻し、改善資産と供給能力を育てる。","textChars":32,"textLines":1,"bbox":[72,686,980,20]}
+{"kind":"notes","id":"nt/0enp0n","slide":28,"text":""}
+{"kind":"slide","id":"sl/9v72y2","slide":29,"title":"ROADMAP","textShapes":16}
+{"kind":"textbox","id":"sh/1orytsvu","slide":29,"text":"ROADMAP","textPreview":"ROADMAP","textChars":7,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":29,"text":"四つのPhaseで、統治可能な利用から能力主権へ進む","textPreview":"四つのPhaseで、統治可能な利用から能力主権へ進む","textChars":26,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/jm1cfa9w","slide":29,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":29,"text":"29","textPreview":"29","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/1032lszq","slide":29,"bbox":[72,230,246,6]}
+{"kind":"textbox","id":"sh/u9knih4b","slide":29,"text":"PHASE 1","textPreview":"PHASE 1","textChars":7,"textLines":1,"bbox":[72,255,246,28]}
+{"kind":"textbox","id":"sh/judg7ads","slide":29,"text":"本番利用","textPreview":"本番利用","textChars":4,"textLines":1,"bbox":[72,305,246,46]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":29,"text":"OSS・海外GPUで早期導入\n資産・鍵・承認・停止を国内へ","textPreview":"OSS・海外GPUで早期導入 | 資産・鍵・承認・停止を国内へ","textChars":29,"textLines":2,"bbox":[72,380,246,150]}
+{"kind":"shape","id":"sh/54zidony","slide":29,"bbox":[354,230,246,6]}
+{"kind":"textbox","id":"sh/t47y1kre","slide":29,"text":"PHASE 2","textPreview":"PHASE 2","textChars":7,"textLines":1,"bbox":[354,255,246,28]}
+{"kind":"textbox","id":"sh/0je9cvix","slide":29,"text":"改善主権","textPreview":"改善主権","textChars":4,"textLines":1,"bbox":[354,305,246,46]}
+{"kind":"textbox","id":"sh/byhgn29g","slide":29,"text":"国内で評価・配備・停止\noutcome/TCOを計測・改善","textPreview":"国内で評価・配備・停止 | outcome/TCOを計測・改善","textChars":29,"textLines":2,"bbox":[354,380,246,150]}
+{"kind":"shape","id":"sh/idonyd0z","slide":29,"bbox":[636,230,246,6]}
+{"kind":"textbox","id":"sh/tcj6tova","slide":29,"text":"PHASE 3","textPreview":"PHASE 3","textChars":7,"textLines":1,"bbox":[636,255,246,28]}
+{"kind":"textbox","id":"sh/0rqd4vmt","slide":29,"text":"能力主権","textPreview":"能力主権","textChars":4,"textLines":1,"bbox":[636,305,246,46]}
+{"kind":"textbox","id":"sh/b6xkf6dc","slide":29,"text":"移行試験・国内改変範囲を拡大\nHW比較とgo/no-go","textPreview":"移行試験・国内改変範囲を拡大 | HW比較とgo/no-go","textChars":28,"textLines":2,"bbox":[636,380,246,150]}
+{"kind":"shape","id":"sh/il0rqd4v","slide":29,"bbox":[918,230,246,6]}
+{"kind":"textbox","id":"sh/tovahoza","slide":29,"text":"PHASE 4","textPreview":"PHASE 4","textChars":7,"textLines":1,"bbox":[918,255,246,28]}
+{"kind":"textbox","id":"sh/032lszqt","slide":29,"text":"供給継続","textPreview":"供給継続","textChars":4,"textLines":1,"bbox":[918,305,246,46]}
+{"kind":"textbox","id":"sh/czed8v6p","slide":29,"text":"A：HW製品化\nB：既存シリコンで専用基盤を更新","textPreview":"A：HW製品化 | B：既存シリコンで専用基盤を更新","textChars":24,"textLines":2,"bbox":[918,380,246,150]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":29,"text":"国内主導は部品国籍ではなく、各Phaseで決定・実行・移行・継続の証拠を積むこと。","textPreview":"国内主導は部品国籍ではなく、各Phaseで決定・実行・移行・継続の証拠を積むこと。","textChars":41,"textLines":1,"bbox":[72,686,980,20]}
+{"kind":"notes","id":"nt/9v72y2","slide":29,"text":""}
+{"kind":"slide","id":"sl/ksabpg","slide":30,"title":"MARKET","textShapes":12}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":30,"text":"MARKET","textPreview":"MARKET","textChars":6,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/9cvixcze","slide":30,"text":"市場の入口は狭く、共通能力の利用先は広く設計する","textPreview":"市場の入口は狭く、共通能力の利用先は広く設計する","textChars":24,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/gr2p8nqx","slide":30,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/nih4byhg","slide":30,"text":"30","textPreview":"30","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"textbox","id":"sh/yxobm58z","slide":30,"text":"S / SOVEREIGN","textPreview":"S / SOVEREIGN","textChars":13,"textLines":1,"bbox":[72,215,360,24]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":30,"text":"主権必須領域","textPreview":"主権必須領域","textChars":6,"textLines":1,"bbox":[72,249,360,72]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":30,"text":"防衛・重要infra\n外部最終control不可\nair-gapped / 有事継続\n\n役割：能力主権のbeachhead","textPreview":"防衛・重要infra | 外部最終control不可 | air-gapped / 有事継続 |  | 役割：能力主権のbeachhead","textChars":61,"textLines":5,"bbox":[72,327,360,278]}
+{"kind":"shape","id":"sh/rmhk3q5o","slide":30,"bbox":[446,215,2,390]}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":30,"text":"R / REGULATED","textPreview":"R / REGULATED","textChars":13,"textLines":1,"bbox":[460,215,360,24]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":30,"text":"規制・重要商用","textPreview":"規制・重要商用","textChars":7,"textLines":1,"bbox":[460,249,360,72]}
+{"kind":"textbox","id":"sh/94fu18jq","slide":30,"text":"公共・金融・製造\nデータ境界・監査・移行性\n安定運用\n\n役割：利用量と改善loop","textPreview":"公共・金融・製造 | データ境界・監査・移行性 | 安定運用 |  | 役割：利用量と改善loop","textChars":41,"textLines":5,"bbox":[460,327,360,278]}
+{"kind":"shape","id":"sh/2hwfyxob","slide":30,"bbox":[834,215,2,390]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":30,"text":"C / COMMERCIAL","textPreview":"C / COMMERCIAL","textChars":14,"textLines":1,"bbox":[848,215,360,24]}
+{"kind":"textbox","id":"sh/gvy90je9","slide":30,"text":"一般商用","textPreview":"一般商用","textChars":4,"textLines":1,"bbox":[848,249,360,72]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":30,"text":"ROI・速度・使いやすさ\n低TCO\n\n役割：共通stackを鍛える\noutcome優位時に選択展開","textPreview":"ROI・速度・使いやすさ | 低TCO |  | 役割：共通stackを鍛える | outcome優位時に選択展開","textChars":49,"textLines":5,"bbox":[848,327,360,278]}
+{"kind":"notes","id":"nt/ksabpg","slide":30,"text":""}
+{"kind":"slide","id":"sl/xn035l","slide":31,"title":"GO-TO-MARKET","textShapes":12}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":31,"text":"GO-TO-MARKET","textPreview":"GO-TO-MARKET","textChars":12,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":31,"text":"「主権だから買う」だけに依存しない","textPreview":"「主権だから買う」だけに依存しない","textChars":17,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/ulwval87","slide":31,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":31,"text":"31","textPreview":"31","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"textbox","id":"sh/c3ylc7u5","slide":31,"text":"導入理由","textPreview":"導入理由","textChars":4,"textLines":1,"bbox":[72,225,230,34]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":31,"text":"実用性","textPreview":"実用性","textChars":3,"textLines":1,"bbox":[330,217,340,50]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":31,"text":"重点業務で価値を出し、本番へ移れる","textPreview":"重点業務で価値を出し、本番へ移れる","textChars":17,"textLines":1,"bbox":[720,225,460,48]}
+{"kind":"shape","id":"sh/1w7mp0bi","slide":31,"bbox":[72,295,1100,1]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":31,"text":"継続理由","textPreview":"継続理由","textChars":4,"textLines":1,"bbox":[72,350,230,34]}
+{"kind":"textbox","id":"sh/ytsvu9kn","slide":31,"text":"改善速度と移行性","textPreview":"改善速度と移行性","textChars":8,"textLines":1,"bbox":[330,342,340,50]}
+{"kind":"textbox","id":"sh/neloj2t8","slide":31,"text":"使うほど性能・運用・選択肢が強くなる","textPreview":"使うほど性能・運用・選択肢が強くなる","textChars":18,"textLines":1,"bbox":[720,350,460,48]}
+{"kind":"shape","id":"sh/czed8v6p","slide":31,"bbox":[72,420,1100,1]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":31,"text":"国家的な選択理由","textPreview":"国家的な選択理由","textChars":8,"textLines":1,"bbox":[72,475,230,34]}
+{"kind":"textbox","id":"sh/u54zidon","slide":31,"text":"能力主権","textPreview":"能力主権","textChars":4,"textLines":1,"bbox":[330,467,340,50]}
+{"kind":"textbox","id":"sh/nqxs72x4","slide":31,"text":"外部都合でも重要業務を継続できる","textPreview":"外部都合でも重要業務を継続できる","textChars":16,"textLines":1,"bbox":[720,475,460,48]}
+{"kind":"shape","id":"sh/cbulwval","slide":31,"bbox":[72,545,1100,1]}
+{"kind":"notes","id":"nt/xn035l","slide":31,"text":""}
+{"kind":"slide","id":"sl/q5fd5l","slide":32,"title":"KPI","textShapes":14}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":32,"text":"KPI","textPreview":"KPI","textChars":3,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/2p8nqxs7","slide":32,"text":"成功は物量ではなく、利用・権利・自律性・継続性・効率で測る","textPreview":"成功は物量ではなく、利用・権利・自律性・継続性・効率で測る","textChars":29,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/ra5gbq1o","slide":32,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":32,"text":"32","textPreview":"32","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/94fu18jq","slide":32,"bbox":[72,210,10,48]}
+{"kind":"textbox","id":"sh/2hwfyxob","slide":32,"text":"利用","textPreview":"利用","textChars":2,"textLines":1,"bbox":[104,210,150,44]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":32,"text":"本番業務数 / 継続率 / outcome接続率","textPreview":"本番業務数 / 継続率 / outcome接続率","textChars":24,"textLines":1,"bbox":[292,212,870,42]}
+{"kind":"shape","id":"sh/kb6xkf6d","slide":32,"bbox":[72,288,10,48]}
+{"kind":"textbox","id":"sh/9w3m94fu","slide":32,"text":"権利","textPreview":"権利","textChars":2,"textLines":1,"bbox":[104,288,150,44]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":32,"text":"provenance・許諾・削除条件の機械可読率","textPreview":"provenance・許諾・削除条件の機械可読率","textChars":24,"textLines":1,"bbox":[292,290,870,42]}
+{"kind":"shape","id":"sh/8v6psfil","slide":32,"bbox":[72,366,10,48]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":32,"text":"自律","textPreview":"自律","textChars":2,"textLines":1,"bbox":[104,366,150,44]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":32,"text":"国内で評価・配備・停止・rollbackできる比率","textPreview":"国内で評価・配備・停止・rollbackできる比率","textChars":25,"textLines":1,"bbox":[292,368,870,42]}
+{"kind":"shape","id":"sh/x4nap4r6","slide":32,"bbox":[72,444,10,48]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":32,"text":"継続","textPreview":"継続","textChars":2,"textLines":1,"bbox":[104,444,150,44]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":32,"text":"API切断・vendor障害時の継続・復旧率","textPreview":"API切断・vendor障害時の継続・復旧率","textChars":22,"textLines":1,"bbox":[292,446,870,42]}
+{"kind":"shape","id":"sh/qd4vmtwr","slide":32,"bbox":[72,522,10,48]}
+{"kind":"textbox","id":"sh/xs72x4na","slide":32,"text":"効率","textPreview":"効率","textChars":2,"textLines":1,"bbox":[104,522,150,44]}
+{"kind":"textbox","id":"sh/87ed8bat","slide":32,"text":"business outcome per joule / outcome単位TCO","textPreview":"business outcome per joule / outcome単位TCO","textChars":41,"textLines":1,"bbox":[292,524,870,42]}
+{"kind":"textbox","id":"sh/4fu18jqh","slide":32,"text":"GPU台数、model size、tape-out件数は入力値であり、単独の成功KPIではない。","textPreview":"GPU台数、model size、tape-out件数は入力値であり、単独の成功KPIではない。","textChars":48,"textLines":1,"bbox":[72,686,980,20]}
+{"kind":"notes","id":"nt/q5fd5l","slide":32,"text":""}
+{"kind":"slide","id":"sl/2n0cn8","slide":33,"title":"FALSIFIABILITY","textShapes":22}
+{"kind":"textbox","id":"sh/byhgn29g","slide":33,"text":"FALSIFIABILITY","textPreview":"FALSIFIABILITY","textChars":14,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/0je9cvix","slide":33,"text":"戦略を信念化しないため、反証条件ごとに代替経路を持つ","textPreview":"戦略を信念化しないため、反証条件ごとに代替経路を持つ","textChars":26,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/t47y1kre","slide":33,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/il0rqd4v","slide":33,"text":"33","textPreview":"33","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/b6xkf6dc","slide":33,"bbox":[72,210,1130,66]}
+{"kind":"textbox","id":"sh/0rqd4vmt","slide":33,"text":"反証条件","textPreview":"反証条件","textChars":4,"textLines":1,"bbox":[82,222,240,48]}
+{"kind":"textbox","id":"sh/tcj6tova","slide":33,"text":"観測した事実","textPreview":"観測した事実","textChars":6,"textLines":1,"bbox":[342,222,420,48]}
+{"kind":"textbox","id":"sh/ixczed8v","slide":33,"text":"対応","textPreview":"対応","textChars":2,"textLines":1,"bbox":[782,222,410,48]}
+{"kind":"shape","id":"sh/bi9s36hc","slide":33,"bbox":[72,276,1130,66]}
+{"kind":"shape","id":"sh/rytsvu9k","slide":33,"bbox":[72,341,1130,1]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":33,"text":"利用されない","textPreview":"利用されない","textChars":6,"textLines":1,"bbox":[82,286,240,52]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":33,"text":"実用性・価格・速度で継続劣位","textPreview":"実用性・価格・速度で継続劣位","textChars":14,"textLines":1,"bbox":[342,286,420,52]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":33,"text":"対象業務・提供範囲を見直す","textPreview":"対象業務・提供範囲を見直す","textChars":13,"textLines":1,"bbox":[782,286,410,52]}
+{"kind":"shape","id":"sh/rmhk3q5o","slide":33,"bbox":[72,342,1130,66]}
+{"kind":"shape","id":"sh/y1kre1w7","slide":33,"bbox":[72,407,1130,1]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":33,"text":"外資が制御権を実証","textPreview":"外資が制御権を実証","textChars":9,"textLines":1,"bbox":[82,352,240,52]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":33,"text":"改変・移植・継続を契約と実績で提供","textPreview":"改変・移植・継続を契約と実績で提供","textChars":17,"textLines":1,"bbox":[342,352,420,52]}
+{"kind":"textbox","id":"sh/nih4byhg","slide":33,"text":"国籍ではなく制御権で再評価","textPreview":"国籍ではなく制御権で再評価","textChars":13,"textLines":1,"bbox":[782,352,410,52]}
+{"kind":"shape","id":"sh/yxobm58z","slide":33,"bbox":[72,408,1130,66]}
+{"kind":"shape","id":"sh/61032lsz","slide":33,"bbox":[72,473,1130,1]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":33,"text":"共有信号が少ない","textPreview":"共有信号が少ない","textChars":8,"textLines":1,"bbox":[82,418,240,52]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":33,"text":"顧客間で再利用できない","textPreview":"顧客間で再利用できない","textChars":11,"textLines":1,"bbox":[342,418,420,52]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":33,"text":"顧客local構成へ集中","textPreview":"顧客local構成へ集中","textChars":12,"textLines":1,"bbox":[782,418,410,52]}
+{"kind":"shape","id":"sh/6dcbulwv","slide":33,"bbox":[72,474,1130,66]}
+{"kind":"shape","id":"sh/vy90je9c","slide":33,"bbox":[72,539,1130,1]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":33,"text":"ASICが不合理","textPreview":"ASICが不合理","textChars":8,"textLines":1,"bbox":[82,484,240,52]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":33,"text":"既存構成よりoutcome/TCOが悪い","textPreview":"既存構成よりoutcome/TCOが悪い","textChars":20,"textLines":1,"bbox":[342,484,420,52]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":33,"text":"Phase 4Bを継続","textPreview":"Phase 4Bを継続","textChars":11,"textLines":1,"bbox":[782,484,410,52]}
+{"kind":"shape","id":"sh/z25kb6xk","slide":33,"bbox":[72,540,1130,66]}
+{"kind":"shape","id":"sh/l87ed8ba","slide":33,"bbox":[72,605,1130,1]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":33,"text":"権利処理が高コスト","textPreview":"権利処理が高コスト","textChars":9,"textLines":1,"bbox":[82,550,240,52]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":33,"text":"再利用便益を上回る","textPreview":"再利用便益を上回る","textChars":9,"textLines":1,"bbox":[342,550,420,52]}
+{"kind":"textbox","id":"sh/ahoza1gv","slide":33,"text":"共有範囲を縮小","textPreview":"共有範囲を縮小","textChars":7,"textLines":1,"bbox":[782,550,410,52]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":33,"text":"モデル統合、共有コア、専用HWは、それぞれ独立したゲートで判断する。","textPreview":"モデル統合、共有コア、専用HWは、それぞれ独立したゲートで判断する。","textChars":34,"textLines":1,"bbox":[72,686,980,20]}
+{"kind":"notes","id":"nt/2n0cn8","slide":33,"text":""}
+{"kind":"slide","id":"sl/bimp64","slide":34,"title":"CONCLUSION","textShapes":4}
+{"kind":"textbox","id":"sh/ovahoza1","slide":34,"text":"CONCLUSION","textPreview":"CONCLUSION","textChars":10,"textLines":1,"bbox":[72,50,320,24]}
+{"kind":"shape","id":"sh/vahoza1g","slide":34,"bbox":[72,116,150,5]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":34,"text":"実用性で使われ、使うほど\n改善主権と継続能力が日本に残るAIシステムを構築する。","textPreview":"実用性で使われ、使うほど | 改善主権と継続能力が日本に残るAIシステムを構築する。","textChars":40,"textLines":2,"bbox":[72,160,1030,240]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":34,"text":"モデル、データ、実行基盤、計算基盤、半導体、供給網は、この状態を成立させる手段である。","textPreview":"モデル、データ、実行基盤、計算基盤、半導体、供給網は、この状態を成立させる手段である。","textChars":43,"textLines":1,"bbox":[72,470,900,100]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":34,"text":"34","textPreview":"34","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"notes","id":"nt/bimp64","slide":34,"text":""}
+{"kind":"slide","id":"sl/xc3aff","slide":35,"title":"APPENDIX","textShapes":13}
+{"kind":"textbox","id":"sh/dsji5sne","slide":35,"text":"APPENDIX","textPreview":"APPENDIX","textChars":8,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/61032lsz","slide":35,"text":"現場利用から生まれる実用資産の全項目","textPreview":"現場利用から生まれる実用資産の全項目","textChars":18,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/vmtwra5g","slide":35,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":35,"text":"35","textPreview":"35","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/d4vmtwra","slide":35,"bbox":[72,210,548,5]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":35,"text":"判断・実行","textPreview":"判断・実行","textChars":5,"textLines":1,"bbox":[72,236,548,84]}
+{"kind":"shape","id":"sh/vy90je9c","slide":35,"bbox":[72,346,8,8]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":35,"text":"どの状態で、どの判断を行ったか","textPreview":"どの状態で、どの判断を行ったか","textChars":15,"textLines":1,"bbox":[96,336,524,58]}
+{"kind":"shape","id":"sh/d8v6psfi","slide":35,"bbox":[72,408,8,8]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":35,"text":"専門家が何を修正したか","textPreview":"専門家が何を修正したか","textChars":11,"textLines":1,"bbox":[96,398,524,58]}
+{"kind":"shape","id":"sh/4byhgn29","slide":35,"bbox":[72,470,8,8]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":35,"text":"何が承認・棄却されたか","textPreview":"何が承認・棄却されたか","textChars":11,"textLines":1,"bbox":[96,460,524,58]}
+{"kind":"shape","id":"sh/m58z25kb","slide":35,"bbox":[72,532,8,8]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":35,"text":"何を実行し、どの状態遷移が起きたか","textPreview":"何を実行し、どの状態遷移が起きたか","textChars":17,"textLines":1,"bbox":[96,522,524,58]}
+{"kind":"shape","id":"sh/4nap4r65","slide":35,"bbox":[660,210,548,5]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":35,"text":"結果・実装","textPreview":"結果・実装","textChars":5,"textLines":1,"bbox":[660,236,548,84]}
+{"kind":"shape","id":"sh/mhk3q5o7","slide":35,"bbox":[660,346,8,8]}
+{"kind":"textbox","id":"sh/tgfmlkjm","slide":35,"text":"成功・失敗・事故・停止の条件","textPreview":"成功・失敗・事故・停止の条件","textChars":14,"textLines":1,"bbox":[684,336,524,58]}
+{"kind":"shape","id":"sh/4vmtwra5","slide":35,"bbox":[660,408,8,8]}
+{"kind":"textbox","id":"sh/gr2p8nqx","slide":35,"text":"関与したmodel・data・policy・権限","textPreview":"関与したmodel・data・policy・権限","textChars":24,"textLines":1,"bbox":[684,398,524,58]}
+{"kind":"shape","id":"sh/9cvixcze","slide":35,"bbox":[660,470,8,8]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":35,"text":"成果・損失回避・時間・電力効率","textPreview":"成果・損失回避・時間・電力効率","textChars":15,"textLines":1,"bbox":[684,460,524,58]}
+{"kind":"shape","id":"sh/r65wjudg","slide":35,"bbox":[660,532,8,8]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":35,"text":"遅延・電力・memory・cost","textPreview":"遅延・電力・memory・cost","textChars":17,"textLines":1,"bbox":[684,522,524,58]}
+{"kind":"notes","id":"nt/xc3aff","slide":35,"text":""}
+{"kind":"slide","id":"sl/ytueqa","slide":36,"title":"APPENDIX","textShapes":17}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":36,"text":"APPENDIX","textPreview":"APPENDIX","textChars":8,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":36,"text":"学習資産として利用できる六つの条件","textPreview":"学習資産として利用できる六つの条件","textChars":17,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/3ylc7u54","slide":36,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":36,"text":"36","textPreview":"36","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/lszqtcj6","slide":36,"bbox":[72,205,1130,62]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":36,"text":"条件","textPreview":"条件","textChars":2,"textLines":1,"bbox":[82,217,160,44]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":36,"text":"確認事項","textPreview":"確認事項","textChars":4,"textLines":1,"bbox":[262,217,930,44]}
+{"kind":"shape","id":"sh/s36hcrmh","slide":36,"bbox":[72,267,1130,62]}
+{"kind":"shape","id":"sh/hoza1gvy","slide":36,"bbox":[72,328,1130,1]}
+{"kind":"textbox","id":"sh/58z25kb6","slide":36,"text":"対応","textPreview":"対応","textChars":2,"textLines":1,"bbox":[82,277,160,48]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":36,"text":"判断と実行結果が対応づいている","textPreview":"判断と実行結果が対応づいている","textChars":15,"textLines":1,"bbox":[262,277,930,48]}
+{"kind":"shape","id":"sh/n29gr2p8","slide":36,"bbox":[72,329,1130,62]}
+{"kind":"shape","id":"sh/yhgn29gr","slide":36,"bbox":[72,390,1130,1]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":36,"text":"追跡","textPreview":"追跡","textChars":2,"textLines":1,"bbox":[82,339,160,48]}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":36,"text":"データの出所とmodel versionを追跡できる","textPreview":"データの出所とmodel versionを追跡できる","textChars":26,"textLines":1,"bbox":[262,339,930,48]}
+{"kind":"shape","id":"sh/nuxc3ylc","slide":36,"bbox":[72,391,1130,62]}
+{"kind":"shape","id":"sh/y90je9cv","slide":36,"bbox":[72,452,1130,1]}
+{"kind":"textbox","id":"sh/5sneloj2","slide":36,"text":"権利","textPreview":"権利","textChars":2,"textLines":1,"bbox":[82,401,160,48]}
+{"kind":"textbox","id":"sh/cbulwval","slide":36,"text":"目的、許諾、保存期限、削除条件が明確","textPreview":"目的、許諾、保存期限、削除条件が明確","textChars":18,"textLines":1,"bbox":[262,401,930,48]}
+{"kind":"shape","id":"sh/8nqxs72x","slide":36,"bbox":[72,453,1130,62]}
+{"kind":"shape","id":"sh/18jqh0fe","slide":36,"bbox":[72,514,1130,1]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":36,"text":"品質","textPreview":"品質","textChars":2,"textLines":1,"bbox":[82,463,160,48]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":36,"text":"評価可能な品質を持つ","textPreview":"評価可能な品質を持つ","textChars":10,"textLines":1,"bbox":[262,463,930,48]}
+{"kind":"shape","id":"sh/8bat47y1","slide":36,"bbox":[72,515,1130,62]}
+{"kind":"shape","id":"sh/1w7mp0bi","slide":36,"bbox":[72,576,1130,1]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":36,"text":"配置","textPreview":"配置","textChars":2,"textLines":1,"bbox":[82,525,160,48]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":36,"text":"重み、RAG、KG、adapter、ルールの配置を判断できる","textPreview":"重み、RAG、KG、adapter、ルールの配置を判断できる","textChars":30,"textLines":1,"bbox":[262,525,930,48]}
+{"kind":"shape","id":"sh/c3ylc7u5","slide":36,"bbox":[72,577,1130,62]}
+{"kind":"shape","id":"sh/1kre1w7m","slide":36,"bbox":[72,638,1130,1]}
+{"kind":"textbox","id":"sh/re1w7mp0","slide":36,"text":"再配備","textPreview":"再配備","textChars":3,"textLines":1,"bbox":[82,587,160,48]}
+{"kind":"textbox","id":"sh/2t83itgf","slide":36,"text":"安全に配備し、問題時に停止・rollbackできる","textPreview":"安全に配備し、問題時に停止・rollbackできる","textChars":25,"textLines":1,"bbox":[262,587,930,48]}
+{"kind":"notes","id":"nt/ytueqa","slide":36,"text":""}
+{"kind":"slide","id":"sl/zzsthd","slide":37,"title":"APPENDIX","textShapes":8}
+{"kind":"textbox","id":"sh/fyxobm58","slide":37,"text":"APPENDIX","textPreview":"APPENDIX","textChars":8,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":37,"text":"競合・構成を評価する五つの問い","textPreview":"競合・構成を評価する五つの問い","textChars":15,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/x4nap4r6","slide":37,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":37,"text":"37","textPreview":"37","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/fa9w3m94","slide":37,"bbox":[72,230,8,8]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":37,"text":"誰が基盤ソフトウェアの更新方針を決めるか","textPreview":"誰が基盤ソフトウェアの更新方針を決めるか","textChars":20,"textLines":1,"bbox":[96,220,1016,68]}
+{"kind":"shape","id":"sh/xczed8v6","slide":37,"bbox":[72,302,8,8]}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":37,"text":"誰が顧客モデルを学習・評価・配備・停止できるか","textPreview":"誰が顧客モデルを学習・評価・配備・停止できるか","textChars":23,"textLines":1,"bbox":[96,292,1016,68]}
+{"kind":"shape","id":"sh/je9cvixc","slide":37,"bbox":[72,374,8,8]}
+{"kind":"textbox","id":"sh/nih4byhg","slide":37,"text":"データ、モデル、評価、業務ロジックを代替基盤へ移せるか","textPreview":"データ、モデル、評価、業務ロジックを代替基盤へ移せるか","textChars":27,"textLines":1,"bbox":[96,364,1016,68]}
+{"kind":"shape","id":"sh/yxobm58z","slide":37,"bbox":[72,446,8,8]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":37,"text":"契約終了・供給停止時に、どこまで自律継続できるか","textPreview":"契約終了・供給停止時に、どこまで自律継続できるか","textChars":24,"textLines":1,"bbox":[96,436,1016,68]}
+{"kind":"shape","id":"sh/g3ex0nux","slide":37,"bbox":[72,518,8,8]}
+{"kind":"textbox","id":"sh/r65wjudg","slide":37,"text":"ソース、設計IP、鍵、署名、監査証跡を誰が保持するか","textPreview":"ソース、設計IP、鍵、署名、監査証跡を誰が保持するか","textChars":26,"textLines":1,"bbox":[96,508,1016,68]}
+{"kind":"notes","id":"nt/zzsthd","slide":37,"text":""}
+{"kind":"slide","id":"sl/jzdlhf","slide":38,"title":"APPENDIX","textShapes":23}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":38,"text":"APPENDIX","textPreview":"APPENDIX","textChars":8,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":38,"text":"主権と差別化の二軸整理（1/2）","textPreview":"主権と差別化の二軸整理（1/2）","textChars":16,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/2hwfyxob","slide":38,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":38,"text":"38","textPreview":"38","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/gvy90je9","slide":38,"bbox":[72,205,1130,72]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":38,"text":"層","textPreview":"層","textChars":1,"textLines":1,"bbox":[82,217,100,54]}
+{"kind":"textbox","id":"sh/2p8nqxs7","slide":38,"text":"国内側が確保すべき状態","textPreview":"国内側が確保すべき状態","textChars":11,"textLines":1,"bbox":[202,217,410,54]}
+{"kind":"textbox","id":"sh/9knih4by","slide":38,"text":"主権","textPreview":"主権","textChars":2,"textLines":1,"bbox":[632,217,250,54]}
+{"kind":"textbox","id":"sh/kzupwb2h","slide":38,"text":"競争","textPreview":"競争","textChars":2,"textLines":1,"bbox":[902,217,290,54]}
+{"kind":"shape","id":"sh/ulwval87","slide":38,"bbox":[72,277,1130,72]}
+{"kind":"shape","id":"sh/j6tovaho","slide":38,"bbox":[72,348,1130,1]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":38,"text":"利用","textPreview":"利用","textChars":2,"textLines":1,"bbox":[82,287,100,58]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":38,"text":"重点業務への継続導入と顧客接点","textPreview":"重点業務への継続導入と顧客接点","textChars":15,"textLines":1,"bbox":[202,287,410,58]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":38,"text":"改善資産を生む前提","textPreview":"改善資産を生む前提","textChars":9,"textLines":1,"bbox":[632,287,250,58]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":38,"text":"実用性として必須","textPreview":"実用性として必須","textChars":8,"textLines":1,"bbox":[902,287,290,58]}
+{"kind":"shape","id":"sh/c3ylc7u5","slide":38,"bbox":[72,349,1130,72]}
+{"kind":"shape","id":"sh/1kre1w7m","slide":38,"bbox":[72,420,1130,1]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":38,"text":"データ","textPreview":"データ","textChars":3,"textLines":1,"bbox":[82,359,100,58]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":38,"text":"原本、権利、来歴、削除条件を統治","textPreview":"原本、権利、来歴、削除条件を統治","textChars":16,"textLines":1,"bbox":[202,359,410,58]}
+{"kind":"textbox","id":"sh/bulwval8","slide":38,"text":"必須","textPreview":"必須","textChars":2,"textLines":1,"bbox":[632,359,250,58]}
+{"kind":"textbox","id":"sh/i9s36hcr","slide":38,"text":"保存場所だけでは非差別化","textPreview":"保存場所だけでは非差別化","textChars":12,"textLines":1,"bbox":[902,359,290,58]}
+{"kind":"shape","id":"sh/p0bi9s36","slide":38,"bbox":[72,421,1130,72]}
+{"kind":"shape","id":"sh/0fepkzup","slide":38,"bbox":[72,492,1130,1]}
+{"kind":"textbox","id":"sh/bi9s36hc","slide":38,"text":"改善","textPreview":"改善","textChars":2,"textLines":1,"bbox":[82,431,100,58]}
+{"kind":"textbox","id":"sh/ixczed8v","slide":38,"text":"評価、配置、学習、配備、停止、rollback","textPreview":"評価、配置、学習、配備、停止、rollback","textChars":23,"textLines":1,"bbox":[202,431,410,58]}
+{"kind":"textbox","id":"sh/tovahoza","slide":38,"text":"中核","textPreview":"中核","textChars":2,"textLines":1,"bbox":[632,431,250,58]}
+{"kind":"textbox","id":"sh/032lszqt","slide":38,"text":"国内独立実行が差別化","textPreview":"国内独立実行が差別化","textChars":10,"textLines":1,"bbox":[902,431,290,58]}
+{"kind":"shape","id":"sh/b6xkf6dc","slide":38,"bbox":[72,493,1130,72]}
+{"kind":"shape","id":"sh/il0rqd4v","slide":38,"bbox":[72,564,1130,1]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":38,"text":"実行","textPreview":"実行","textChars":2,"textLines":1,"bbox":[82,503,100,58]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":38,"text":"state、policy、承認、action、決済","textPreview":"state、policy、承認、action、決済","textChars":25,"textLines":1,"bbox":[202,503,410,58]}
+{"kind":"textbox","id":"sh/ahoza1gv","slide":38,"text":"必須","textPreview":"必須","textChars":2,"textLines":1,"bbox":[632,503,250,58]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":38,"text":"構造自体は模倣可能","textPreview":"構造自体は模倣可能","textChars":9,"textLines":1,"bbox":[902,503,290,58]}
+{"kind":"notes","id":"nt/jzdlhf","slide":38,"text":""}
+{"kind":"slide","id":"sl/entgaw","slide":39,"title":"APPENDIX","textShapes":23}
+{"kind":"textbox","id":"sh/g7adsji5","slide":39,"text":"APPENDIX","textPreview":"APPENDIX","textChars":8,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":39,"text":"主権と差別化の二軸整理（2/2）","textPreview":"主権と差別化の二軸整理（2/2）","textChars":16,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/y1kre1w7","slide":39,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":39,"text":"39","textPreview":"39","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/gfmlkjm1","slide":39,"bbox":[72,205,1130,72]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":39,"text":"層","textPreview":"層","textChars":1,"textLines":1,"bbox":[82,217,130,54]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":39,"text":"国内側が確保すべき状態","textPreview":"国内側が確保すべき状態","textChars":11,"textLines":1,"bbox":[232,217,400,54]}
+{"kind":"textbox","id":"sh/9cvixcze","slide":39,"text":"主権","textPreview":"主権","textChars":2,"textLines":1,"bbox":[652,217,230,54]}
+{"kind":"textbox","id":"sh/gr2p8nqx","slide":39,"text":"競争","textPreview":"競争","textChars":2,"textLines":1,"bbox":[902,217,290,54]}
+{"kind":"shape","id":"sh/ahoza1gv","slide":39,"bbox":[72,277,1130,72]}
+{"kind":"shape","id":"sh/32lszqtc","slide":39,"bbox":[72,348,1130,1]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":39,"text":"計算","textPreview":"計算","textChars":2,"textLines":1,"bbox":[82,287,130,58]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":39,"text":"高効率・低消費電力、境界内処理、継続","textPreview":"高効率・低消費電力、境界内処理、継続","textChars":18,"textLines":1,"bbox":[232,287,400,58]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":39,"text":"非オプション","textPreview":"非オプション","textChars":6,"textLines":1,"bbox":[652,287,230,58]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":39,"text":"outcome/TCO・電力効率","textPreview":"outcome/TCO・電力効率","textChars":16,"textLines":1,"bbox":[902,287,290,58]}
+{"kind":"shape","id":"sh/szqtcj6t","slide":39,"bbox":[72,349,1130,72]}
+{"kind":"shape","id":"sh/lkjm1cfa","slide":39,"bbox":[72,420,1130,1]}
+{"kind":"textbox","id":"sh/ex0nuxc3","slide":39,"text":"ソフトウェア","textPreview":"ソフトウェア","textChars":6,"textLines":1,"bbox":[82,359,130,58]}
+{"kind":"textbox","id":"sh/3itgfmlk","slide":39,"text":"改変、監査、移植、保守","textPreview":"改変、監査、移植、保守","textChars":11,"textLines":1,"bbox":[232,359,400,58]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":39,"text":"中核","textPreview":"中核","textChars":2,"textLines":1,"bbox":[652,359,230,58]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":39,"text":"開放性・移植性","textPreview":"開放性・移植性","textChars":7,"textLines":1,"bbox":[902,359,290,58]}
+{"kind":"shape","id":"sh/dg7adsji","slide":39,"bbox":[72,421,1130,72]}
+{"kind":"shape","id":"sh/ovahoza1","slide":39,"bbox":[72,492,1130,1]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":39,"text":"半導体","textPreview":"半導体","textChars":3,"textLines":1,"bbox":[82,431,130,58]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":39,"text":"要件定義、検証、統合、代替、設計","textPreview":"要件定義、検証、統合、代替、設計","textChars":16,"textLines":1,"bbox":[232,431,400,58]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":39,"text":"長期必須","textPreview":"長期必須","textChars":4,"textLines":1,"bbox":[652,431,230,58]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":39,"text":"実需要で性能・TCO差","textPreview":"実需要で性能・TCO差","textChars":11,"textLines":1,"bbox":[902,431,290,58]}
+{"kind":"shape","id":"sh/vy90je9c","slide":39,"bbox":[72,493,1130,72]}
+{"kind":"shape","id":"sh/6dcbulwv","slide":39,"bbox":[72,564,1130,1]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":39,"text":"供給","textPreview":"供給","textChars":2,"textLines":1,"bbox":[82,503,130,58]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":39,"text":"調達、保守、在庫、代替、有事継続","textPreview":"調達、保守、在庫、代替、有事継続","textChars":16,"textLines":1,"bbox":[232,503,400,58]}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":39,"text":"必須","textPreview":"必須","textChars":2,"textLines":1,"bbox":[652,503,230,58]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":39,"text":"継続保証","textPreview":"継続保証","textChars":4,"textLines":1,"bbox":[902,503,290,58]}
+{"kind":"notes","id":"nt/entgaw","slide":39,"text":""}
+{"kind":"slide","id":"sl/9twg9c","slide":40,"title":"APPENDIX","textShapes":9}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":40,"text":"APPENDIX","textPreview":"APPENDIX","textChars":8,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":40,"text":"権利束：資産ごとに分けて定義する行為","textPreview":"権利束：資産ごとに分けて定義する行為","textChars":18,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/1w7mp0bi","slide":40,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":40,"text":"40","textPreview":"40","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":40,"text":"利用・派生","textPreview":"利用・派生","textChars":5,"textLines":1,"bbox":[72,220,360,72]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":40,"text":"保有する\n利用する\n学習へ投入する\n派生成果物を作る","textPreview":"保有する | 利用する | 学習へ投入する | 派生成果物を作る","textChars":26,"textLines":4,"bbox":[72,302,360,238]}
+{"kind":"shape","id":"sh/18jqh0fe","slide":40,"bbox":[446,220,2,350]}
+{"kind":"textbox","id":"sh/ulwval87","slide":40,"text":"共有・訂正","textPreview":"共有・訂正","textChars":5,"textLines":1,"bbox":[460,220,360,72]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":40,"text":"第三者へ再許諾する\n修正・訂正・削除を求める","textPreview":"第三者へ再許諾する | 修正・訂正・削除を求める","textChars":22,"textLines":2,"bbox":[460,302,360,238]}
+{"kind":"shape","id":"sh/j2t83itg","slide":40,"bbox":[834,220,2,350]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":40,"text":"運用・退出","textPreview":"運用・退出","textChars":5,"textLines":1,"bbox":[848,220,360,72]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":40,"text":"配備・停止・rollbackする\n契約終了時に持ち出す\n対価・利益配分を受ける","textPreview":"配備・停止・rollbackする | 契約終了時に持ち出す | 対価・利益配分を受ける","textChars":39,"textLines":3,"bbox":[848,302,360,238]}
+{"kind":"notes","id":"nt/9twg9c","slide":40,"text":""}
+{"kind":"slide","id":"sl/adlbmz","slide":41,"title":"APPENDIX","textShapes":17}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":41,"text":"APPENDIX","textPreview":"APPENDIX","textChars":8,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":41,"text":"共有コアへ還流できる六つの条件","textPreview":"共有コアへ還流できる六つの条件","textChars":15,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/oza1gvy9","slide":41,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":41,"text":"41","textPreview":"41","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/65wjudg7","slide":41,"bbox":[72,205,1130,62]}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":41,"text":"条件","textPreview":"条件","textChars":2,"textLines":1,"bbox":[82,217,160,44]}
+{"kind":"textbox","id":"sh/obm58z25","slide":41,"text":"要求","textPreview":"要求","textChars":2,"textLines":1,"bbox":[262,217,930,44]}
+{"kind":"shape","id":"sh/zupwb2hw","slide":41,"bbox":[72,267,1130,62]}
+{"kind":"shape","id":"sh/a9w3m94f","slide":41,"bbox":[72,328,1130,1]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":41,"text":"目的","textPreview":"目的","textChars":2,"textLines":1,"bbox":[82,277,160,48]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":41,"text":"利用目的と反映先が明示されている","textPreview":"利用目的と反映先が明示されている","textChars":16,"textLines":1,"bbox":[262,277,930,48]}
+{"kind":"shape","id":"sh/q5o7qpg3","slide":41,"bbox":[72,329,1130,62]}
+{"kind":"shape","id":"sh/jqh0fepk","slide":41,"bbox":[72,390,1130,1]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":41,"text":"許諾","textPreview":"許諾","textChars":2,"textLines":1,"bbox":[82,339,160,48]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":41,"text":"顧客または正当な権利者が許諾している","textPreview":"顧客または正当な権利者が許諾している","textChars":18,"textLines":1,"bbox":[262,339,930,48]}
+{"kind":"shape","id":"sh/qh0fepkz","slide":41,"bbox":[72,391,1130,62]}
+{"kind":"shape","id":"sh/j2t83itg","slide":41,"bbox":[72,452,1130,1]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":41,"text":"分離","textPreview":"分離","textChars":2,"textLines":1,"bbox":[82,401,160,48]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":41,"text":"生データや顧客固有adapterを含まない","textPreview":"生データや顧客固有adapterを含まない","textChars":21,"textLines":1,"bbox":[262,401,930,48]}
+{"kind":"shape","id":"sh/5wjudg7a","slide":41,"bbox":[72,453,1130,62]}
+{"kind":"shape","id":"sh/gbq1oryt","slide":41,"bbox":[72,514,1130,1]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":41,"text":"安全","textPreview":"安全","textChars":2,"textLines":1,"bbox":[82,463,160,48]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":41,"text":"再識別・推論攻撃のリスクが評価されている","textPreview":"再識別・推論攻撃のリスクが評価されている","textChars":20,"textLines":1,"bbox":[262,463,930,48]}
+{"kind":"shape","id":"sh/58z25kb6","slide":41,"bbox":[72,515,1130,62]}
+{"kind":"shape","id":"sh/gn29gr2p","slide":41,"bbox":[72,576,1130,1]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":41,"text":"追跡","textPreview":"追跡","textChars":2,"textLines":1,"bbox":[82,525,160,48]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":41,"text":"provenanceとmodel versionへの寄与を追跡できる","textPreview":"provenanceとmodel versionへの寄与を追跡できる","textChars":34,"textLines":1,"bbox":[262,525,930,48]}
+{"kind":"shape","id":"sh/5kb6xkf6","slide":41,"bbox":[72,577,1130,62]}
+{"kind":"shape","id":"sh/czed8v6p","slide":41,"bbox":[72,638,1130,1]}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":41,"text":"終了","textPreview":"終了","textChars":2,"textLines":1,"bbox":[82,587,160,48]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":41,"text":"許諾終了後の扱いが契約で決まっている","textPreview":"許諾終了後の扱いが契約で決まっている","textChars":18,"textLines":1,"bbox":[262,587,930,48]}
+{"kind":"notes","id":"nt/adlbmz","slide":41,"text":""}
+{"kind":"slide","id":"sl/doadlx","slide":42,"title":"APPENDIX","textShapes":13}
+{"kind":"textbox","id":"sh/ap4r65wj","slide":42,"text":"APPENDIX","textPreview":"APPENDIX","textChars":8,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/hgn29gr2","slide":42,"text":"外資の主権配慮基盤：確認済み事実と未確認事項","textPreview":"外資の主権配慮基盤：確認済み事実と未確認事項","textChars":22,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/svu9knih","slide":42,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/zidonyd0","slide":42,"text":"42","textPreview":"42","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/a1gvy90j","slide":42,"bbox":[72,210,548,5]}
+{"kind":"textbox","id":"sh/hoza1gvy","slide":42,"text":"確認済み","textPreview":"確認済み","textChars":4,"textLines":1,"bbox":[72,236,548,84]}
+{"kind":"shape","id":"sh/s36hcrmh","slide":42,"bbox":[72,346,8,8]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":42,"text":"Palantir / NVIDIAのReference Architecture","textPreview":"Palantir / NVIDIAのReference Architecture","textChars":40,"textLines":1,"bbox":[96,336,524,50]}
+{"kind":"shape","id":"sh/a5gbq1or","slide":42,"bbox":[72,400,8,8]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":42,"text":"顧客によるdata・model・app制御の説明","textPreview":"顧客によるdata・model・app制御の説明","textChars":24,"textLines":1,"bbox":[96,390,524,50]}
+{"kind":"shape","id":"sh/d0z61032","slide":42,"bbox":[72,454,8,8]}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":42,"text":"外部model持込み、開発・評価・release","textPreview":"外部model持込み、開発・評価・release","textChars":24,"textLines":1,"bbox":[96,444,524,50]}
+{"kind":"shape","id":"sh/vu9knih4","slide":42,"bbox":[660,210,548,5]}
+{"kind":"textbox","id":"sh/knih4byh","slide":42,"text":"未確認","textPreview":"未確認","textChars":3,"textLines":1,"bbox":[660,236,548,84]}
+{"kind":"shape","id":"sh/d8bat47y","slide":42,"bbox":[660,346,8,8]}
+{"kind":"textbox","id":"sh/2lszqtcj","slide":42,"text":"基盤SWの改変・派生・保守権","textPreview":"基盤SWの改変・派生・保守権","textChars":14,"textLines":1,"bbox":[684,336,524,50]}
+{"kind":"shape","id":"sh/v6psfil0","slide":42,"bbox":[660,400,8,8]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":42,"text":"Ontology・業務logicの完全移植性","textPreview":"Ontology・業務logicの完全移植性","textChars":22,"textLines":1,"bbox":[684,390,524,50]}
+{"kind":"shape","id":"sh/dcbulwva","slide":42,"bbox":[660,454,8,8]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":42,"text":"vendor支援なしの長期運用","textPreview":"vendor支援なしの長期運用","textChars":15,"textLines":1,"bbox":[684,444,524,50]}
+{"kind":"shape","id":"sh/sfil0rqd","slide":42,"bbox":[660,508,8,8]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":42,"text":"終了時の鍵・評価・運用知識の移転","textPreview":"終了時の鍵・評価・運用知識の移転","textChars":16,"textLines":1,"bbox":[684,498,524,50]}
+{"kind":"shape","id":"sh/a9w3m94f","slide":42,"bbox":[660,562,8,8]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":42,"text":"HW置換と供給継続の範囲","textPreview":"HW置換と供給継続の範囲","textChars":12,"textLines":1,"bbox":[684,552,524,50]}
+{"kind":"notes","id":"nt/doadlx","slide":42,"text":""}
+{"kind":"slide","id":"sl/clox89","slide":43,"title":"APPENDIX","textShapes":12}
+{"kind":"textbox","id":"sh/vixczed8","slide":43,"text":"APPENDIX","textPreview":"APPENDIX","textChars":8,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":43,"text":"能力比較では「現在」「次のゲート」「長期目標」を分ける","textPreview":"能力比較では「現在」「次のゲート」「長期目標」を分ける","textChars":27,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/donyd0z6","slide":43,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":43,"text":"43","textPreview":"43","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"textbox","id":"sh/val87ed8","slide":43,"text":"PROVEN","textPreview":"PROVEN","textChars":6,"textLines":1,"bbox":[72,230,360,24]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":43,"text":"現在実証済み","textPreview":"現在実証済み","textChars":6,"textLines":1,"bbox":[72,264,360,72]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":43,"text":"本番実績、契約、製品、実測で確認済み。","textPreview":"本番実績、契約、製品、実測で確認済み。","textChars":19,"textLines":1,"bbox":[72,342,360,208]}
+{"kind":"shape","id":"sh/2lszqtcj","slide":43,"bbox":[446,230,2,320]}
+{"kind":"textbox","id":"sh/v6psfil0","slide":43,"text":"NEXT GATE","textPreview":"NEXT GATE","textChars":9,"textLines":1,"bbox":[460,230,360,24]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":43,"text":"次フェーズ","textPreview":"次フェーズ","textChars":5,"textLines":1,"bbox":[460,264,360,72]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":43,"text":"次のPilot、移行試験、運用で検証・獲得する能力。","textPreview":"次のPilot、移行試験、運用で検証・獲得する能力。","textChars":26,"textLines":1,"bbox":[460,342,360,208]}
+{"kind":"shape","id":"sh/twra5gbq","slide":43,"bbox":[834,230,2,320]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":43,"text":"LONG-TERM","textPreview":"LONG-TERM","textChars":9,"textLines":1,"bbox":[848,230,360,24]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":43,"text":"長期目標","textPreview":"長期目標","textChars":4,"textLines":1,"bbox":[848,264,360,72]}
+{"kind":"textbox","id":"sh/mhk3q5o7","slide":43,"text":"条件を満たした場合の到達状態。現在能力と同じ記号で比較しない。","textPreview":"条件を満たした場合の到達状態。現在能力と同じ記号で比較しない。","textChars":31,"textLines":1,"bbox":[848,342,360,208]}
+{"kind":"notes","id":"nt/clox89","slide":43,"text":""}
+{"kind":"slide","id":"sl/v2fjnf","slide":44,"title":"APPENDIX","textShapes":19}
+{"kind":"textbox","id":"sh/65wjudg7","slide":44,"text":"APPENDIX","textPreview":"APPENDIX","textChars":8,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":44,"text":"三本柱の主権上の役割と競争上の位置づけ","textPreview":"三本柱の主権上の役割と競争上の位置づけ","textChars":19,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/obm58z25","slide":44,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":44,"text":"44","textPreview":"44","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/6xkf6dcb","slide":44,"bbox":[72,220,1130,90]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":44,"text":"柱","textPreview":"柱","textChars":1,"textLines":1,"bbox":[82,232,200,72]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":44,"text":"基本役割","textPreview":"基本役割","textChars":4,"textLines":1,"bbox":[302,232,290,72]}
+{"kind":"textbox","id":"sh/z61032ls","slide":44,"text":"主権上の役割","textPreview":"主権上の役割","textChars":6,"textLines":1,"bbox":[612,232,300,72]}
+{"kind":"textbox","id":"sh/al87ed8b","slide":44,"text":"競争上の位置づけ","textPreview":"競争上の位置づけ","textChars":8,"textLines":1,"bbox":[932,232,260,72]}
+{"kind":"shape","id":"sh/k3q5o7qp","slide":44,"bbox":[72,310,1130,90]}
+{"kind":"shape","id":"sh/donyd0z6","slide":44,"bbox":[72,399,1130,1]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":44,"text":"モデル・データ","textPreview":"モデル・データ","textChars":7,"textLines":1,"bbox":[82,320,200,76]}
+{"kind":"textbox","id":"sh/vixczed8","slide":44,"text":"判断し、利用から改善","textPreview":"判断し、利用から改善","textChars":10,"textLines":1,"bbox":[302,320,290,76]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":44,"text":"評価・配置・学習・配備・停止","textPreview":"評価・配置・学習・配備・停止","textChars":14,"textLines":1,"bbox":[612,320,300,76]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":44,"text":"outcome接続と改善速度","textPreview":"outcome接続と改善速度","textChars":14,"textLines":1,"bbox":[932,320,260,76]}
+{"kind":"shape","id":"sh/6psfil0r","slide":44,"bbox":[72,400,1130,90]}
+{"kind":"shape","id":"sh/val87ed8","slide":44,"bbox":[72,489,1130,1]}
+{"kind":"textbox","id":"sh/knih4byh","slide":44,"text":"実行基盤","textPreview":"実行基盤","textChars":4,"textLines":1,"bbox":[82,410,200,76]}
+{"kind":"textbox","id":"sh/d8bat47y","slide":44,"text":"状態・権利・履歴・承認・結果を捕捉","textPreview":"状態・権利・履歴・承認・結果を捕捉","textChars":17,"textLines":1,"bbox":[302,410,290,76]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":44,"text":"状態更新権・実行権・監査","textPreview":"状態更新権・実行権・監査","textChars":12,"textLines":1,"bbox":[612,410,300,76]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":44,"text":"必須だが構造は模倣可能","textPreview":"必須だが構造は模倣可能","textChars":11,"textLines":1,"bbox":[932,410,260,76]}
+{"kind":"shape","id":"sh/vy90je9c","slide":44,"bbox":[72,490,1130,90]}
+{"kind":"shape","id":"sh/6dcbulwv","slide":44,"bbox":[72,579,1130,1]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":44,"text":"計算基盤・半導体","textPreview":"計算基盤・半導体","textChars":8,"textLines":1,"bbox":[82,500,200,76]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":44,"text":"高効率基盤で境界内常時稼働","textPreview":"高効率基盤で境界内常時稼働","textChars":13,"textLines":1,"bbox":[302,500,290,76]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":44,"text":"計算継続・改変・代替調達","textPreview":"計算継続・改変・代替調達","textChars":12,"textLines":1,"bbox":[612,500,300,76]}
+{"kind":"textbox","id":"sh/61032lsz","slide":44,"text":"outcome/TCO・電力効率","textPreview":"outcome/TCO・電力効率","textChars":16,"textLines":1,"bbox":[932,500,260,76]}
+{"kind":"notes","id":"nt/v2fjnf","slide":44,"text":""}
+{"kind":"slide","id":"sl/b0gulj","slide":45,"title":"APPENDIX","textShapes":13}
+{"kind":"textbox","id":"sh/m1cfa9w3","slide":45,"text":"APPENDIX","textPreview":"APPENDIX","textChars":8,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/tsvu9kni","slide":45,"text":"高効率計算基盤で追うROI指標","textPreview":"高効率計算基盤で追うROI指標","textChars":15,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/47y1kre1","slide":45,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":45,"text":"45","textPreview":"45","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/mp0bi9s3","slide":45,"bbox":[72,210,548,5]}
+{"kind":"textbox","id":"sh/tgfmlkjm","slide":45,"text":"業務・計算","textPreview":"業務・計算","textChars":5,"textLines":1,"bbox":[72,236,548,84]}
+{"kind":"shape","id":"sh/4vmtwra5","slide":45,"bbox":[72,346,8,8]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":45,"text":"1業務outcome当たり推論回数","textPreview":"1業務outcome当たり推論回数","textChars":17,"textLines":1,"bbox":[96,336,524,58]}
+{"kind":"shape","id":"sh/mhk3q5o7","slide":45,"bbox":[72,408,8,8]}
+{"kind":"textbox","id":"sh/0z61032l","slide":45,"text":"採用判断/action当たり計算費","textPreview":"採用判断/action当たり計算費","textChars":17,"textLines":1,"bbox":[96,398,524,58]}
+{"kind":"shape","id":"sh/pkzupwb2","slide":45,"bbox":[72,470,8,8]}
+{"kind":"textbox","id":"sh/itgfmlkj","slide":45,"text":"outcome当たり電力量","textPreview":"outcome当たり電力量","textChars":13,"textLines":1,"bbox":[96,460,524,58]}
+{"kind":"shape","id":"sh/7ed8bat4","slide":45,"bbox":[72,532,8,8]}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":45,"text":"software最適化の削減率","textPreview":"software最適化の削減率","textChars":15,"textLines":1,"bbox":[96,522,524,58]}
+{"kind":"shape","id":"sh/p8nqxs72","slide":45,"bbox":[660,210,548,5]}
+{"kind":"textbox","id":"sh/ih4byhgn","slide":45,"text":"設備・投資","textPreview":"設備・投資","textChars":5,"textLines":1,"bbox":[660,236,548,84]}
+{"kind":"shape","id":"sh/72x4nap4","slide":45,"bbox":[660,346,8,8]}
+{"kind":"textbox","id":"sh/wjudg7ad","slide":45,"text":"平常時・ピーク時の設備利用率","textPreview":"平常時・ピーク時の設備利用率","textChars":14,"textLines":1,"bbox":[684,336,524,58]}
+{"kind":"shape","id":"sh/p4r65wju","slide":45,"bbox":[660,408,8,8]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":45,"text":"SLO維持に必要な余剰容量","textPreview":"SLO維持に必要な余剰容量","textChars":13,"textLines":1,"bbox":[684,398,524,58]}
+{"kind":"shape","id":"sh/gvy90je9","slide":45,"bbox":[660,470,8,8]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":45,"text":"償却を含む総保有cost","textPreview":"償却を含む総保有cost","textChars":12,"textLines":1,"bbox":[684,460,524,58]}
+{"kind":"shape","id":"sh/2p8nqxs7","slide":45,"bbox":[660,532,8,8]}
+{"kind":"textbox","id":"sh/94fu18jq","slide":45,"text":"年間純便益と投資効率","textPreview":"年間純便益と投資効率","textChars":10,"textLines":1,"bbox":[684,522,524,58]}
+{"kind":"notes","id":"nt/b0gulj","slide":45,"text":""}
+{"kind":"slide","id":"sl/pci6oa","slide":46,"title":"APPENDIX","textShapes":17}
+{"kind":"textbox","id":"sh/4zidonyd","slide":46,"text":"APPENDIX","textPreview":"APPENDIX","textChars":8,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/fepkzupw","slide":46,"text":"国内に残すべき設計・代替能力","textPreview":"国内に残すべき設計・代替能力","textChars":14,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/mtwra5gb","slide":46,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":46,"text":"46","textPreview":"46","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/4r65wjud","slide":46,"bbox":[72,205,1130,62]}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":46,"text":"能力","textPreview":"能力","textChars":2,"textLines":1,"bbox":[82,217,200,44]}
+{"kind":"textbox","id":"sh/mlkjm1cf","slide":46,"text":"内容","textPreview":"内容","textChars":2,"textLines":1,"bbox":[302,217,890,44]}
+{"kind":"shape","id":"sh/x0nuxc3y","slide":46,"bbox":[72,267,1130,62]}
+{"kind":"shape","id":"sh/4fu18jqh","slide":46,"bbox":[72,328,1130,1]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":46,"text":"要件定義","textPreview":"要件定義","textChars":4,"textLines":1,"bbox":[82,277,200,48]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":46,"text":"実workloadから性能・memory・電力・遅延要件を定義","textPreview":"実workloadから性能・memory・電力・遅延要件を定義","textChars":31,"textLines":1,"bbox":[302,277,890,48]}
+{"kind":"shape","id":"sh/oj2t83it","slide":46,"bbox":[72,329,1130,62]}
+{"kind":"shape","id":"sh/d4vmtwra","slide":46,"bbox":[72,390,1130,1]}
+{"kind":"textbox","id":"sh/61032lsz","slide":46,"text":"比較・統合","textPreview":"比較・統合","textChars":5,"textLines":1,"bbox":[82,339,200,48]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":46,"text":"GPU、FPGA、複数acceleratorを比較・統合","textPreview":"GPU、FPGA、複数acceleratorを比較・統合","textChars":28,"textLines":1,"bbox":[302,339,890,48]}
+{"kind":"shape","id":"sh/o7qpg3ex","slide":46,"bbox":[72,391,1130,62]}
+{"kind":"shape","id":"sh/dsji5sne","slide":46,"bbox":[72,452,1130,1]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":46,"text":"Software","textPreview":"Software","textChars":8,"textLines":1,"bbox":[82,401,200,48]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":46,"text":"compiler、runtime、SDKを理解・改変","textPreview":"compiler、runtime、SDKを理解・改変","textChars":26,"textLines":1,"bbox":[302,401,890,48]}
+{"kind":"shape","id":"sh/r65wjudg","slide":46,"bbox":[72,453,1130,62]}
+{"kind":"shape","id":"sh/ylc7u54z","slide":46,"bbox":[72,514,1130,1]}
+{"kind":"textbox","id":"sh/9cvixcze","slide":46,"text":"System","textPreview":"System","textChars":6,"textLines":1,"bbox":[82,463,200,48]}
+{"kind":"textbox","id":"sh/gr2p8nqx","slide":46,"text":"board、memory、network、packageを統合","textPreview":"board、memory、network、packageを統合","textChars":31,"textLines":1,"bbox":[302,463,890,48]}
+{"kind":"shape","id":"sh/nih4byhg","slide":46,"bbox":[72,515,1130,62]}
+{"kind":"shape","id":"sh/yxobm58z","slide":46,"bbox":[72,576,1130,1]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":46,"text":"Supply","textPreview":"Supply","textChars":6,"textLines":1,"bbox":[82,525,200,48]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":46,"text":"代替調達、在庫、保守、世代更新を設計","textPreview":"代替調達、在庫、保守、世代更新を設計","textChars":18,"textLines":1,"bbox":[302,525,890,48]}
+{"kind":"shape","id":"sh/rmhk3q5o","slide":46,"bbox":[72,577,1130,62]}
+{"kind":"shape","id":"sh/y1kre1w7","slide":46,"bbox":[72,638,1130,1]}
+{"kind":"textbox","id":"sh/sji5snel","slide":46,"text":"Design/IP","textPreview":"Design/IP","textChars":9,"textLines":1,"bbox":[82,587,200,48]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":46,"text":"必要時に国内主導で半導体設計へ進める人材とIP","textPreview":"必要時に国内主導で半導体設計へ進める人材とIP","textChars":23,"textLines":1,"bbox":[302,587,890,48]}
+{"kind":"notes","id":"nt/pci6oa","slide":46,"text":""}
+{"kind":"slide","id":"sl/y5q0b9","slide":47,"title":"APPENDIX","textShapes":8}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":47,"text":"APPENDIX","textPreview":"APPENDIX","textChars":8,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":47,"text":"専用ASIC等の製品化を判断する五つのゲート","textPreview":"専用ASIC等の製品化を判断する五つのゲート","textChars":22,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/61032lsz","slide":47,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":47,"text":"47","textPreview":"47","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/oj2t83it","slide":47,"bbox":[72,230,8,8]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":47,"text":"対象演算がTCO、電力、遅延の支配的要因である","textPreview":"対象演算がTCO、電力、遅延の支配的要因である","textChars":23,"textLines":1,"bbox":[96,220,1016,66]}
+{"kind":"shape","id":"sh/6dcbulwv","slide":47,"bbox":[72,300,8,8]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":47,"text":"software最適化、既存GPU、FPGA、代替acceleratorでは解けない","textPreview":"software最適化、既存GPU、FPGA、代替acceleratorでは解けない","textChars":42,"textLines":1,"bbox":[96,290,1016,66]}
+{"kind":"shape","id":"sh/onyd0z61","slide":47,"bbox":[72,370,8,8]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":47,"text":"複数顧客または国家需要による継続的な利用量がある","textPreview":"複数顧客または国家需要による継続的な利用量がある","textChars":24,"textLines":1,"bbox":[96,360,1016,66]}
+{"kind":"shape","id":"sh/7adsji5s","slide":47,"bbox":[72,440,8,8]}
+{"kind":"textbox","id":"sh/wval87ed","slide":47,"text":"既存構成に対する明確なoutcome/TCO改善を示せる","textPreview":"既存構成に対する明確なoutcome/TCO改善を示せる","textChars":28,"textLines":1,"bbox":[96,430,1016,66]}
+{"kind":"shape","id":"sh/pg3ex0nu","slide":47,"bbox":[72,510,8,8]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":47,"text":"設計、製造、実装、保守、世代更新を支える体制がある","textPreview":"設計、製造、実装、保守、世代更新を支える体制がある","textChars":25,"textLines":1,"bbox":[96,500,1016,66]}
+{"kind":"notes","id":"nt/y5q0b9","slide":47,"text":""}
+{"kind":"slide","id":"sl/0abqg5","slide":48,"title":"APPENDIX","textShapes":15}
+{"kind":"textbox","id":"sh/47y1kre1","slide":48,"text":"APPENDIX","textPreview":"APPENDIX","textChars":8,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":48,"text":"Phase 1–2：本番利用から改善主権の実証へ","textPreview":"Phase 1–2：本番利用から改善主権の実証へ","textChars":24,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/m1cfa9w3","slide":48,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/tgfmlkjm","slide":48,"text":"48","textPreview":"48","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/4vmtwra5","slide":48,"bbox":[72,205,548,5]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":48,"text":"PHASE 1","textPreview":"PHASE 1","textChars":7,"textLines":1,"bbox":[72,225,548,24]}
+{"kind":"textbox","id":"sh/mp0bi9s3","slide":48,"text":"国内統治可能な本番利用","textPreview":"国内統治可能な本番利用","textChars":11,"textLines":1,"bbox":[72,263,548,84]}
+{"kind":"shape","id":"sh/t83itgfm","slide":48,"bbox":[72,369,8,8]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":48,"text":"OSS・海外GPU・既存toolを利用","textPreview":"OSS・海外GPU・既存toolを利用","textChars":19,"textLines":1,"bbox":[96,359,524,54]}
+{"kind":"shape","id":"sh/u9knih4b","slide":48,"bbox":[72,427,8,8]}
+{"kind":"textbox","id":"sh/judg7ads","slide":48,"text":"outcomeと継続利用を測る","textPreview":"outcomeと継続利用を測る","textChars":15,"textLines":1,"bbox":[96,417,524,54]}
+{"kind":"shape","id":"sh/cfa9w3m9","slide":48,"bbox":[72,485,8,8]}
+{"kind":"textbox","id":"sh/1032lszq","slide":48,"text":"資産・鍵・評価・承認・停止を国内へ","textPreview":"資産・鍵・評価・承認・停止を国内へ","textChars":17,"textLines":1,"bbox":[96,475,524,54]}
+{"kind":"shape","id":"sh/u18jqh0f","slide":48,"bbox":[72,543,8,8]}
+{"kind":"textbox","id":"sh/jm1cfa9w","slide":48,"text":"export/restoreとAPI停止を試験","textPreview":"export/restoreとAPI停止を試験","textChars":23,"textLines":1,"bbox":[96,533,524,54]}
+{"kind":"shape","id":"sh/c7u54zid","slide":48,"bbox":[660,205,548,5]}
+{"kind":"textbox","id":"sh/1orytsvu","slide":48,"text":"PHASE 2","textPreview":"PHASE 2","textChars":7,"textLines":1,"bbox":[660,225,548,24]}
+{"kind":"textbox","id":"sh/upwb2hwf","slide":48,"text":"改善主権を実証","textPreview":"改善主権を実証","textChars":7,"textLines":1,"bbox":[660,263,548,84]}
+{"kind":"shape","id":"sh/nap4r65w","slide":48,"bbox":[660,369,8,8]}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":48,"text":"RAG/KG/adapter/評価を改善","textPreview":"RAG/KG/adapter/評価を改善","textChars":20,"textLines":1,"bbox":[684,359,524,54]}
+{"kind":"shape","id":"sh/mlkjm1cf","slide":48,"bbox":[660,427,8,8]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":48,"text":"国内で評価・配備・rollback","textPreview":"国内で評価・配備・rollback","textChars":17,"textLines":1,"bbox":[684,417,524,54]}
+{"kind":"shape","id":"sh/4r65wjud","slide":48,"bbox":[660,485,8,8]}
+{"kind":"textbox","id":"sh/fepkzupw","slide":48,"text":"権利処理済み資産だけ再利用","textPreview":"権利処理済み資産だけ再利用","textChars":13,"textLines":1,"bbox":[684,475,524,54]}
+{"kind":"shape","id":"sh/mtwra5gb","slide":48,"bbox":[660,543,8,8]}
+{"kind":"textbox","id":"sh/xkf6dcbu","slide":48,"text":"outcome/TCOとoutcome/jouleを測定","textPreview":"outcome/TCOとoutcome/jouleを測定","textChars":28,"textLines":1,"bbox":[684,533,524,54]}
+{"kind":"notes","id":"nt/0abqg5","slide":48,"text":""}
+{"kind":"slide","id":"sl/wle8pm","slide":49,"title":"APPENDIX","textShapes":12}
+{"kind":"textbox","id":"sh/tovahoza","slide":49,"text":"APPENDIX","textPreview":"APPENDIX","textChars":8,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/ixczed8v","slide":49,"text":"Phase 3–4：能力主権とAI+HWの分岐","textPreview":"Phase 3–4：能力主権とAI+HWの分岐","textChars":23,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/bi9s36hc","slide":49,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/0fepkzup","slide":49,"text":"49","textPreview":"49","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":49,"text":"PHASE 3","textPreview":"PHASE 3","textChars":7,"textLines":1,"bbox":[72,220,360,24]}
+{"kind":"textbox","id":"sh/i9s36hcr","slide":49,"text":"能力主権","textPreview":"能力主権","textChars":4,"textLines":1,"bbox":[72,254,360,72]}
+{"kind":"textbox","id":"sh/bulwval8","slide":49,"text":"国内改変範囲を拡大\n競合基盤からの移行試験\n支配的計算・data移動を特定\nASIC範囲をgo/no-go","textPreview":"国内改変範囲を拡大 | 競合基盤からの移行試験 | 支配的計算・data移動を特定 | ASIC範囲をgo/no-go","textChars":53,"textLines":4,"bbox":[72,332,360,238]}
+{"kind":"shape","id":"sh/0je9cvix","slide":49,"bbox":[446,220,2,350]}
+{"kind":"textbox","id":"sh/t47y1kre","slide":49,"text":"PHASE 4A","textPreview":"PHASE 4A","textChars":8,"textLines":1,"bbox":[460,220,360,24]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":49,"text":"HW製品化","textPreview":"HW製品化","textChars":5,"textLines":1,"bbox":[460,254,360,72]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":49,"text":"国産設計IPとSW互換\n量産・実装・保守・世代更新\n単一foundry障害への計画","textPreview":"国産設計IPとSW互換 | 量産・実装・保守・世代更新 | 単一foundry障害への計画","textChars":41,"textLines":3,"bbox":[460,332,360,238]}
+{"kind":"shape","id":"sh/rmhk3q5o","slide":49,"bbox":[834,220,2,350]}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":49,"text":"PHASE 4B","textPreview":"PHASE 4B","textChars":8,"textLines":1,"bbox":[848,220,360,24]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":49,"text":"既存シリコン","textPreview":"既存シリコン","textChars":6,"textLines":1,"bbox":[848,254,360,72]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":49,"text":"multi-vendor移植性\n国内compiler/runtime/FPGA\nboard・保守・在庫・代替調達","textPreview":"multi-vendor移植性 | 国内compiler/runtime/FPGA | board・保守・在庫・代替調達","textChars":56,"textLines":3,"bbox":[848,332,360,238]}
+{"kind":"notes","id":"nt/wle8pm","slide":49,"text":""}
+{"kind":"slide","id":"sl/iwctpd","slide":50,"title":"APPENDIX","textShapes":9}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":50,"text":"APPENDIX","textPreview":"APPENDIX","textChars":8,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":50,"text":"KPI詳細（1/2）：利用・権利・改善主権","textPreview":"KPI詳細（1/2）：利用・権利・改善主権","textChars":21,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/5wjudg7a","slide":50,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":50,"text":"50","textPreview":"50","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":50,"text":"利用と成果","textPreview":"利用と成果","textChars":5,"textLines":1,"bbox":[72,215,360,72]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":50,"text":"本番導入業務数\nPoC→本番移行率\n継続利用率\n判断→action/outcome接続率\n確認済み業務成果","textPreview":"本番導入業務数 | PoC→本番移行率 | 継続利用率 | 判断→action/outcome接続率 | 確認済み業務成果","textChars":53,"textLines":5,"bbox":[72,297,360,278]}
+{"kind":"shape","id":"sh/58z25kb6","slide":50,"bbox":[446,215,2,390]}
+{"kind":"textbox","id":"sh/ytsvu9kn","slide":50,"text":"実用資産と権利","textPreview":"実用資産と権利","textChars":7,"textLines":1,"bbox":[460,215,360,72]}
+{"kind":"textbox","id":"sh/neloj2t8","slide":50,"text":"判断・結果の対応率\n権利条件の機械可読率\n資産分類率\n明示許諾再利用率\n削除・訂正SLA","textPreview":"判断・結果の対応率 | 権利条件の機械可読率 | 資産分類率 | 明示許諾再利用率 | 削除・訂正SLA","textChars":44,"textLines":5,"bbox":[460,297,360,278]}
+{"kind":"shape","id":"sh/nap4r65w","slide":50,"bbox":[834,215,2,390]}
+{"kind":"textbox","id":"sh/upwb2hwf","slide":50,"text":"改善主権","textPreview":"改善主権","textChars":4,"textLines":1,"bbox":[848,215,360,72]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":50,"text":"国内評価・配備・停止比率\n国内署名・rollback比率\n知見反映時間\n移行試験成功率\nexport/restore可能率","textPreview":"国内評価・配備・停止比率 | 国内署名・rollback比率 | 知見反映時間 | 移行試験成功率 | export/restore可能率","textChars":61,"textLines":5,"bbox":[848,297,360,278]}
+{"kind":"notes","id":"nt/iwctpd","slide":50,"text":""}
+{"kind":"slide","id":"sl/to9rfi","slide":51,"title":"APPENDIX","textShapes":17}
+{"kind":"textbox","id":"sh/36hcrmhk","slide":51,"text":"APPENDIX","textPreview":"APPENDIX","textChars":8,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":51,"text":"KPI詳細（2/2）：継続性と効率","textPreview":"KPI詳細（2/2）：継続性と効率","textChars":17,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/lc7u54zi","slide":51,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/ed8bat47","slide":51,"text":"51","textPreview":"51","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/7u54zido","slide":51,"bbox":[72,200,548,5]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":51,"text":"実行・計算・供給継続","textPreview":"実行・計算・供給継続","textChars":10,"textLines":1,"bbox":[72,226,548,84]}
+{"kind":"shape","id":"sh/l0rqd4vm","slide":51,"bbox":[72,336,8,8]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":51,"text":"国内policyで統治される実行比率","textPreview":"国内policyで統治される実行比率","textChars":18,"textLines":1,"bbox":[96,326,524,46]}
+{"kind":"shape","id":"sh/7mp0bi9s","slide":51,"bbox":[72,386,8,8]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":51,"text":"API切断訓練の継続率","textPreview":"API切断訓練の継続率","textChars":11,"textLines":1,"bbox":[96,376,524,46]}
+{"kind":"shape","id":"sh/6xkf6dcb","slide":51,"bbox":[72,436,8,8]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":51,"text":"目標時間内の縮退・復旧率","textPreview":"目標時間内の縮退・復旧率","textChars":12,"textLines":1,"bbox":[96,426,524,46]}
+{"kind":"shape","id":"sh/oza1gvy9","slide":51,"bbox":[72,486,8,8]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":51,"text":"単一vendor非依存構成比率","textPreview":"単一vendor非依存構成比率","textChars":15,"textLines":1,"bbox":[96,476,524,46]}
+{"kind":"shape","id":"sh/65wjudg7","slide":51,"bbox":[72,536,8,8]}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":51,"text":"国内改変・保守可能SW範囲","textPreview":"国内改変・保守可能SW範囲","textChars":13,"textLines":1,"bbox":[96,526,524,46]}
+{"kind":"shape","id":"sh/obm58z25","slide":51,"bbox":[72,586,8,8]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":51,"text":"代替調達比率と在庫日数","textPreview":"代替調達比率と在庫日数","textChars":11,"textLines":1,"bbox":[96,576,524,46]}
+{"kind":"shape","id":"sh/a9w3m94f","slide":51,"bbox":[660,200,548,5]}
+{"kind":"textbox","id":"sh/eloj2t83","slide":51,"text":"効率","textPreview":"効率","textChars":2,"textLines":1,"bbox":[660,226,548,84]}
+{"kind":"shape","id":"sh/36hcrmhk","slide":51,"bbox":[660,336,8,8]}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":51,"text":"intelligence per joule","textPreview":"intelligence per joule","textChars":22,"textLines":1,"bbox":[684,326,524,46]}
+{"kind":"shape","id":"sh/lc7u54zi","slide":51,"bbox":[660,386,8,8]}
+{"kind":"textbox","id":"sh/ed8bat47","slide":51,"text":"business outcome per joule","textPreview":"business outcome per joule","textChars":26,"textLines":1,"bbox":[684,376,524,46]}
+{"kind":"shape","id":"sh/7u54zido","slide":51,"bbox":[660,436,8,8]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":51,"text":"outcome単位TCO","textPreview":"outcome単位TCO","textChars":12,"textLines":1,"bbox":[684,426,524,46]}
+{"kind":"shape","id":"sh/l0rqd4vm","slide":51,"bbox":[660,486,8,8]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":51,"text":"action当たり推論費","textPreview":"action当たり推論費","textChars":12,"textLines":1,"bbox":[684,476,524,46]}
+{"kind":"shape","id":"sh/7mp0bi9s","slide":51,"bbox":[660,536,8,8]}
+{"kind":"textbox","id":"sh/tsvu9kni","slide":51,"text":"設備利用率・余剰率","textPreview":"設備利用率・余剰率","textChars":9,"textLines":1,"bbox":[684,526,524,46]}
+{"kind":"shape","id":"sh/47y1kre1","slide":51,"bbox":[660,586,8,8]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":51,"text":"年間推論総費用と投資効率","textPreview":"年間推論総費用と投資効率","textChars":12,"textLines":1,"bbox":[684,576,524,46]}
+{"kind":"notes","id":"nt/to9rfi","slide":51,"text":""}
+{"kind":"slide","id":"sl/s581ie","slide":52,"title":"APPENDIX","textShapes":17}
+{"kind":"textbox","id":"sh/loj2t83i","slide":52,"text":"APPENDIX","textPreview":"APPENDIX","textChars":8,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/ex0nuxc3","slide":52,"text":"反証条件と戦略上の対応","textPreview":"反証条件と戦略上の対応","textChars":11,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/3itgfmlk","slide":52,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":52,"text":"52","textPreview":"52","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/lwval87e","slide":52,"bbox":[72,205,1130,62]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":52,"text":"反証条件","textPreview":"反証条件","textChars":4,"textLines":1,"bbox":[82,217,510,44]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":52,"text":"対応","textPreview":"対応","textChars":2,"textLines":1,"bbox":[612,217,580,44]}
+{"kind":"shape","id":"sh/sneloj2t","slide":52,"bbox":[72,267,1130,62]}
+{"kind":"shape","id":"sh/l87ed8ba","slide":52,"bbox":[72,328,1130,1]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":52,"text":"国内主導構成が利用されない","textPreview":"国内主導構成が利用されない","textChars":13,"textLines":1,"bbox":[82,277,510,48]}
+{"kind":"textbox","id":"sh/czed8v6p","slide":52,"text":"対象業務、提供範囲、共通化方法を見直す","textPreview":"対象業務、提供範囲、共通化方法を見直す","textChars":19,"textLines":1,"bbox":[612,277,580,48]}
+{"kind":"shape","id":"sh/neloj2t8","slide":52,"bbox":[72,329,1130,62]}
+{"kind":"shape","id":"sh/ytsvu9kn","slide":52,"bbox":[72,390,1130,1]}
+{"kind":"textbox","id":"sh/5sneloj2","slide":52,"text":"外資基盤が制御権を実証する","textPreview":"外資基盤が制御権を実証する","textChars":13,"textLines":1,"bbox":[82,339,510,48]}
+{"kind":"textbox","id":"sh/cbulwval","slide":52,"text":"国籍ではなく実証済み制御権で再評価","textPreview":"国籍ではなく実証済み制御権で再評価","textChars":17,"textLines":1,"bbox":[612,339,580,48]}
+{"kind":"shape","id":"sh/nqxs72x4","slide":52,"bbox":[72,391,1130,62]}
+{"kind":"shape","id":"sh/u54zidon","slide":52,"bbox":[72,452,1130,1]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":52,"text":"outcome dataがmodel改善に有効でない","textPreview":"outcome dataがmodel改善に有効でない","textChars":26,"textLines":1,"bbox":[82,401,510,48]}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":52,"text":"RAG、rule、業務設計、評価へ資源移動","textPreview":"RAG、rule、業務設計、評価へ資源移動","textChars":21,"textLines":1,"bbox":[612,401,580,48]}
+{"kind":"shape","id":"sh/cj6tovah","slide":52,"bbox":[72,453,1130,62]}
+{"kind":"shape","id":"sh/54zidony","slide":52,"bbox":[72,514,1130,1]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":52,"text":"共有可能信号が少ない","textPreview":"共有可能信号が少ない","textChars":10,"textLines":1,"bbox":[82,463,510,48]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":52,"text":"領域専門家・顧客local構成を維持","textPreview":"領域専門家・顧客local構成を維持","textChars":18,"textLines":1,"bbox":[612,463,580,48]}
+{"kind":"shape","id":"sh/cvixczed","slide":52,"bbox":[72,515,1130,62]}
+{"kind":"shape","id":"sh/5gbq1ory","slide":52,"bbox":[72,576,1130,1]}
+{"kind":"textbox","id":"sh/upwb2hwf","slide":52,"text":"専用ASICが経済合理性を持たない","textPreview":"専用ASICが経済合理性を持たない","textChars":17,"textLines":1,"bbox":[82,525,510,48]}
+{"kind":"textbox","id":"sh/nap4r65w","slide":52,"text":"Phase 4Bで専用計算基盤を継続","textPreview":"Phase 4Bで専用計算基盤を継続","textChars":18,"textLines":1,"bbox":[612,525,580,48]}
+{"kind":"shape","id":"sh/c7u54zid","slide":52,"bbox":[72,577,1130,62]}
+{"kind":"shape","id":"sh/1orytsvu","slide":52,"bbox":[72,638,1130,1]}
+{"kind":"textbox","id":"sh/rqd4vmtw","slide":52,"text":"権利処理costが便益を上回る","textPreview":"権利処理costが便益を上回る","textChars":15,"textLines":1,"bbox":[82,587,510,48]}
+{"kind":"textbox","id":"sh/25kb6xkf","slide":52,"text":"共有範囲を縮小し顧客境界内改善へ","textPreview":"共有範囲を縮小し顧客境界内改善へ","textChars":16,"textLines":1,"bbox":[612,587,580,48]}
+{"kind":"notes","id":"nt/s581ie","slide":52,"text":""}
+{"kind":"slide","id":"sl/duo8co","slide":53,"title":"APPENDIX","textShapes":19}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":53,"text":"APPENDIX","textPreview":"APPENDIX","textChars":8,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":53,"text":"誤読を避ける七つの整理","textPreview":"誤読を避ける七つの整理","textChars":11,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/2hwfyxob","slide":53,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":53,"text":"53","textPreview":"53","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/gvy90je9","slide":53,"bbox":[72,205,1130,57]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":53,"text":"誤読","textPreview":"誤読","textChars":2,"textLines":1,"bbox":[82,217,360,39]}
+{"kind":"textbox","id":"sh/2p8nqxs7","slide":53,"text":"正しい理解","textPreview":"正しい理解","textChars":5,"textLines":1,"bbox":[462,217,730,39]}
+{"kind":"shape","id":"sh/9knih4by","slide":53,"bbox":[72,262,1130,57]}
+{"kind":"shape","id":"sh/kzupwb2h","slide":53,"bbox":[72,318,1130,1]}
+{"kind":"textbox","id":"sh/ulwval87","slide":53,"text":"外資技術を使わない","textPreview":"外資技術を使わない","textChars":9,"textLines":1,"bbox":[82,272,360,43]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":53,"text":"外部技術を使いながら四条件を国内側へ残す","textPreview":"外部技術を使いながら四条件を国内側へ残す","textChars":20,"textLines":1,"bbox":[462,272,730,43]}
+{"kind":"shape","id":"sh/crmhk3q5","slide":53,"bbox":[72,319,1130,57]}
+{"kind":"shape","id":"sh/1cfa9w3m","slide":53,"bbox":[72,375,1130,1]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":53,"text":"国内企業なら主権的","textPreview":"国内企業なら主権的","textChars":9,"textLines":1,"bbox":[82,329,360,43]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":53,"text":"顧客が制御できなければ国内vendor lock-in","textPreview":"顧客が制御できなければ国内vendor lock-in","textChars":27,"textLines":1,"bbox":[462,329,730,43]}
+{"kind":"shape","id":"sh/c3ylc7u5","slide":53,"bbox":[72,376,1130,57]}
+{"kind":"shape","id":"sh/1kre1w7m","slide":53,"bbox":[72,432,1130,1]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":53,"text":"オンプレなら主権がある","textPreview":"オンプレなら主権がある","textChars":11,"textLines":1,"bbox":[82,386,360,43]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":53,"text":"評価・改変・停止・移行・供給継続まで確認","textPreview":"評価・改変・停止・移行・供給継続まで確認","textChars":20,"textLines":1,"bbox":[462,386,730,43]}
+{"kind":"shape","id":"sh/bulwval8","slide":53,"bbox":[72,433,1130,57]}
+{"kind":"shape","id":"sh/i9s36hcr","slide":53,"bbox":[72,489,1130,1]}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":53,"text":"柱Cは濠でないので不要","textPreview":"柱Cは濠でないので不要","textChars":11,"textLines":1,"bbox":[82,443,360,43]}
+{"kind":"textbox","id":"sh/0fepkzup","slide":53,"text":"模倣可能でも状態更新権を守る必須能力","textPreview":"模倣可能でも状態更新権を守る必須能力","textChars":18,"textLines":1,"bbox":[462,443,730,43]}
+{"kind":"shape","id":"sh/bi9s36hc","slide":53,"bbox":[72,490,1130,57]}
+{"kind":"shape","id":"sh/ixczed8v","slide":53,"bbox":[72,546,1130,1]}
+{"kind":"textbox","id":"sh/tovahoza","slide":53,"text":"専用計算基盤も需要次第","textPreview":"専用計算基盤も需要次第","textChars":11,"textLines":1,"bbox":[82,500,360,43]}
+{"kind":"textbox","id":"sh/032lszqt","slide":53,"text":"基盤は必須。ゲートは専用ASIC化の範囲","textPreview":"基盤は必須。ゲートは専用ASIC化の範囲","textChars":20,"textLines":1,"bbox":[462,500,730,43]}
+{"kind":"shape","id":"sh/b6xkf6dc","slide":53,"bbox":[72,547,1130,57]}
+{"kind":"shape","id":"sh/il0rqd4v","slide":53,"bbox":[72,603,1130,1]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":53,"text":"顧客dataを国家共有coreへ","textPreview":"顧客dataを国家共有coreへ","textChars":16,"textLines":1,"bbox":[82,557,360,43]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":53,"text":"顧客境界に残し、限定信号だけを許諾共有","textPreview":"顧客境界に残し、限定信号だけを許諾共有","textChars":19,"textLines":1,"bbox":[462,557,730,43]}
+{"kind":"shape","id":"sh/ahoza1gv","slide":53,"bbox":[72,604,1130,57]}
+{"kind":"shape","id":"sh/32lszqtc","slide":53,"bbox":[72,660,1130,1]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":53,"text":"巨大共有coreが最終goal","textPreview":"巨大共有coreが最終goal","textChars":15,"textLines":1,"bbox":[82,614,360,43]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":53,"text":"RAG/KG/rule/local modelを条件で選ぶ","textPreview":"RAG/KG/rule/local modelを条件で選ぶ","textChars":29,"textLines":1,"bbox":[462,614,730,43]}
+{"kind":"notes","id":"nt/duo8co","slide":53,"text":""}
+{"kind":"slide","id":"sl/6fap1t","slide":54,"title":"APPENDIX","textShapes":15}
+{"kind":"textbox","id":"sh/2hwfyxob","slide":54,"text":"APPENDIX","textPreview":"APPENDIX","textChars":8,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/94fu18jq","slide":54,"text":"既存文書を改訂するときの十の判断原則","textPreview":"既存文書を改訂するときの十の判断原則","textChars":18,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/kjm1cfa9","slide":54,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":54,"text":"54","textPreview":"54","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/2p8nqxs7","slide":54,"bbox":[72,200,548,5]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":54,"text":"価値・資産・主権","textPreview":"価値・資産・主権","textChars":8,"textLines":1,"bbox":[72,226,548,84]}
+{"kind":"shape","id":"sh/gvy90je9","slide":54,"bbox":[72,336,8,8]}
+{"kind":"textbox","id":"sh/re1w7mp0","slide":54,"text":"誰に、どの業務価値を出すか","textPreview":"誰に、どの業務価値を出すか","textChars":13,"textLines":1,"bbox":[96,326,524,46]}
+{"kind":"shape","id":"sh/2t83itgf","slide":54,"bbox":[72,386,8,8]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":54,"text":"利用から何の実用資産が生まれるか","textPreview":"利用から何の実用資産が生まれるか","textChars":16,"textLines":1,"bbox":[96,376,524,46]}
+{"kind":"shape","id":"sh/l87ed8ba","slide":54,"bbox":[72,436,8,8]}
+{"kind":"textbox","id":"sh/ahoza1gv","slide":54,"text":"権利者と利用条件を誰が決めるか","textPreview":"権利者と利用条件を誰が決めるか","textChars":15,"textLines":1,"bbox":[96,426,524,46]}
+{"kind":"shape","id":"sh/32lszqtc","slide":54,"bbox":[72,486,8,8]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":54,"text":"国内側が何を決定・実行・移行・継続できるか","textPreview":"国内側が何を決定・実行・移行・継続できるか","textChars":21,"textLines":1,"bbox":[96,476,524,46]}
+{"kind":"shape","id":"sh/lkjm1cfa","slide":54,"bbox":[72,536,8,8]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":54,"text":"主権上必要か、競争上の差別化か","textPreview":"主権上必要か、競争上の差別化か","textChars":15,"textLines":1,"bbox":[96,526,524,46]}
+{"kind":"shape","id":"sh/3ex0nuxc","slide":54,"bbox":[660,200,548,5]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":54,"text":"証拠・代替・検証","textPreview":"証拠・代替・検証","textChars":8,"textLines":1,"bbox":[660,226,548,84]}
+{"kind":"shape","id":"sh/loj2t83i","slide":54,"bbox":[660,336,8,8]}
+{"kind":"textbox","id":"sh/p8nqxs72","slide":54,"text":"現在/次gate/長期目標のどこか","textPreview":"現在/次gate/長期目標のどこか","textChars":17,"textLines":1,"bbox":[684,326,524,46]}
+{"kind":"shape","id":"sh/0nuxc3yl","slide":54,"bbox":[660,386,8,8]}
+{"kind":"textbox","id":"sh/72x4nap4","slide":54,"text":"事実/仮説/戦略推論のどれか","textPreview":"事実/仮説/戦略推論のどれか","textChars":14,"textLines":1,"bbox":[684,376,524,46]}
+{"kind":"shape","id":"sh/ih4byhgn","slide":54,"bbox":[660,436,8,8]}
+{"kind":"textbox","id":"sh/pkzupwb2","slide":54,"text":"失敗/no-go時の代替経路","textPreview":"失敗/no-go時の代替経路","textChars":14,"textLines":1,"bbox":[684,426,524,46]}
+{"kind":"shape","id":"sh/0z61032l","slide":54,"bbox":[660,486,8,8]}
+{"kind":"textbox","id":"sh/7ed8bat4","slide":54,"text":"顧客を国内vendorへlock-inしないか","textPreview":"顧客を国内vendorへlock-inしないか","textChars":23,"textLines":1,"bbox":[684,476,524,46]}
+{"kind":"shape","id":"sh/itgfmlkj","slide":54,"bbox":[660,536,8,8]}
+{"kind":"textbox","id":"sh/pwb2hwfy","slide":54,"text":"KPIと反証条件を定義できるか","textPreview":"KPIと反証条件を定義できるか","textChars":15,"textLines":1,"bbox":[684,526,524,46]}
+{"kind":"notes","id":"nt/6fap1t","slide":54,"text":""}
+{"kind":"slide","id":"sl/pfrzya","slide":55,"title":"APPENDIX","textShapes":17}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":55,"text":"APPENDIX","textPreview":"APPENDIX","textChars":8,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/lwval87e","slide":55,"text":"用語を統一し、論理の混線を防ぐ","textPreview":"用語を統一し、論理の混線を防ぐ","textChars":15,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/wb2hwfyx","slide":55,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/3itgfmlk","slide":55,"text":"55","textPreview":"55","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/ex0nuxc3","slide":55,"bbox":[72,205,1130,62]}
+{"kind":"textbox","id":"sh/loj2t83i","slide":55,"text":"避ける表現","textPreview":"避ける表現","textChars":5,"textLines":1,"bbox":[82,217,380,44]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":55,"text":"標準表現","textPreview":"標準表現","textChars":4,"textLines":1,"bbox":[482,217,710,44]}
+{"kind":"shape","id":"sh/3ex0nuxc","slide":55,"bbox":[72,267,1130,62]}
+{"kind":"shape","id":"sh/at47y1kr","slide":55,"bbox":[72,328,1130,1]}
+{"kind":"textbox","id":"sh/knih4byh","slide":55,"text":"国産所有","textPreview":"国産所有","textChars":4,"textLines":1,"bbox":[82,277,380,48]}
+{"kind":"textbox","id":"sh/d8bat47y","slide":55,"text":"誰がどの権利を持つか","textPreview":"誰がどの権利を持つか","textChars":10,"textLines":1,"bbox":[482,277,710,48]}
+{"kind":"shape","id":"sh/2lszqtcj","slide":55,"bbox":[72,329,1130,62]}
+{"kind":"shape","id":"sh/v6psfil0","slide":55,"bbox":[72,390,1130,1]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":55,"text":"Layer 1","textPreview":"Layer 1","textChars":7,"textLines":1,"bbox":[82,339,380,48]}
+{"kind":"textbox","id":"sh/d0z61032","slide":55,"text":"共有コア / 顧客主権資産","textPreview":"共有コア / 顧客主権資産","textChars":13,"textLines":1,"bbox":[482,339,710,48]}
+{"kind":"shape","id":"sh/29gr2p8n","slide":55,"bbox":[72,391,1130,62]}
+{"kind":"shape","id":"sh/vu9knih4","slide":55,"bbox":[72,452,1130,1]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":55,"text":"主権","textPreview":"主権","textChars":2,"textLines":1,"bbox":[82,401,380,48]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":55,"text":"決定・実行・移行・継続","textPreview":"決定・実行・移行・継続","textChars":11,"textLines":1,"bbox":[482,401,710,48]}
+{"kind":"shape","id":"sh/hcrmhk3q","slide":55,"bbox":[72,453,1130,62]}
+{"kind":"shape","id":"sh/orytsvu9","slide":55,"bbox":[72,514,1130,1]}
+{"kind":"textbox","id":"sh/z61032ls","slide":55,"text":"濠と必須能力の混同","textPreview":"濠と必須能力の混同","textChars":9,"textLines":1,"bbox":[82,463,380,48]}
+{"kind":"textbox","id":"sh/al87ed8b","slide":55,"text":"競争上の差別化 / 主権上の必須能力","textPreview":"競争上の差別化 / 主権上の必須能力","textChars":18,"textLines":1,"bbox":[482,463,710,48]}
+{"kind":"shape","id":"sh/h0fepkzu","slide":55,"bbox":[72,515,1130,62]}
+{"kind":"shape","id":"sh/sfil0rqd","slide":55,"bbox":[72,576,1130,1]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":55,"text":"現在と将来の混同","textPreview":"現在と将来の混同","textChars":8,"textLines":1,"bbox":[82,525,380,48]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":55,"text":"Proven / Next gate / Long-term","textPreview":"Proven / Next gate / Long-term","textChars":30,"textLines":1,"bbox":[482,525,710,48]}
+{"kind":"shape","id":"sh/hwfyxobm","slide":55,"bbox":[72,577,1130,62]}
+{"kind":"shape","id":"sh/obm58z25","slide":55,"bbox":[72,638,1130,1]}
+{"kind":"textbox","id":"sh/il0rqd4v","slide":55,"text":"専用計算基盤とASICの混同","textPreview":"専用計算基盤とASICの混同","textChars":14,"textLines":1,"bbox":[82,587,380,48]}
+{"kind":"textbox","id":"sh/b6xkf6dc","slide":55,"text":"必須の計算基盤 / gate判断する専用silicon","textPreview":"必須の計算基盤 / gate判断する専用silicon","textChars":27,"textLines":1,"bbox":[482,587,710,48]}
+{"kind":"notes","id":"nt/pfrzya","slide":55,"text":""}
+{"kind":"slide","id":"sl/fbqg1q","slide":56,"title":"APPENDIX","textShapes":4}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":56,"text":"APPENDIX","textPreview":"APPENDIX","textChars":8,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/36hcrmhk","slide":56,"text":"戦略ナラティブ冒頭への反映案","textPreview":"戦略ナラティブ冒頭への反映案","textChars":14,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/eloj2t83","slide":56,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":56,"text":"56","textPreview":"56","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":56,"text":"日本がAI時代に守るべきものは、データの保存場所だけではない。\n現場でAIが使われることによって生まれる判断、専門家の修正、失敗、例外処理、状態遷移、実行結果を、次の改善へつなげる能力である。\n\n最大のリスクは、外資AIが存在することではない。何を学習し、どう評価し、どのモデルを配備し、いつ停止し、供給障害時にどう継続するかを、日本側が決められなくなることである。\n\nKairosAIは、OSSや海外GPUで本番利用を早期に成立させながら、制御能力を国内へ蓄積する。使われない国産AIでは、使われる外資AIから主権を守れない。だから、実用性で選ばれ、使うほど国内能力が強くなる構造をつくる。","textPreview":"日本がAI時代に守るべきものは、データの保存場所だけではない。 | 現場でAIが使われることによって生まれる判断、専門家の修正、失敗、例外処理、状態遷移、実行結果を、次の改善へつなげる能力である。 |  | 最大のリスクは、外資AIが存在することではない。何を学習し、どう評...","textChars":296,"textLines":6,"bbox":[72,200,1120,410]}
+{"kind":"notes","id":"nt/fbqg1q","slide":56,"text":""}
+{"kind":"slide","id":"sl/5f8len","slide":57,"title":"APPENDIX","textShapes":7}
+{"kind":"textbox","id":"sh/2t83itgf","slide":57,"text":"APPENDIX","textPreview":"APPENDIX","textChars":8,"textLines":1,"bbox":[72,36,260,24]}
+{"kind":"textbox","id":"sh/9knih4by","slide":57,"text":"主要参考資料と文書コンテキスト","textPreview":"主要参考資料と文書コンテキスト","textChars":15,"textLines":1,"bbox":[72,72,1080,112]}
+{"kind":"shape","id":"sh/kzupwb2h","slide":57,"bbox":[72,188,1136,2]}
+{"kind":"textbox","id":"sh/rqd4vmtw","slide":57,"text":"57","textPreview":"57","textChars":2,"textLines":1,"bbox":[1166,686,42,20]}
+{"kind":"shape","id":"sh/25kb6xkf","slide":57,"bbox":[72,200,548,5]}
+{"kind":"textbox","id":"sh/9w3m94fu","slide":57,"text":"主要参考資料","textPreview":"主要参考資料","textChars":6,"textLines":1,"bbox":[72,226,548,84]}
+{"kind":"textbox","id":"sh/kb6xkf6d","slide":57,"text":"Chen et al. (2026), AI+HW 2035, arXiv:2603.05225\nDelavande et al. (2026), Understanding Efficiency, arXiv:2601.22362\nBandwidth, Compute, Synchronization, and Capacity (2025)\nThe Cost of Dynamic Reasoning (2025)\nMLPerf Inference v6.0 Results (2026)\nPalantir / NVIDIA Sovereign AI OS (2026-03-12)\nPalantir Model connectivity and development","textPreview":"Chen et al. (2026), AI+HW 2035, arXiv:2603.05225 | Delavande et al. (2026), Understanding Efficiency, arXiv:2601.22362 | Bandwidth, Compu...","textChars":338,"textLines":7,"bbox":[72,326,548,280]}
+{"kind":"shape","id":"sh/r2p8nqxs","slide":57,"bbox":[660,200,548,5]}
+{"kind":"textbox","id":"sh/2hwfyxob","slide":57,"text":"文書コンテキスト","textPreview":"文書コンテキスト","textChars":8,"textLines":1,"bbox":[660,226,548,84]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":57,"text":"原文作成日：2026-06-22\n原文版：v0.2\n本スライド版：v0.3\n\nv0.2の論理を保持しつつ、デザインルールに基づき本編30枚＋章扉4枚＋付録23枚へ再構成。\n\n主な強化：四条件、権利モデル、競合比較、計算ROI、ASIC gate、Phase 4A/4B、S/R/C市場、KPI、反証条件。","textPreview":"原文作成日：2026-06-22 | 原文版：v0.2 | 本スライド版：v0.3 |  | v0.2の論理を保持しつつ、デザインルールに基づき本編30枚＋章扉4枚＋付録23枚へ再構成。 |  | 主な強化：四条件、権利モデル、競合比較、計算ROI、ASIC gate、Ph...","textChars":152,"textLines":7,"bbox":[660,326,548,280]}
+{"kind":"notes","id":"nt/5f8len","slide":57,"text":""}

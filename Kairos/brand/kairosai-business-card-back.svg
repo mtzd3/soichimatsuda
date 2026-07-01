@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91mm" height="55mm" viewBox="0 0 910 550" role="img" aria-labelledby="title desc">
+  <title id="title">KairosAI business card back</title>
+  <desc id="desc">Back side of a KairosAI business card with a dark semiconductor board, AI chip motif, and brand statement.</desc>
+  <defs>
+    <clipPath id="back-card">
+      <rect x="54" y="50" width="802" height="450"/>
+    </clipPath>
+    <pattern id="back-grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#4A5563" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="back-signal" x1="84" y1="72" x2="834" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#315F7D"/>
+      <stop offset="0.46" stop-color="#637A68"/>
+      <stop offset="1" stop-color="#E45B1B"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="910" height="550" fill="#20242A"/>
+  <rect x="54" y="50" width="802" height="450" fill="#20242A" stroke="#4A5563" stroke-width="3"/>
+  <g clip-path="url(#back-card)">
+    <rect x="54" y="50" width="802" height="450" fill="url(#back-grid)" opacity="0.16"/>
+    <path d="M86 466H258V424H358M72 354H218V310H326M512 96V154H600M814 96H666V154M816 452H700V382H622M772 210H846M772 248H846M772 286H846M634 408V460M584 408V482M534 408V460" fill="none" stroke="#D9D4CE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.34"/>
+    <path d="M96 424H244M96 310H246M512 154H650M622 382H760" fill="none" stroke="url(#back-signal)" stroke-width="5" stroke-linecap="round" opacity="0.65"/>
+    <circle cx="258" cy="424" r="8" fill="#E45B1B"/>
+    <circle cx="326" cy="310" r="8" fill="#315F7D"/>
+    <circle cx="600" cy="154" r="8" fill="#637A68"/>
+    <circle cx="700" cy="382" r="8" fill="#C99A2E"/>
+  </g>
+
+  <g transform="translate(104 92)">
+    <rect x="0" y="0" width="34" height="34" fill="none" stroke="#FAF9F7" stroke-width="5"/>
+    <path d="M4 17H30M17 4V30" stroke="#D9D4CE" stroke-width="3" stroke-linecap="square"/>
+    <path d="M0 34H34" stroke="#637A68" stroke-width="5"/>
+    <path d="M0 0V34" stroke="#E45B1B" stroke-width="5"/>
+    <text x="52" y="29" fill="#FAF9F7" font-family="Hiragino Sans, Arial Unicode MS, Noto Sans JP, Arial, sans-serif" font-size="34" font-weight="800">KairosAI</text>
+  </g>
+
+  <g font-family="Hiragino Sans, Arial Unicode MS, Noto Sans JP, Arial, sans-serif">
+    <text x="104" y="188" fill="#FAF9F7" font-size="29" font-weight="800">データ・判断・実行・計算の</text>
+    <text x="104" y="228" fill="#FAF9F7" font-size="29" font-weight="800">主権を、現場のAI実装から</text>
+    <text x="104" y="268" fill="#FAF9F7" font-size="29" font-weight="800">取り戻す。</text>
+    <line x1="104" y1="315" x2="440" y2="315" stroke="#E45B1B" stroke-width="5"/>
+    <text x="104" y="350" fill="#D9D4CE" font-size="17" font-weight="700">AI implementation / data sovereignty</text>
+    <text x="104" y="377" fill="#D9D4CE" font-size="17" font-weight="700">Silicon-aware strategy</text>
+  </g>
+
+  <g transform="translate(592 156)">
+    <rect x="0" y="0" width="210" height="210" fill="#1A1F26" stroke="#D9D4CE" stroke-width="4"/>
+    <rect x="42" y="42" width="126" height="126" fill="#20242A" stroke="url(#back-signal)" stroke-width="6"/>
+    <g stroke="#D9D4CE" stroke-width="3" stroke-linecap="round" opacity="0.78">
+      <path d="M26 28H0M26 64H0M26 100H0M26 136H0M26 172H0"/>
+      <path d="M210 28H184M210 64H184M210 100H184M210 136H184M210 172H184"/>
+      <path d="M28 26V0M64 26V0M100 26V0M136 26V0M172 26V0"/>
+      <path d="M28 210V184M64 210V184M100 210V184M136 210V184M172 210V184"/>
+    </g>
+    <path d="M64 128L92 100L64 72M92 100H126M126 100L148 70M126 100L148 132" fill="none" stroke="#FAF9F7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#20242A" stroke-width="4">
+      <circle cx="64" cy="72" r="10" stroke="#315F7D"/>
+      <circle cx="64" cy="128" r="10" stroke="#315F7D"/>
+      <circle cx="92" cy="100" r="11" stroke="#E45B1B"/>
+      <circle cx="126" cy="100" r="11" stroke="#FAF9F7"/>
+      <circle cx="148" cy="70" r="10" stroke="#637A68"/>
+      <circle cx="148" cy="132" r="10" stroke="#C99A2E"/>
+    </g>
+    <text x="71" y="185" fill="#77808C" font-family="Hiragino Sans, Arial Unicode MS, Noto Sans JP, Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="2">AI CHIP</text>
+  </g>
+
+  <g transform="translate(104 416)" font-family="Hiragino Sans, Arial Unicode MS, Noto Sans JP, Arial, sans-serif" font-size="18" font-weight="800">
+    <text x="0" y="0" fill="#E45B1B">Observe</text>
+    <text x="124" y="0" fill="#C99A2E">Ground</text>
+    <text x="244" y="0" fill="#637A68">Decide</text>
+    <text x="356" y="0" fill="#7B6C79">Execute</text>
+    <text x="488" y="0" fill="#315F7D">Improve</text>
+  </g>
+  <g transform="translate(104 456)" fill="none" stroke="#D9D4CE" stroke-width="3" stroke-linecap="round">
+    <circle cx="0" cy="0" r="7" fill="#E45B1B" stroke="none"/>
+    <line x1="12" y1="0" x2="118" y2="0"/>
+    <circle cx="130" cy="0" r="7" fill="#C99A2E" stroke="none"/>
+    <line x1="142" y1="0" x2="248" y2="0"/>
+    <circle cx="260" cy="0" r="7" fill="#637A68" stroke="none"/>
+    <line x1="272" y1="0" x2="374" y2="0"/>
+    <circle cx="386" cy="0" r="7" fill="#7B6C79" stroke="none"/>
+    <line x1="398" y1="0" x2="506" y2="0"/>
+    <circle cx="518" cy="0" r="7" fill="#315F7D" stroke="none"/>
+  </g>
+</svg>

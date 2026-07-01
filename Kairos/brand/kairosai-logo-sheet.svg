@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Kairos logo sheet</title>
+  <desc id="desc">A preview sheet showing the Kairos Sovereign Stack logo system.</desc>
+  <rect width="1200" height="760" fill="#FAF9F7"/>
+  <text x="72" y="86" fill="#20242A" font-family="Hiragino Sans, Arial Unicode MS, Noto Sans JP, Arial, sans-serif" font-size="42" font-weight="800">Kairos Logo System</text>
+  <text x="74" y="123" fill="#4A5563" font-family="Hiragino Sans, Arial Unicode MS, Noto Sans JP, Arial, sans-serif" font-size="19" font-weight="700">Sovereign Stack: AgenticAI systems supported by foundation models and compute infrastructure.</text>
+
+  <rect x="72" y="172" width="504" height="188" fill="#FFFFFF" stroke="#D9D4CE" stroke-width="2"/>
+  <text x="104" y="218" fill="#77808C" font-family="Hiragino Sans, Arial Unicode MS, Noto Sans JP, Arial, sans-serif" font-size="14" font-weight="800" letter-spacing="1.2">PRIMARY</text>
+  <g transform="translate(104 238) scale(0.78)">
+    <g transform="translate(18 16) scale(0.75)" fill="none" stroke-linecap="square" stroke-linejoin="miter">
+      <path d="M20 88H104" stroke="#20242A" stroke-width="10"/>
+      <path d="M32 64H92" stroke="#20242A" stroke-width="10"/>
+      <path d="M44 40H80" stroke="#20242A" stroke-width="10"/>
+      <path d="M104 88V64H92V40H80" stroke="#E45B1B" stroke-width="10"/>
+    </g>
+    <text x="126" y="80" fill="#20242A" font-family="Hiragino Sans, Arial Unicode MS, Noto Sans JP, Arial, sans-serif" font-size="58" font-weight="800">Kairos</text>
+  </g>
+
+  <rect x="624" y="172" width="504" height="188" fill="#20242A" stroke="#4A5563" stroke-width="2"/>
+  <text x="656" y="218" fill="#D9D4CE" font-family="Hiragino Sans, Arial Unicode MS, Noto Sans JP, Arial, sans-serif" font-size="14" font-weight="800" letter-spacing="1.2">REVERSE</text>
+  <g transform="translate(656 238) scale(0.78)">
+    <g transform="translate(18 16) scale(0.75)" fill="none" stroke-linecap="square" stroke-linejoin="miter">
+      <path d="M20 88H104" stroke="#FAF9F7" stroke-width="10"/>
+      <path d="M32 64H92" stroke="#FAF9F7" stroke-width="10"/>
+      <path d="M44 40H80" stroke="#FAF9F7" stroke-width="10"/>
+      <path d="M104 88V64H92V40H80" stroke="#E45B1B" stroke-width="10"/>
+    </g>
+    <text x="126" y="80" fill="#FAF9F7" font-family="Hiragino Sans, Arial Unicode MS, Noto Sans JP, Arial, sans-serif" font-size="58" font-weight="800">Kairos</text>
+  </g>
+
+  <rect x="72" y="408" width="284" height="236" fill="#FFFFFF" stroke="#D9D4CE" stroke-width="2"/>
+  <text x="104" y="454" fill="#77808C" font-family="Hiragino Sans, Arial Unicode MS, Noto Sans JP, Arial, sans-serif" font-size="14" font-weight="800" letter-spacing="1.2">MARK</text>
+  <g transform="translate(126 482)" fill="none" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M20 88H104" stroke="#20242A" stroke-width="10"/>
+    <path d="M32 64H92" stroke="#20242A" stroke-width="10"/>
+    <path d="M44 40H80" stroke="#20242A" stroke-width="10"/>
+    <path d="M104 88V64H92V40H80" stroke="#E45B1B" stroke-width="10"/>
+  </g>
+
+  <rect x="404" y="408" width="724" height="236" fill="#FFFFFF" stroke="#D9D4CE" stroke-width="2"/>
+  <text x="436" y="454" fill="#77808C" font-family="Hiragino Sans, Arial Unicode MS, Noto Sans JP, Arial, sans-serif" font-size="14" font-weight="800" letter-spacing="1.2">DESIGN RULES</text>
+  <g font-family="Hiragino Sans, Arial Unicode MS, Noto Sans JP, Arial, sans-serif">
+    <text x="436" y="506" fill="#20242A" font-size="28" font-weight="800">A supported stack, not three parallel pillars.</text>
+    <text x="436" y="548" fill="#4A5563" font-size="19" font-weight="700">Bottom: compute infrastructure. Middle: foundation model development.</text>
+    <text x="436" y="582" fill="#4A5563" font-size="19" font-weight="700">Top: AgenticAI systems. Orange is the load path that binds them.</text>
+    <line x1="436" y1="626" x2="970" y2="626" stroke="#D9D4CE" stroke-width="2"/>
+    <rect x="436" y="650" width="72" height="24" fill="#20242A"/>
+    <text x="526" y="669" fill="#4A5563" font-size="16" font-weight="700">Stack #20242A</text>
+    <rect x="704" y="650" width="72" height="24" fill="#E45B1B"/>
+    <text x="794" y="669" fill="#4A5563" font-size="16" font-weight="700">Load Path #E45B1B</text>
+  </g>
+</svg>

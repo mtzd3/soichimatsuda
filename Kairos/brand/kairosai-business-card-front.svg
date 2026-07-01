@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91mm" height="55mm" viewBox="0 0 910 550" role="img" aria-labelledby="title desc">
+  <title id="title">KairosAI business card front</title>
+  <desc id="desc">Front side of a KairosAI business card with a precise AI semiconductor motif, name, role, and contact details.</desc>
+  <defs>
+    <clipPath id="front-card">
+      <rect x="54" y="50" width="802" height="450"/>
+    </clipPath>
+    <pattern id="front-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#D9D4CE" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="front-signal" x1="566" y1="88" x2="836" y2="440" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#315F7D"/>
+      <stop offset="0.55" stop-color="#637A68"/>
+      <stop offset="1" stop-color="#E45B1B"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="910" height="550" fill="#FAF9F7"/>
+  <rect x="54" y="50" width="802" height="450" fill="#FFFFFF" stroke="#D9D4CE" stroke-width="3"/>
+  <rect x="54" y="50" width="10" height="450" fill="#E45B1B"/>
+
+  <g clip-path="url(#front-card)">
+    <rect x="54" y="50" width="802" height="450" fill="url(#front-grid)" opacity="0.22"/>
+    <path d="M582 102H788V148M812 148H748V202M612 444H786V390M808 390H742V342M540 286H622M620 286V238H662M548 178H622M622 178V128H686M704 92V132M736 92V132M768 92V132M704 372V418M736 372V458M768 372V418" fill="none" stroke="#315F7D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.34"/>
+    <path d="M618 116H780M600 424H802M556 230H638M556 342H640" fill="none" stroke="#E45B1B" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+    <circle cx="788" cy="148" r="7" fill="#315F7D" opacity="0.8"/>
+    <circle cx="742" cy="342" r="7" fill="#637A68" opacity="0.85"/>
+    <circle cx="622" cy="178" r="6" fill="#C99A2E" opacity="0.85"/>
+    <circle cx="662" cy="238" r="6" fill="#E45B1B" opacity="0.85"/>
+  </g>
+
+  <g transform="translate(104 92)">
+    <rect x="0" y="0" width="34" height="34" fill="#FFFFFF" stroke="#20242A" stroke-width="5"/>
+    <path d="M4 17H30M17 4V30" stroke="#315F7D" stroke-width="3" stroke-linecap="square"/>
+    <path d="M0 34H34" stroke="#637A68" stroke-width="5"/>
+    <path d="M0 0V34" stroke="#E45B1B" stroke-width="5"/>
+    <text x="52" y="29" fill="#20242A" font-family="Hiragino Sans, Arial Unicode MS, Noto Sans JP, Arial, sans-serif" font-size="34" font-weight="800">KairosAI</text>
+  </g>
+
+  <g font-family="Hiragino Sans, Arial Unicode MS, Noto Sans JP, Arial, sans-serif">
+    <text x="104" y="220" fill="#20242A" font-size="52" font-weight="800">Soichi Matsuda</text>
+    <text x="106" y="263" fill="#4A5563" font-size="23" font-weight="700">Founder / Autonomy Graph Platform</text>
+    <line x1="104" y1="316" x2="422" y2="316" stroke="#315F7D" stroke-width="5"/>
+    <text x="104" y="360" fill="#637A68" font-size="15" font-weight="800" letter-spacing="1.4">AI IMPLEMENTATION / SEMICONDUCTOR STRATEGY</text>
+  </g>
+
+  <g fill="#4A5563" font-family="Hiragino Sans, Arial Unicode MS, Noto Sans JP, Arial, sans-serif" font-size="21" font-weight="500">
+    <text x="104" y="404">contact@kairosai.jp</text>
+    <text x="104" y="440">kairosai.jp</text>
+    <text x="104" y="476">Tokyo, Japan</text>
+  </g>
+
+  <g transform="translate(625 154)">
+    <rect x="0" y="0" width="188" height="188" fill="#FAF9F7" stroke="#20242A" stroke-width="4"/>
+    <rect x="34" y="34" width="120" height="120" fill="#FFFFFF" stroke="url(#front-signal)" stroke-width="5"/>
+    <g stroke="#20242A" stroke-width="3" stroke-linecap="round">
+      <path d="M22 26H0M22 58H0M22 90H0M22 122H0M22 154H0"/>
+      <path d="M188 26H166M188 58H166M188 90H166M188 122H166M188 154H166"/>
+      <path d="M26 22V0M58 22V0M90 22V0M122 22V0M154 22V0"/>
+      <path d="M26 188V166M58 188V166M90 188V166M122 188V166M154 188V166"/>
+    </g>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M54 120L82 94L54 68M82 94H118M118 94L136 64M118 94L136 124" stroke="#315F7D" stroke-width="4"/>
+      <path d="M68 142H116M70 46H118" stroke="#637A68" stroke-width="3"/>
+      <path d="M46 46L68 46M46 142L68 142M136 64H154M136 124H154" stroke="#E45B1B" stroke-width="3"/>
+    </g>
+    <g stroke="none">
+      <circle cx="54" cy="68" r="8" fill="#315F7D"/>
+      <circle cx="54" cy="120" r="8" fill="#315F7D"/>
+      <circle cx="82" cy="94" r="9" fill="#E45B1B"/>
+      <circle cx="118" cy="94" r="9" fill="#20242A"/>
+      <circle cx="136" cy="64" r="8" fill="#637A68"/>
+      <circle cx="136" cy="124" r="8" fill="#C99A2E"/>
+    </g>
+  </g>
+
+  <g opacity="0.8">
+    <rect x="620" y="393" width="8" height="8" fill="#E45B1B"/>
+    <rect x="640" y="393" width="8" height="8" fill="#315F7D"/>
+    <rect x="660" y="393" width="8" height="8" fill="#637A68"/>
+    <rect x="680" y="393" width="8" height="8" fill="#C99A2E"/>
+    <line x1="620" y1="417" x2="760" y2="417" stroke="#D9D4CE" stroke-width="2"/>
+  </g>
+</svg>

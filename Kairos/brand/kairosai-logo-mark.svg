@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Kairos logo mark</title>
+  <desc id="desc">A sovereign stack mark: compute infrastructure supports foundation model development, which supports Agentic AI systems.</desc>
+  <rect width="128" height="128" fill="none"/>
+  <g fill="none" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M20 88H104" stroke="#20242A" stroke-width="10"/>
+    <path d="M32 64H92" stroke="#20242A" stroke-width="10"/>
+    <path d="M44 40H80" stroke="#20242A" stroke-width="10"/>
+    <path d="M104 88V64H92V40H80" stroke="#E45B1B" stroke-width="10"/>
+  </g>
+</svg>

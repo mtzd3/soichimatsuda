@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KairosAI | Autonomy Graph Platform</title>
+    <meta
+      name="description"
+      content="KairosAIは、Agentic AI構築、強化学習ループ、主権実行基盤、オンプレ計算基盤をワンストップで提供し、各企業のデータ主権を守ります。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="KairosAI home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>KairosAI</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#platform">Platform</a>
+        <a href="#packages">Offering</a>
+        <a href="#learning">Learning Loop</a>
+        <a href="#compute">On-prem</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <img
+          class="hero-image"
+          src="./assets/kairosai-hero.png"
+          alt=""
+          aria-hidden="true"
+        />
+        <div class="hero-scrim" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Agentic AI + Learning Loop + On-prem Compute</p>
+          <h1 id="hero-title">KairosAI</h1>
+          <p class="hero-statement">
+            Agentic AIを構築し、企業内の強化学習ループで育て、計算基盤までオンプレで届ける。
+          </p>
+          <p class="hero-copy">
+            KairosAIは、各企業のデータ主権を前提に、業務Agent、評価基盤、Policy、Workflow、モデル更新、専用計算環境をワンストップで実装する会社です。
+          </p>
+          <div class="hero-strip" aria-label="KairosAI delivery scope">
+            <span>Build agents</span>
+            <span>Train with outcomes</span>
+            <span>Run on-prem</span>
+          </div>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="#packages">提供範囲を見る</a>
+            <a class="button secondary" href="#learning">育て方を見る</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro" id="platform" aria-labelledby="platform-title">
+        <div class="section-head">
+          <p class="eyebrow">Platform</p>
+          <h2 id="platform-title">企業ごとのAgentic AIを、データ主権の内側で育てる。</h2>
+        </div>
+        <div class="intro-grid">
+          <article>
+            <span class="metric">01</span>
+            <h3>業務Agentを作る</h3>
+            <p>
+              Domain Pack、Knowledge Graph、Tool APIを組み合わせ、会計、調達、製造、公共業務などのAgentic AIを構築します。
+            </p>
+          </article>
+          <article>
+            <span class="metric">02</span>
+            <h3>評価で鍛える</h3>
+            <p>
+              承認、却下、例外処理、業務成果を評価データへ変換し、モデル、Policy、Workflowを継続更新します。
+            </p>
+          </article>
+          <article>
+            <span class="metric">03</span>
+            <h3>オンプレで動かす</h3>
+            <p>
+              機密データを外へ出さず、企業内または国内専用設備の計算基盤で推論、評価、軽量学習を回します。
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section band" id="packages" aria-labelledby="packages-title">
+        <div class="section-head">
+          <p class="eyebrow">Offering</p>
+          <h2 id="packages-title">ソフトウェアから計算基盤まで、全部を一社で接続する。</h2>
+        </div>
+        <div class="package-grid service-grid">
+          <article class="package">
+            <p class="package-label">Build</p>
+            <h3>Agentic AI構築</h3>
+            <p>
+              企業の業務手順、権限、例外処理、外部システム接続を読み込み、実行可能なAgentとWorkflowへ落とし込みます。
+            </p>
+          </article>
+          <article class="package">
+            <p class="package-label">Learn</p>
+            <h3>強化学習ループ</h3>
+            <p>
+              業務outcome、専門家の修正、承認結果をreward signalとして回収し、評価とモデル更新へ戻します。
+            </p>
+          </article>
+          <article class="package">
+            <p class="package-label">Govern</p>
+            <h3>主権実行基盤</h3>
+            <p>
+              Policy、provenance、監査ログ、rollbackを標準化し、AIが現実の状態を変える条件を企業側が握ります。
+            </p>
+          </article>
+          <article class="package">
+            <p class="package-label">Run</p>
+            <h3>オンプレ計算基盤</h3>
+            <p>
+              GPU、Model Gateway、Vector/Graph基盤、評価workerを企業内に配備し、データを管理境界の外へ出しません。
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section learning" id="learning" aria-labelledby="learning-title">
+        <div class="section-head">
+          <p class="eyebrow">Learning Loop</p>
+          <h2 id="learning-title">強化学習ループを、各企業の業務成果から回す。</h2>
+        </div>
+        <ol class="flow learning-flow">
+          <li>
+            <span>Observe</span>
+            <p>会話、文書、業務イベント、tool callをCanonical Eventとして記録する。</p>
+          </li>
+          <li>
+            <span>Evaluate</span>
+            <p>成功、失敗、専門家修正、承認却下をEvaluation Busで評価する。</p>
+          </li>
+          <li>
+            <span>Reward</span>
+            <p>業務成果、リスク、監査適合性をreward signalとして設計する。</p>
+          </li>
+          <li>
+            <span>Update</span>
+            <p>Domain Pack、adapter、retrieval、Policy、Workflowを更新する。</p>
+          </li>
+          <li>
+            <span>Deploy</span>
+            <p>署名、canary、rollbackを通して企業内環境へ再配備する。</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section compute" id="compute" aria-labelledby="compute-title">
+        <div class="section-head">
+          <p class="eyebrow">On-prem Compute</p>
+          <h2 id="compute-title">主権はSaaS機能だけではなく、計算の置き場所まで含めて設計する。</h2>
+        </div>
+        <div class="stack-map" aria-label="KairosAI full stack">
+          <div class="stack-layer layer-agent">
+            <span>01</span>
+            <h3>Agentic Application</h3>
+            <p>業務Agent、Domain Pack、承認UI、現場Workflow</p>
+          </div>
+          <div class="stack-layer layer-loop">
+            <span>02</span>
+            <h3>Learning Control Plane</h3>
+            <p>Evaluation Bus、reward設計、adapter更新、release管理</p>
+          </div>
+          <div class="stack-layer layer-sovereign">
+            <span>03</span>
+            <h3>Sovereign Data Plane</h3>
+            <p>Canonical Event、Knowledge Graph、Policy、provenance ledger</p>
+          </div>
+          <div class="stack-layer layer-compute">
+            <span>04</span>
+            <h3>On-prem Compute</h3>
+            <p>Model Gateway、GPU/専用compute、Vector/Graph store、監査worker</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section roadmap" aria-labelledby="roadmap-title">
+        <div class="section-head">
+          <p class="eyebrow">Deployment</p>
+          <h2 id="roadmap-title">小さく導入し、企業固有のAI能力として蓄積する。</h2>
+        </div>
+        <div class="deployment-grid">
+          <article>
+            <h3>Phase 1</h3>
+            <p>対象業務、データ境界、承認フロー、評価指標を定義する。</p>
+          </article>
+          <article>
+            <h3>Phase 2</h3>
+            <p>Domain PackとAgentを実装し、現場データで評価基盤を作る。</p>
+          </article>
+          <article>
+            <h3>Phase 3</h3>
+            <p>オンプレ計算基盤へ移し、学習・評価・配備ループを企業内で回す。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact" aria-labelledby="contact-title">
+        <div class="contact-copy">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Agentic AIの構築からオンプレ運用まで、ひとつの導入計画にする。</h2>
+          <p>
+            初期相談では、対象業務、機密データ境界、承認フロー、評価指標、必要な計算環境を同時に確認します。
+          </p>
+        </div>
+        <address class="contact-panel">
+          <strong>KairosAI</strong>
+          <a href="mailto:contact@kairosai.jp">contact@kairosai.jp</a>
+          <span>Tokyo, Japan</span>
+        </address>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="164" viewBox="0 0 760 164" role="img" aria-labelledby="title desc">
+  <title id="title">Kairos logo lockup</title>
+  <desc id="desc">Kairos logo lockup with the Sovereign Stack concept line.</desc>
+  <rect width="760" height="164" fill="none"/>
+  <g transform="translate(20 18) scale(0.78)" fill="none" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M20 88H104" stroke="#20242A" stroke-width="10"/>
+    <path d="M32 64H92" stroke="#20242A" stroke-width="10"/>
+    <path d="M44 40H80" stroke="#20242A" stroke-width="10"/>
+    <path d="M104 88V64H92V40H80" stroke="#E45B1B" stroke-width="10"/>
+  </g>
+  <text x="136" y="78" fill="#20242A" font-family="Hiragino Sans, Arial Unicode MS, Noto Sans JP, Arial, sans-serif" font-size="58" font-weight="800">Kairos</text>
+  <text x="140" y="114" fill="#4A5563" font-family="Hiragino Sans, Arial Unicode MS, Noto Sans JP, Arial, sans-serif" font-size="20" font-weight="700">AgenticAI + Foundation Model + Compute Infrastructure</text>
+  <line x1="140" y1="130" x2="638" y2="130" stroke="#E45B1B" stroke-width="4"/>
+</svg>
