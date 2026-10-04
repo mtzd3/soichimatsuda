@@ -1,0 +1,86 @@
+# 松田総一 — AIと創業経営の相談
+
+2012年からのAI経験と、10年以上の創業・経営経験を紹介する1ページの個人サイトです。AI・半導体の技術に加え、ファイナンス、人事・労務、法務、採用、組織運営について相談できることを伝えます。
+
+公開URL: https://mtzd3.github.io/soichimatsuda/
+
+主な導線はnoteとX。連絡はメールのみで、相談フォームや常設サーバーは使いません。
+
+## 構成
+
+| ファイル | 役割 |
+| --- | --- |
+| `index.html` | 本人の経験、発信、相談テーマ、実績、進め方、プロフィール、FAQ、連絡先 |
+| `site.css` | クリーム色、黒いCTA、余白、罫線を使う表示とレスポンシブ対応 |
+| `site.js` | SNS・連絡先の計測、メール作成とアドレスコピー |
+| `favicon.svg` | ブラウザー用の簡素なアイコン。ヘッダーは文字のみ |
+| `ogp.svg` / `ogp.png` | SNS共有画像の編集用SVGと公開用PNG（1200×630） |
+| `sitemap.xml` / `robots.txt` | 検索エンジン向けの設定 |
+| `scripts/check-site.mjs` | SEO、内部リンク、アドレス表記、公開ファイルの確認 |
+| `scripts/check-contact.mjs` | メール件名・コピー・計測の検証（実メール送信なし） |
+| `.github/workflows/` | PR検証とGitHub Pages公開 |
+
+以前のテーマページ3件は、旧リンクからトップの支援内容へ移るための転送ファイルです。独立した下層コンテンツはありません。サイトマップにはトップだけを掲載します。
+
+## ローカル確認
+
+Python 3とNode.js 22以上を使用します。依存パッケージのインストールは不要です。
+
+```bash
+python3 -m http.server 8765 --bind 127.0.0.1
+```
+
+http://127.0.0.1:8765/ をブラウザーで開きます。終了は `Ctrl+C`。
+
+```bash
+node --check site.js
+node scripts/check-site.mjs
+node scripts/check-contact.mjs
+```
+
+表示変更後は幅320px・390px・768px・1440pxで、横スクロール、見出し、ヘッダー、内部リンク、SNS導線、連絡先を確認します。JavaScriptが無効でも本文、SNSリンク、[アット]表記の連絡先は読めます。
+
+## SNSと連絡先
+
+- note: https://note.com/mtzd3
+- X: https://x.com/mtzd3
+- メールの表示: `s.matsuda0913[アット]gmail.com`
+
+メールアドレスを通常の形でHTMLやJSON-LDに埋め込まず、作成・コピーを選んだ時だけJavaScriptで組み立てます。相談テーマのリンクからは、件名が入ったメールを作成できます。JavaScriptを無効にしている場合は `[アット]` を `@` に置き換えて送信します。
+
+届いた相談はGmailで受け取ります。メール作成リンクは利用者のメールアプリに依存するため、アドレスコピーの入口も用意しています。
+
+以前のFormSubmit・Slack Worker連携は公開サイトで使用しません。`integrations/slack/` と `docs/slack-contact-notification.md` は旧構成の参照です。今回、WorkerやGitHubの既存変数は変更していません。公開ビルドにフォーム・Webhookを注入する処理は削除しました。
+
+## 内容とデザイン
+
+松田総一個人の経験と提供できる相談を主語にします。Kairosの「技術と実利用をつなぐ」考え方と、クリーム色・余白・罫線の表現を参考にしています。Kairosの製品・将来計画を本人の実績として転記しません。
+
+本人の名前を文字で表記し、装飾的なロゴは使いません。トップからnote・Xへ進み、考え方を知ってもらったうえで、必要な方が連絡できる構成です。実績の数値と公開資料は、LeapMindでの経験として明記します。架空の料金、支援成果、顧客評価は加えません。
+
+## SEOと計測
+
+トップに固有のタイトル・説明文・H1・canonical、Person/WebSite/WebPageの構造化データを設定しています。更新時は `sitemap.xml` の `lastmod` と共有画像を必要に応じて更新してください。CSS・JS更新時はHTMLの `?v=` も更新します。
+
+GA4 Measurement ID: `G-D11DRB2ZPF`
+
+- `social_click`: note・X・LinkedInへのクリック
+- `nav_click`: ページ内の移動
+- `cta_click`: 支援内容・連絡先への移動
+- `contact_click`: メール作成の選択
+- `contact_copy`: メールアドレスのコピー成功
+- `faq_open`: FAQの開封
+
+SNSクリックやメール作成は問い合わせ受信の証明ではありません。`generate_lead` / `qualify_lead` の自動送信は行いません。実際の問い合わせ件数はGmailへの着信で確認します。訪問者の個人情報やメール本文をGA4へ送信しません。
+
+Search Consoleは [設定手順](docs/search-console-setup.md) を参照してください。サイトマップにはトップのURLだけを登録します。`/soichimatsuda/robots.txt` はホスト直下ではないため、サイトマップはSearch Consoleへ直接送信します。
+
+公開後は検索の表示回数・クリック率、SNSクリック、連絡先選択、実際の問い合わせ件数を比較し、訴求と導線を改善します。検索順位や問い合わせ増加は公開後のデータで評価します。
+
+## 公開と復元
+
+PRの検証を通した後、`main` にマージするとGitHub Actionsが必要ファイルを `_site/` にコピーし、GitHub Pagesへ公開します。公開ビルドでも検証を実行します。
+
+公開後はトップ、CSS・JS・OGP画像、旧URLからの転送、SNS・メール導線を確認します。不具合が出た場合は、該当変更を `git revert` したPRをマージして再公開します。
+
+対象チケット: [MTZ-285](https://linear.app/mtzd/issue/MTZ-285/hpの改訂をして問い合わせを増やす)
