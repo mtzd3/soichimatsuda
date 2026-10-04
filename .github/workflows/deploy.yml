@@ -25,58 +25,30 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Validate static site
+        run: |
+          node --check site.js
+          node scripts/check-site.mjs
+          node scripts/check-contact.mjs
+
       - name: Build static site
-        env:
-          CONTACT_SLACK_WEBHOOK_URL: ${{ vars.CONTACT_SLACK_WEBHOOK_URL }}
         run: |
           mkdir -p _site
           cp -f index.html _site/
           cp -f ai-advisor.html _site/
           cp -f deeptech-strategy.html _site/
           cp -f poc-to-production.html _site/
-          cp -f topic.css _site/
-          cp -f logo-mark.svg _site/
+          cp -f site.css _site/
+          cp -f site.js _site/
           cp -f favicon.svg _site/
           cp -f ogp.svg _site/
+          cp -f ogp.png _site/
           cp -f robots.txt _site/
           cp -f sitemap.xml _site/
-          mkdir -p _site/docs
-          cp -f docs/analytics-setup.md _site/docs/
-          cp -f docs/search-console-setup.md _site/docs/
-          cp -f docs/ga4-post-release-checklist.md _site/docs/
-          cp -f docs/campaign-utm-playbook.md _site/docs/
-          cp -f docs/slack-contact-notification.md _site/docs/
-          node <<'NODE'
-          const fs = require("node:fs");
-
-          const webhookUrl = process.env.CONTACT_SLACK_WEBHOOK_URL || "";
-          if (!webhookUrl) {
-            process.exit(0);
-          }
-
-          if (!webhookUrl.startsWith("https://")) {
-            throw new Error("CONTACT_SLACK_WEBHOOK_URL must start with https://");
-          }
-
-          const escapeHtml = (value) => value.replace(/[&<>"']/g, (char) => ({
-            "&": "&amp;",
-            "<": "&lt;",
-            ">": "&gt;",
-            "\"": "&quot;",
-            "'": "&#39;"
-          }[char]));
-
-          const file = "_site/index.html";
-          const marker = "<!-- CONTACT_SLACK_WEBHOOK_FIELD -->";
-          const html = fs.readFileSync(file, "utf8");
-          if (!html.includes(marker)) {
-            throw new Error("Missing CONTACT_SLACK_WEBHOOK_FIELD marker");
-          }
-
-          const field = `<input type="hidden" name="_webhook" value="${escapeHtml(webhookUrl)}">`;
-          fs.writeFileSync(file, html.replace(marker, field));
-          console.log("Injected FormSubmit webhook field for Slack relay.");
-          NODE
           ls -la _site/
 
       - name: Upload artifact
