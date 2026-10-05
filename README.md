@@ -40,6 +40,8 @@ node scripts/check-contact.mjs
 
 表示変更後は幅320px・390px・768px・1440pxで、横スクロール、見出し、ヘッダー、内部リンク、SNS導線、連絡先を確認します。JavaScriptが無効でも本文、SNSリンク、[アット]表記の連絡先は読めます。
 
+表示速度はLighthouseのモバイル設定で確認します。本文には端末標準フォントを使用し、外部Webフォントの読み込みは行いません。再導入する場合はフォントの通信量・初期表示・レイアウトのずれを計測してください。
+
 ## SNSと連絡先
 
 - note: https://note.com/mtzd3
@@ -72,6 +74,8 @@ GA4 Measurement ID: `G-D11DRB2ZPF`
 - `faq_open`: FAQの開封
 
 SNSクリックやメール作成は問い合わせ受信の証明ではありません。`generate_lead` / `qualify_lead` の自動送信は行いません。実際の問い合わせ件数はGmailへの着信で確認します。訪問者の個人情報やメール本文をGA4へ送信しません。
+
+独自イベントの `landing_page` はパスだけを記録し、任意のクエリ文字列を含めません。UTMは専用の項目で保持します。保存データが不正な場合や計測が失敗した場合も、メール作成・アドレスコピーを利用できます。
 
 Search Consoleは [設定手順](docs/search-console-setup.md) を参照してください。サイトマップにはトップのURLだけを登録します。`/soichimatsuda/robots.txt` はホスト直下ではないため、サイトマップはSearch Consoleへ直接送信します。
 

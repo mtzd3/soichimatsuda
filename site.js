@@ -15,7 +15,16 @@
   const params = new URLSearchParams(location.search);
   let stored = {};
   try {
-    stored = JSON.parse(sessionStorage.getItem("site_attribution") || "{}");
+    const saved = JSON.parse(
+      sessionStorage.getItem("site_attribution") || "{}",
+    );
+    if (saved && typeof saved === "object" && !Array.isArray(saved)) {
+      stored = Object.fromEntries(
+        [...campaignKeys, "landing_page"]
+          .filter((key) => typeof saved[key] === "string")
+          .map((key) => [key, saved[key]]),
+      );
+    }
   } catch {
     /* Optional storage. */
   }
@@ -26,9 +35,7 @@
   );
   const attribution = {
     ...stored,
-    landing_page:
-      stored.landing_page || `${location.pathname}${location.search}`,
-    referrer: stored.referrer || document.referrer,
+    landing_page: (stored.landing_page || location.pathname).split(/[?#]/)[0],
     ...campaign,
   };
   try {
@@ -44,16 +51,24 @@
       function () {
         window.dataLayer.push(arguments);
       };
-    gtag("js", new Date());
-    gtag("config", config.gaMeasurementId, { anonymize_ip: true });
-    const script = document.createElement("script");
-    script.async = true;
-    script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(config.gaMeasurementId)}`;
-    document.head.appendChild(script);
+    try {
+      window.gtag("js", new Date());
+      window.gtag("config", config.gaMeasurementId, { anonymize_ip: true });
+      const script = document.createElement("script");
+      script.async = true;
+      script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(config.gaMeasurementId)}`;
+      document.head.appendChild(script);
+    } catch {
+      /* Analytics must not prevent visitors from contacting us. */
+    }
   }
   const track = (event, payload) => {
     if (config.debug) console.info("[site-analytics]", event, payload);
-    window.gtag?.("event", event, payload);
+    try {
+      window.gtag?.("event", event, payload);
+    } catch {
+      /* Keep navigation and clipboard feedback independent of analytics. */
+    }
   };
   const emailAddress = () =>
     ["s.matsuda0913", "gmail.com"].join(String.fromCharCode(64));
@@ -110,7 +125,7 @@
         });
       } catch {
         status.textContent =
-          "コピーできませんでした。アドレスを選択してコピーしてください。";
+          "コピーできませんでした。表示されたアドレスの[アット]を@に置き換えてお使いください。";
       }
     });
   }
