@@ -17,7 +17,9 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Noto Sans JP", "Hiragino Sans", "Yu Gothic", sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI", Meiryo,
+    sans-serif;
   color: var(--ink);
   background: var(--bg);
   font-size: 16px;
@@ -84,10 +86,6 @@ summary:focus-visible {
   align-items: center;
   gap: 12px;
   flex-shrink: 0;
-}
-.brand-mark {
-  width: 36px;
-  height: 36px;
 }
 .brand-text {
   display: flex;
@@ -371,18 +369,6 @@ h3 {
   color: var(--muted);
   margin-top: 14px;
 }
-.tag-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 20px;
-}
-.chip {
-  font-size: 11px;
-  color: var(--secondary);
-  border: 1px solid var(--line);
-  padding: 3px 10px;
-}
 .service-card .service-output {
   font-size: 13px;
 }
@@ -437,13 +423,9 @@ h3 {
 .pricing-card h3 {
   margin-top: 14px;
 }
-.pricing-unit {
-  color: var(--accent);
-  font-size: 13px;
-  margin: 12px 0;
-}
 .pricing-summary {
   color: var(--muted);
+  margin-top: 16px;
 }
 .pricing-list {
   padding-left: 20px;
@@ -453,11 +435,6 @@ h3 {
 }
 .pricing-list li + li {
   margin-top: 8px;
-}
-.pricing-note {
-  font-size: 13px;
-  color: var(--muted);
-  margin-top: 16px;
 }
 .consultation-steps {
   display: grid;
@@ -519,25 +496,6 @@ h3 {
 }
 .story-card p + p {
   margin-top: 20px;
-}
-.insight-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 36px;
-}
-.insight-card {
-  border-top: 1px solid var(--line);
-  padding-top: 24px;
-}
-.insight-card h3 {
-  margin-top: 12px;
-}
-.insight-card p:not(.card-topline) {
-  color: var(--muted);
-  margin-top: 14px;
-}
-#engagement {
-  padding-top: 0;
 }
 .faq-stack {
   border-top: 1px solid var(--line);
@@ -629,6 +587,7 @@ h3 {
   font-size: 13px;
 }
 .copy-status {
+  min-height: 1.85em;
   font-size: 13px;
   margin-top: 12px;
   color: var(--secondary);
@@ -700,8 +659,7 @@ footer {
     display: none;
   }
   .results-grid,
-  .pricing-grid,
-  .insight-grid {
+  .pricing-grid {
     grid-template-columns: 1fr;
     gap: 32px;
   }
@@ -757,10 +715,6 @@ footer {
   }
   .topbar-inner {
     min-height: 0;
-  }
-  .brand-mark {
-    width: 28px;
-    height: 28px;
   }
   .brand-name {
     font-size: 14px;
@@ -846,12 +800,6 @@ footer {
   }
   .contact-email-panel {
     padding: 24px 20px;
-  }
-  .form-grid {
-    grid-template-columns: 1fr;
-  }
-  .form-submit-row .button {
-    width: 100%;
   }
   .footer-inner {
     flex-direction: column;
