@@ -79,11 +79,23 @@
     "startup-management": "創業・経営の相談",
     capital: "資金調達・提携・経営判断の相談",
   };
+  const emailBody = [
+    "松田様",
+    "",
+    "以下について相談したく、ご連絡しました。",
+    "",
+    "■ 取り組んでいる事業・立場",
+    "",
+    "■ いま悩んでいること・判断したいこと",
+    "",
+    "■ 検討の時期（未定でも構いません）",
+    "",
+  ].join("\r\n");
   document.querySelectorAll("[data-email-compose]").forEach((link) => {
     link.addEventListener("click", (event) => {
       event.preventDefault();
-      const subject = `${topics[link.dataset.emailTopic] || "ご相談"}｜松田総一さんへ`;
-      window.location.href = `mailto:${emailAddress()}?subject=${encodeURIComponent(subject)}`;
+      const subject = `${topics[link.dataset.emailTopic] || "データ・AI／事業・経営のご相談"}｜松田総一さんへ`;
+      window.location.href = `mailto:${emailAddress()}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}`;
     });
   });
   document.querySelectorAll("[data-analytics-event]").forEach((link) => {
