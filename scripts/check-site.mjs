@@ -40,6 +40,11 @@ for (const account of [
   '"sameAs"',
 ])
   assert.ok(!html.includes(account), `No social account: ${account}`);
+assert.ok(
+  tags(html, "a").every((tag) => tag.href.startsWith("#")),
+  "No links leaving the page",
+);
+assert.ok(!html.includes("insight-link"), "No inline text links");
 for (const [, raw] of html.matchAll(/\b(?:href|src)="([^"]+)"/g)) {
   const url = new URL(raw, `${base}index.html`);
   if (!url.href.startsWith(base)) continue;
@@ -89,5 +94,5 @@ for (const file of [
   assert.ok(hasCanonical(redirect), `Canonical URL for ${file}`);
 }
 console.log(
-  "PASS: single page, SEO, schema, no social accounts, email obfuscation, assets and legacy redirects.",
+  "PASS: single page, SEO, schema, no social accounts or outbound links, email obfuscation, assets and legacy redirects.",
 );
