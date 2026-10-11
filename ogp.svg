@@ -1,16 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="松田総一 — AI・半導体の事業化・技術経営支援">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="松田総一 — データとAIを、将来の利益につなぐ。">
   <rect width="1200" height="630" fill="#f7f5f0"/>
   <rect x="48" y="48" width="1104" height="534" rx="28" fill="white" stroke="#dbe6df"/>
   <rect x="48" y="48" width="12" height="534" rx="6" fill="#a83e17"/>
   <g font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif">
-    <text x="100" y="126" font-size="28" font-weight="600" fill="#315f7d">AI・半導体 / 創業・経営の相談</text>
-    <text x="100" y="242" font-size="58" font-weight="800" fill="#17211c">AIと経営を、</text>
-    <text x="100" y="322" font-size="58" font-weight="800" fill="#a83e17">現場の経験でつなぐ。</text>
+    <text x="100" y="126" font-size="28" font-weight="600" fill="#315f7d">データ・AI / 事業開発と経営の相談</text>
+    <text x="100" y="242" font-size="58" font-weight="800" fill="#17211c">データとAIを、</text>
+    <text x="100" y="322" font-size="58" font-weight="800" fill="#a83e17">将来の利益につなぐ。</text>
     <text x="100" y="402" font-size="34" font-weight="700" fill="#17211c">松田総一 / Soichi Matsuda</text>
     <text x="100" y="450" font-size="25" fill="#66746d">LeapMind創業者・元CEO / 2012年からAIとともに</text>
     <line x1="100" y1="484" x2="1100" y2="484" stroke="#dbe6df"/>
-    <text x="100" y="535" font-size="23" fill="#17211c">10年以上の創業・経営</text>
-    <text x="436" y="535" font-size="23" fill="#17211c">累計$45Mの資金調達</text>
-    <text x="790" y="535" font-size="23" fill="#17211c">AIモデル・半導体開発</text>
+    <text x="100" y="535" font-size="23" fill="#17211c">事業開発・事業計画</text>
+    <text x="436" y="535" font-size="23" fill="#17211c">戦略ロードマップ</text>
+    <text x="790" y="535" font-size="23" fill="#17211c">採用・資金調達</text>
   </g>
 </svg>

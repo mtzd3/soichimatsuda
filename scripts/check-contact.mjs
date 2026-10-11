@@ -23,9 +23,9 @@ class Control {
       await listener({ preventDefault() {} });
   }
 }
-function setup({ stored, analyticsFailure = false } = {}) {
+function setup({ stored, analyticsFailure = false, topic = "startup-management" } = {}) {
   const contact = new Control({
-    emailTopic: "startup-management",
+    emailTopic: topic,
     analyticsEvent: "cta_click",
     analyticsLabel: "startup",
   });
@@ -120,6 +120,10 @@ assert.equal(
   draft.searchParams.get("subject"),
   "創業・経営の相談｜松田総一さんへ",
 );
+const body = draft.searchParams.get("body");
+assert.ok(body.includes("事業・立場") && body.includes("判断したいこと") && body.includes("検討の時期"));
+assert.ok(body.includes("\r\n"), "Email template has real line breaks");
+assert.ok(!body.includes("private@example.com"), "No URL data in email body");
 assert.equal(events.filter((e) => e[1] === "contact_click").length, 1);
 await social.click();
 assert.equal(events.filter((e) => e[1] === "social_click").length, 1);
@@ -130,6 +134,7 @@ assert.match(status.textContent, /コピーしました/);
 assert.equal(events.filter((e) => e[1] === "contact_copy").length, 1);
 assert.ok(!JSON.stringify(events).includes(draft.pathname));
 assert.ok(!JSON.stringify(events).includes("private@example.com"));
+assert.ok(!JSON.stringify(events).includes("相談したく"), "No email body in analytics");
 assert.equal(JSON.parse(memory.get("site_attribution")).landing_page, "/");
 context.navigator.clipboard.writeText = async () => {
   throw new Error("permission denied");
@@ -157,6 +162,14 @@ await withoutAnalytics.contact.click();
 await withoutAnalytics.copy.click();
 assert.equal(new URL(withoutAnalytics.location.href).protocol, "mailto:");
 assert.match(withoutAnalytics.status.textContent, /コピーしました/);
+for (const topic of ["", "unknown"]) {
+  const app = setup({ topic });
+  await app.contact.click();
+  const genericDraft = new URL(app.location.href);
+  assert.equal(genericDraft.searchParams.get("subject"), "データ・AI／事業・経営のご相談｜松田総一さんへ");
+  assert.equal(genericDraft.searchParams.get("body"), body);
+  assert.equal(app.events.filter((e) => e[1] === "contact_click").length, 1);
+}
 console.log(
   "PASS: email draft, social intent, clipboard, malformed storage and analytics failure, no raw query in custom events. No emails sent.",
 );

@@ -314,7 +314,7 @@ summary:focus-visible {
   margin-top: 20px;
 }
 .approach-section {
-  padding-bottom: 0;
+  padding-top: 0;
 }
 .approach-grid {
   display: grid;
@@ -328,6 +328,37 @@ summary:focus-visible {
 }
 .approach-copy p {
   color: var(--muted);
+}
+.roadmap-list {
+  list-style: none;
+  margin-top: 20px;
+}
+.roadmap-list li {
+  border-top: 1px solid var(--line);
+  padding: 22px 0;
+}
+.roadmap-list h3 {
+  margin-top: 6px;
+}
+.roadmap-list p {
+  margin-top: 12px;
+}
+.roadmap-note {
+  font-size: 14px;
+}
+.strategy-context {
+  margin-top: 32px;
+  padding: 24px 28px;
+  border-left: 2px solid var(--secondary);
+  background: var(--bg-soft);
+}
+.strategy-context h3 {
+  font-size: 18px;
+}
+.strategy-context p {
+  color: var(--muted);
+  margin-top: 10px;
+  font-size: 14px;
 }
 .approach-principles {
   display: flex;
@@ -535,6 +566,15 @@ h3 {
 .contact-actions {
   margin-top: 32px;
 }
+.contact-prompts {
+  padding-left: 1.2em;
+  margin-top: 24px;
+  color: var(--muted);
+  font-size: 14px;
+}
+.contact-prompts li + li {
+  margin-top: 8px;
+}
 .email-address {
   display: block;
   text-decoration: underline;
@@ -677,7 +717,7 @@ footer {
     padding: 64px 0;
   }
   .approach-section {
-    padding-bottom: 0;
+    padding-top: 0;
   }
   .approach-grid {
     grid-template-columns: 1fr;
