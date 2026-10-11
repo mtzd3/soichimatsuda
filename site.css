@@ -368,18 +368,6 @@ h3 {
 .service-card .service-output {
   font-size: 13px;
 }
-.insight-link {
-  display: inline-block;
-  color: var(--accent);
-  font-size: 14px;
-  font-weight: 500;
-  margin-top: 20px;
-  text-decoration: underline;
-  text-underline-offset: 5px;
-}
-.insight-link:hover {
-  color: var(--ink);
-}
 #results {
   background: var(--bg-soft);
 }
@@ -401,10 +389,6 @@ h3 {
 .milestone-card p:not(.card-topline) {
   color: var(--muted);
   margin-top: 14px;
-}
-.milestone-card .insight-link {
-  margin-top: auto;
-  padding-top: 20px;
 }
 .pricing-grid {
   display: grid;
