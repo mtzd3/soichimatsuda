@@ -30,11 +30,21 @@ assert.ok(
 );
 assert.ok(html.includes("s.matsuda0913[アット]gmail.com"));
 assert.ok(!html.includes("logo-mark.svg"), "No old graphic logo");
+for (const account of [
+  "note.com",
+  "x.com/",
+  "twitter.com",
+  "linkedin.com",
+  "facebook.com",
+  "@mtzd3",
+  '"sameAs"',
+])
+  assert.ok(!html.includes(account), `No social account: ${account}`);
 assert.ok(
-  html.includes('href="https://note.com/mtzd3"') &&
-    html.includes('href="https://x.com/mtzd3"'),
-  "Social discovery links",
+  tags(html, "a").every((tag) => tag.href.startsWith("#")),
+  "No links leaving the page",
 );
+assert.ok(!html.includes("insight-link"), "No inline text links");
 for (const [, raw] of html.matchAll(/\b(?:href|src)="([^"]+)"/g)) {
   const url = new URL(raw, `${base}index.html`);
   if (!url.href.startsWith(base)) continue;
@@ -84,5 +94,5 @@ for (const file of [
   assert.ok(hasCanonical(redirect), `Canonical URL for ${file}`);
 }
 console.log(
-  "PASS: single page, SEO, schema, social links, email obfuscation, assets and legacy redirects.",
+  "PASS: single page, SEO, schema, no social accounts or outbound links, email obfuscation, assets and legacy redirects.",
 );
